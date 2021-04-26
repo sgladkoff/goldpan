@@ -24,8 +24,8 @@
 | Project TM | n/a | n/a | Full Availability | Limited Availability | Limited Availability | Full Availability | Full Availability |
 | TM Importing | n/a | Import < 10Mb | Import any amount of TM | Import < 100Mb | Import < 100Mb | Non-moderated importing | Non-moderated importing |
 | Users | n/a | n/a | n/a | n/a | n/a | n/a | User role management |
-| TM management | n/a | n/a | n/a | n/a | n/a | n/a | Can download or remove any public TM |
-| TM approval | n/a | n/a | n/a | Uses a personal TM approval page, based on the language filter, with a personal checkout table | Uses a personal TM approval page, based on the language filter, with a personal checkout table | n/a | Can see the entire TM approval table, can change approval status |
+| TM Management | n/a | n/a | n/a | n/a | n/a | n/a | Can download or remove any public TM |
+| TM Approval | n/a | n/a | n/a | Uses a personal TM approval page, based on the language filter, with a personal checkout table | Uses a personal TM approval page, based on the language filter, with a personal checkout table | n/a | Can see the entire TM approval table, can change approval status |
 | Approve View | n/a | n/a | n/a | Available without the Get TM button | Available with the Get TM button | n/a | Full availability |
 | Profile PAge | n/a | Profile page available | Profile page available | Profile page available | Profile page available | Profile page available | Every user profile avaialble |
 | Private TM (UNDER DEVELOPMENT) | n/a | n/a | Avaialble | n/a | n/a | n/a | Available |
