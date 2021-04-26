@@ -1,8 +1,8 @@
-#Hakutaku: Cloud-based Translation Memory Storage
+# Hakutaku: Cloud-based Translation Memory Storage
 
 **Hakutaku** is a cloud-based solution for any **TM** storage and management problems that you or your organization may encounter. It offers free access to a public **TM** repository to all users, with private **TM** repositories and other features reserved for paid customers.
 
-##Advantages of Hakutaku
+## Advantages of Hakutaku
 
 - The public **TM** repository of **Hakutaku** is open for everyone to search in, registration being optional.
 
@@ -16,7 +16,7 @@
 
 - Researchers and engineers will be able to obtain **TM** data for training topical translation engines.
 
-##User Roles
+## User Roles
 
 |  | Unregistered User | Registered User | Paid User | External Moderator | Moderator | Internal User | Administrator |
 | --------------- | -------------------- | ------------------------- | ----------- | ----------- | ----------- | ------------------ | ----------- |
