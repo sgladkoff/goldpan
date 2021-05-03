@@ -48,6 +48,8 @@ You can access your personal information screen by pressing the button that has 
 
 You are required to fill in your entire personal information (with the exception of the **Middle Name** text box) to create such a request; however, you do not need to be a subscription user.
 
+![hakutaku_personal](hakutaku_personal.png)
+
 ## User Experience
 
 There are seven primary tabs in the **Hakutaku** UI.  Their availability varies greatly for different roles, as seen in the table above. For example, registered users only have access to the **Search** and **Import** tabs.
