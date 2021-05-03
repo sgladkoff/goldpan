@@ -36,6 +36,32 @@ The Internal User and Administrator roles are reserved for Logrus Global employe
 | Profile PAge | n/a | Profile page available | Profile page available | Profile page available | Profile page available | Profile page available | Every user profile avaialble |
 | Private TM (UNDER DEVELOPMENT) | n/a | n/a | Avaialble | n/a | n/a | n/a | Available |
 
-## Functions
+## Registration
 
-There are seven primary tabs in the **Hakutaku** UI:
+While **Hakutaku** is available to unregistered users, in a limited fashion, you will only be able to import data into the public **TM** database or apply to become a moderator if you become a registered user. Press the **Login** button, and then the **Registration** button in the Login screen. You will be required to provide your first and last name, as well as your E-mail address and mobile phone number, both of which will need to be verified via the codes that will be delivered to them. Of course, you will also be required to read our Terms and Conditions of Use, agree with them, and set your password.
+
+![hakutaku_register](hakutaku_register.png)
+
+## Account Management and Subscription
+
+You can access your personal information screen by pressing the button that has the first letter of your e-mail address in it. There, you can manage your personal information (your name, address, email, company and phone number), see your user role, pay for subscription time, select the language pairs that you work with, and create a request to become a moderator. 
+
+You are required to fill in your entire personal information (with the exception of the **Middle Name** text box) to create such a request; however, you do not need to be a subscription user.
+
+## User Experience
+
+There are seven primary tabs in the **Hakutaku** UI.  Their availability varies greatly for different roles, as seen in the table above. For example, registered users only have access to the **Search** and **Import** tabs.
+
+### The Search Tab
+
+Here, you can search the public **TM** database. Use the drop-down menus in the top part of the screen to narrow down your search by choosing the language pair to be used, the domain and company your interest lies in, the particular public TM file and the degree of accuracy of your search, as well as the amount of matches listed; if you're uncertain, you can search through "-ALL-" the domains, TM files or companies at once. Then, enter your query in either of the languages of the pair into the left or right textbox. The search results are updated every time you make a selection in the drop-down menus, press ENTER after typing into a text box, or press the **Search** button. The button between the two textboxes flips the language pair around. The "cross" button resets the search query.
+
+If you hold your cursor over the (?) symbol in the **Info** column for any of the records, a tooltip with detailed information on this record, listing its domain, company, TM file and owner (the user that had imported the record into the public **TM** database), will be displayed.
+
+![hakutaku_search](hakutaku_search.png)
+
+If you have a paid subscription, you will have the ability to download your search results as a TM file.
+
+### The Import Tab
+
+This tab is not available to unregistered users. 
