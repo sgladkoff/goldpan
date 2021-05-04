@@ -56,7 +56,7 @@ If you have uploaded any **TM** files, whether it was to the public **TM** repos
 
 ## User Experience
 
-There are seven primary tabs in the **Hakutaku** UI.  Their availability varies greatly for different roles, as seen in the table above. For example, registered users only have access to the **Search** and **Import** tabs.
+There are five primary tabs in the **Hakutaku** UI that are available to the users and moderators: the **Search** tab, the **Personal Search** tab, the **Import** tab, the **Project TM** tab and the **Approve TM** tab. Their availability varies greatly for different roles, as seen in the table above.
 
 ### The Search Tab
 
@@ -68,6 +68,10 @@ If you hold your cursor over the (?) symbol in the **Info** column for any of th
 
 If you have a paid subscription, you will have the ability to download your search results as a TM file.
 
+## The Personal Search Tab
+
+This is a variant of the **Search tab**, similar in all respects, with the exception of accessing your private **TM** repository instead of the public one. It is only available to subscription users.
+
 ### The Import Tab
 
 This tab is not available to unregistered users. Here, you can import files containing **TM** into the public database of **Hakutaku**, as well as into your private repository if you own a subscription. This import function supports the TMX, TSV, HTM and XLS file formats.
@@ -76,7 +80,7 @@ To import a **TM** file, you need to set the language pair, as well as select th
 
 There are several special options for the import process, available as checkboxes:
 
-- The "Also exclude duplicates from server TM" option will run a search through existing public **TM** files (or your private **TM** files, if you're currently uploading another private **TM**) to remove all duplicate records;
+- The "Also exclude duplicates from server TM" option will run a search through existing public **TM** files to remove all duplicate records after the file has been approved (no approval needed your private **TM** repository);
 
 - The "Do not exclude uninformative resources" option will stop the discarding of records that don't seem to contain translation memory data;
 
@@ -85,3 +89,9 @@ There are several special options for the import process, available as checkboxe
 After setting up the options, choose a file to be uploaded and press Upload. You will be asked to confirm your selection of a language pair, and, after the upload is complete, you will be able to download an information file containing the statistics for this upload (records added, duplicates removed and uninformative records excluded, as well as total processing time).
 
 ![hakutaku_import](hakutaku_import.png)
+
+There is a limit to the size of the **TM** files that you may upload. A registered user may upload files with the size of 10 Mb or less, and a moderator (external or reliable) may upload 100 Mb or less. Subscription users are not limited on the upload size, but their files will still have to go through the moderation process.
+
+## The Project TM Tab
+
+## The Approve TM Tab
