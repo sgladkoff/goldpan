@@ -52,6 +52,8 @@ You are required to fill in your entire personal information (with the exception
 
 If you have uploaded any **TM** files, whether it was to the public **TM** repository or your private one, you will be able to see the files in the **Account Management** tab. For public **TM** files, the approval status will be visible in the **Status** column. As a subscription user, you will have the ability to download any of these files at any time.
 
+![hakutaku_files](hakutaku_files.png)
+
 ## User Experience
 
 There are seven primary tabs in the **Hakutaku** UI.  Their availability varies greatly for different roles, as seen in the table above. For example, registered users only have access to the **Search** and **Import** tabs.
