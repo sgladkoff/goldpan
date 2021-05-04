@@ -50,6 +50,8 @@ You are required to fill in your entire personal information (with the exception
 
 ![hakutaku_personal](hakutaku_personal.png)
 
+If you have uploaded any **TM** files, whether it was to the public **TM** repository or your private one, you will be able to see the files in the **Account Management** tab. For public **TM** files, the approval status will be visible in the **Status** column. As a subscription user, you will have the ability to download any of these files at any time.
+
 ## User Experience
 
 There are seven primary tabs in the **Hakutaku** UI.  Their availability varies greatly for different roles, as seen in the table above. For example, registered users only have access to the **Search** and **Import** tabs.
@@ -78,4 +80,6 @@ There are several special options for the import process, available as checkboxe
 
 - The "Make this TM private" option is only available to subscription users, and will make the uploded **TM** file private, available to you alone and excluded from the public database.
 
-After setting up the options, choose a file to be uploaded and press Upload. You will be asked to confirm your selection of a language pair, and, after the upload is complete, you will be able to download an information file containing the statistics for this upload (number of records added, duplicates removed and uninformative records excluded, as well as processing time).
+After setting up the options, choose a file to be uploaded and press Upload. You will be asked to confirm your selection of a language pair, and, after the upload is complete, you will be able to download an information file containing the statistics for this upload (records added, duplicates removed and uninformative records excluded, as well as total processing time).
+
+![hakutaku_import](hakutaku_import.png)
