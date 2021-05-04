@@ -66,4 +66,16 @@ If you have a paid subscription, you will have the ability to download your sear
 
 ### The Import Tab
 
-This tab is not available to unregistered users. 
+This tab is not available to unregistered users. Here, you can import files containing **TM** into the public database of **Hakutaku**, as well as into your private repository if you own a subscription. This import function supports the TMX, TSV, HTM and XLS file formats.
+
+To import a **TM** file, you need to set the language pair, as well as select the domain and company that your **TM** file will belong to. There is only a set list of domains to choose from, but a new company name may be typed in. 
+
+There are several special options for the import process, available as checkboxes:
+
+- The "Also exclude duplicates from server TM" option will run a search through existing public **TM** files (or your private **TM** files, if you're currently uploading another private **TM**) to remove all duplicate records;
+
+- The "Do not exclude uninformative resources" option will stop the discarding of records that don't seem to contain translation memory data;
+
+- The "Make this TM private" option is only available to subscription users, and will make the uploded **TM** file private, available to you alone and excluded from the public database.
+
+After setting up the options, choose a file to be uploaded and press Upload. You will be asked to confirm your selection of a language pair, and, after the upload is complete, you will be able to download an information file containing the statistics for this upload (number of records added, duplicates removed and uninformative records excluded, as well as processing time).
