@@ -24,7 +24,7 @@ The public **TM** respository submissions are moderated by volunteers. Anyone ca
 
 The Internal User and Administrator roles are reserved for Logrus Global employees.
 
-|  | Unregistered User | Registered User | Paid User | External Moderator | Moderator | Internal User | Administrator |
+|  | Unregistered User | Registered User | Paid User | External Moderator | Reliable Moderator | Internal User | Administrator |
 | --------------- | -------------------- | ------------------------- | ----------- | ----------- | ----------- | ------------------ | ----------- |
 | Search | Search only | Search only | Search-based TM downloading | Search-based TM downloading | Search-based TM downloading | Search-based TM downloading | Search-based TM downloading, TM editing |
 | Project TM | n/a | n/a | Full Availability | Limited Availability | Limited Availability | Full Availability | Full Availability |
@@ -80,19 +80,29 @@ To import a **TM** file, you need to set the language pair, as well as select th
 
 There are several special options for the import process, available as checkboxes:
 
-- The "Also exclude duplicates from server TM" option will run a search through existing public **TM** files to remove all duplicate records after the file has been approved (no approval needed your private **TM** repository);
+- The "Also exclude duplicates from server TM" option will run a search through existing public **TM** files to remove all duplicate records after the file has been approved;
 
 - The "Do not exclude uninformative resources" option will stop the discarding of records that don't seem to contain translation memory data;
 
-- The "Make this TM private" option is only available to subscription users, and will make the uploded **TM** file private, available to you alone and excluded from the public database.
+- The "Make this TM private" option is only available to subscription users, and will make the uploded **TM** file private, available to you alone and excluded from the public database. If this option is combined with the duplicate exclusion option, then the private **TM** file will only contain non-duplicate records.
 
 After setting up the options, choose a file to be uploaded and press Upload. You will be asked to confirm your selection of a language pair, and, after the upload is complete, you will be able to download an information file containing the statistics for this upload (records added, duplicates removed and uninformative records excluded, as well as total processing time).
 
 ![hakutaku_import](hakutaku_import.png)
 
-There is a limit to the size of the **TM** files that you may upload. A registered user may upload files with the size of 10 Mb or less, and a moderator (external or reliable) may upload 100 Mb or less. Subscription users are not limited on the upload size, but their files will still have to go through the moderation process.
+There is a limit to the size of the **TM** files that you may upload. A registered user may upload files with the size of 10 Mb or less, and a moderator (external or reliable) may upload 100 Mb or less. Subscription users are not limited on the upload size.
+
+After a public **TM** file has uploaded, it needs to receive approval from a moderator before becoming a part of the public **TM** database. You will recive an email message upon approval or denial of your **TM** file.
 
 ## The Project TM Tab
+
+This tab is available to subscription users, as well as moderators. If you have a list of terms that you'd like to turn into a translation memory for a particular language - perhaps for use in a third-party CAT tool - you can do this here. The primary function of the **Project TM** tab provides you with a **TM** file constructed from the resources available in the public database using your list of terms in the form of an XLIFF file.
+
+![hakutaku_project](hakutaku_project.png)
+
+Select the language pair you need and, optionally, set the parameters to limit the search for terms: the **Domain**, the particular public **TM File**, the **Company**, the **Accuracy** and **Fuzzy limit** to use. Then, upload a XLIFF file with terms and press the **Create TM** button. 
+
+After the search is concluded, press the **Download** button. You will receive an archive containing a complete **TM** file in the XLSX format, as well as two other XLSX files: one with the terms that were not found in the public database, and another with statistical data. The archive will also contain the original XLIFF file.
 
 ## The Approve TM Tab
 
@@ -102,7 +112,7 @@ This tab is only available to moderators. If you have been approved for the role
 
 This tab consists of two lists: **Available TMs** and **My Checked Out TMs**. In the first one, you can see all the submitted **TM** files with language pairs that match the set of languages in your **Profile**. Of course, you only see the files that have not been checked out by other moderators. Simply click the **Check Out** button in the Action column to check out a file. Every time you check out a **TM** file, or have one assigned to you by an **Administrator**, you receive an email message containing its description and a link to the **Approve TM** tab.
 
-When a file is checked out, it is moved to the **My Checked Out TMs** table, and it becomes unavailable to other moderators.  Every file name in this table is a hyperlink that takes you to the **Approve View** screen where you can see the entirety of the **TM** file and decide if it should be approved ot not. Click the **Approve** button or the **Decline** button once you have made your decision. **Reliable Moderators** also have access to the **Get TM** button, which enables them to download the **TM** as a TMX file and check it using third-party instruments.
+When a file is checked out, it is moved to the **My Checked Out TMs** table, and it becomes unavailable to other moderators.  Every file name in this table is a hyperlink that takes you to the **Approve View** screen where you can see the entirety of the **TM** file and decide if it should be approved ot not. Using the **Domain** drop-down menu and the **Set Domain** button, yiu can change the domain the **TM** file belongs to. Click the **Approve** button or the **Decline** button once you have made your final decision. **Reliable Moderators** also have access to the **Get TM** button, which enables them to download the **TM** as a TMX file and check it using third-party instruments.
 
 ![hakutaku_approvetm_2](hakutaku_approvetm_2.png)
 
