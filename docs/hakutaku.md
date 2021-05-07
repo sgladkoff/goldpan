@@ -68,7 +68,7 @@ If you hold your cursor over the (?) symbol in the **Info** column for any of th
 
 If you have a paid subscription, you will have the ability to download your search results as a TM file.
 
-## The Personal Search Tab
+### The Personal Search Tab
 
 This is a variant of the **Search tab**, similar in all respects, with the exception of accessing your private **TM** repository instead of the public one. It is only available to subscription users.
 
@@ -94,7 +94,7 @@ There is a limit to the size of the **TM** files that you may upload. A register
 
 After a public **TM** file has uploaded, it needs to receive approval from a moderator before becoming a part of the public **TM** database. You will recive an email message upon approval or denial of your **TM** file.
 
-## The Project TM Tab
+### The Project TM Tab
 
 This tab is available to subscription users, as well as moderators. If you have a list of terms that you'd like to turn into a translation memory for a particular language - perhaps for use in a third-party CAT tool - you can do this here. The primary function of the **Project TM** tab provides you with a **TM** file constructed from the resources available in the public database using your list of terms in the form of an XLIFF file.
 
@@ -104,7 +104,7 @@ Select the language pair you need and, optionally, set the parameters to limit t
 
 After the search is concluded, press the **Download** button. You will receive an archive containing a complete **TM** file in the XLSX format, as well as two other XLSX files: one with the terms that were not found in the public database, and another with statistical data. The archive will also contain the original XLIFF file.
 
-## The Approve TM Tab
+### The Approve TM Tab
 
 This tab is only available to moderators. If you have been approved for the role of an **External or Reliable Moderator**, you can access it in order to check any **TM** files that have been submitted by the users.
 
