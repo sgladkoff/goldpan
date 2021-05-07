@@ -95,3 +95,15 @@ There is a limit to the size of the **TM** files that you may upload. A register
 ## The Project TM Tab
 
 ## The Approve TM Tab
+
+This tab is only available to moderators. If you have been approved for the role of an **External or Reliable Moderator**, you can access it in order to check any **TM** files that have been submitted by the users.
+
+![hakutaku_approvetm_1](hakutaku_approvetm_1.png)
+
+This tab consists of two lists: **Available TMs** and **My Checked Out TMs**. In the first one, you can see all the submitted **TM** files with language pairs that match the set of languages in your **Profile**. Of course, you only see the files that have not been checked out by other moderators. Simply click the **Check Out** button in the Action column to check out a file.
+
+The file is then moved to the **My Checked Out TMs** table, and it becomes unavailable to other moderators. Every file name in this table is a hyperlink that takes you to the screen where you can see the entirety of the **TM** file and decide if it should be approved ot not. Click the **Approve** button or the **Decline** button once you have made your decision. **Reliable Moderators** also have access to the **Get TM** button, which enables them to download the **TM** as a TMX file and check it using thied-party instruments.
+
+![hakutaku_approvetm_2](hakutaku_approvetm_2.png)
+
+A checked out **TM file** may be returned without approving or declining it by clicking the **Cancel** button on the file checking screen, or the one on the main screen of the **Approve TM** tab, in the **Action** column of the **My Checked Out TMs** table.
