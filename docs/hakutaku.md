@@ -68,7 +68,9 @@ If you hold your cursor over the (?) symbol in the **Info** column for any of th
 
 ![hakutaku_search](hakutaku_search.png)
 
-If you have a paid subscription, you will have the ability to download your search results as a TM file.
+With a paid subscription, you will have the ability to download the results of your query. Download links for the TMX and XLSX **TM** formats will appear at the bottom of the results list.
+
+![hakutaku_querydl](hakutaku_querydl.png)
 
 ### The Personal Search Tab
 
