@@ -94,7 +94,7 @@ After setting up the options, choose a file to be uploaded and press Upload. You
 
 ![hakutaku_import](hakutaku_import.png)
 
-There is a limit to the size of the **TM** files that you may upload. A registered user may upload files with the size of 10 Mb or less, and a moderator (external or reliable) may upload 100 Mb or less. Subscription users are not limited on the upload size.
+There is a limit to the size of the **TM** files that you may upload. A registered user may upload files with the size of 10 Mb or less, and a moderator may upload 100 Mb or less. Subscription users are not limited on the upload size.
 
 After a public **TM** file has been uploaded, it needs to receive approval from a moderator before becoming a part of the public **TM** database. You will recive an email message upon approval or denial of your **TM** file.
 
