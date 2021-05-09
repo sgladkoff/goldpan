@@ -34,7 +34,7 @@ The **Internal User** and **Administrator** roles are reserved for Logrus Global
 | TM Approval | n/a | n/a | n/a | Uses a personal TM approval page, based on the language filter, with a personal checkout table | Uses a personal TM approval page, based on the language filter, with a personal checkout table | n/a | Can see the entire TM approval table, can change approval status |
 | Approve View | n/a | n/a | n/a | Available without the Get TM button | Available with the Get TM button | n/a | Full availability |
 | Profile PAge | n/a | Profile page available | Profile page available | Profile page available | Profile page available | Profile page available | Every user profile avaialble |
-| Private TM (UNDER DEVELOPMENT) | n/a | n/a | Avaialble | n/a | n/a | n/a | Available |
+| Private TM | n/a | n/a | Avaialble | n/a | n/a | n/a | Available |
 
 ## Registration
 
