@@ -1,6 +1,6 @@
 # Hakutaku: Cloud-based Translation Memory Storage
 
-**Hakutaku** is a cloud-based solution for any **TM** storage and management problems that you or your organization may encounter. It offers free access to a public **TM** repository to all users, with private **TM** repositories and other features reserved for paid customers.
+**Hakutaku** is a cloud-based solution for any **TM** storage and management problems that you or your organization may encounter. It offers free access to a public **TM** repository to all users, with private **TM** repositories and other features reserved for subscription users.
 
 ## Advantages of Hakutaku
 
@@ -8,21 +8,21 @@
 
 - Any companies (LSPs and LSP clients) or freelancers may use **Hakutaku** as a private **TM** repository instead of purchasing an SDL server. These **TM** will not be accessible to other users. **Hakutaku** may serve as their private **TM Server** with its search functions and **Project TM** creation capability.
 
-- Any companies or freelancers that desire common availability of **TMs** may use the public **Hakutaku** **TM** repository for storing their industry-related arrays of **TM**, accumulating knowledge over time and creating reliable **TM** bases for BIM, medicine, sports etc.
+- Any companies or freelancers that desire common availability of **TMs** may use the public **Hakutaku** **TM** repository for storing their industry-related arrays of **TM**, accumulating knowledge over time and creating reliable **TM** databases for BIM, medicine, sports etc.
 
 - Public non-profit organizations may store **TM** in the public repository, speeding up community translation.
 
-- Freelancers may find eployment in building up private **TM** repositories for clients.
+- Freelancers may find eployment in building up private **TM** repositories for companies.
 
 - Researchers and engineers will be able to obtain **TM** data for training topical translation engines.
 
 ## User Roles
 
-**Hakutaku** offers a variety of user roles. It is possible to search the public **TM** database without even registering a user account - but if you do, you will receive additional functions. Even more functions, most notably the private **TM** repository, are available upon paying for a subscription. 
+**Hakutaku** offers a variety of user roles. It is possible to search the public **TM** database without even registering a user account - but if you do, additional functions will become available to you. Even more functions, most notably the private **TM** repository, are available to subscription users.
 
-The public **TM** respository submissions are moderated by volunteers. Anyone can apply for moderator status, which will be discussed later in detail.
+The public **TM** respository submissions are moderated by volunteers. Any user can apply to become an **External Moderator**, with possible elevation to **Reliable Moderator** status in the future.
 
-The Internal User and Administrator roles are reserved for Logrus Global employees.
+The **Internal User** and **Administrator** roles are reserved for Logrus Global employees.
 
 |  | Unregistered User | Registered User | Paid User | External Moderator | Reliable Moderator | Internal User | Administrator |
 | --------------- | -------------------- | ------------------------- | ----------- | ----------- | ----------- | ------------------ | ----------- |
@@ -38,17 +38,19 @@ The Internal User and Administrator roles are reserved for Logrus Global employe
 
 ## Registration
 
-While **Hakutaku** is available to unregistered users, in a limited fashion, you will only be able to import data into the public **TM** database or apply to become a moderator if you become a registered user. Press the **Login** button, and then the **Registration** button in the Login screen. You will be required to provide your first and last name, as well as your E-mail address and mobile phone number, both of which will need to be verified via the codes that will be delivered to them. Of course, you will also be required to read our Terms and Conditions of Use, agree with them, and set your password.
+While **Hakutaku** is open to everyone, importing data into the public **TM** database or applying to become a moderator is only possible with registration. Press the **Login** button, and then the **Registration** button in the Login screen. You will be required to provide your first and last name, as well as your E-mail address and mobile phone number, both of which will need to be verified via the codes that will be delivered to them. Of course, you will also be required to read our Terms and Conditions of Use, agree with them, and set your password.
 
 ![hakutaku_register](hakutaku_register.png)
 
 ## Account Management and Subscription
 
-You can access your personal information screen by pressing the button that has the first letter of your e-mail address in it. There, you can manage your personal information (your name, address, email, company and phone number), see your user role, pay for subscription time, select the language pairs that you work with, and create a request to become a moderator. 
-
-You are required to fill in your entire personal information (with the exception of the **Middle Name** text box) to create such a request; however, you do not need to be a subscription user.
+When logged in, you can access your personal account by pressing the button at the top right corner of the screen that has the first letter of your e-mail address on it. There, you can manage your personal information (your name, address, email, company and phone number), see your user role, pay for subscription time, select the language pairs that you work with, and create a request to become a moderator. 
 
 ![hakutaku_personal](hakutaku_personal.png)
+
+Currently, we accept payments of $10 or $100 for extending your subscription time by 1 month and 1 year, respectively. Clicking either of the payment buttons takes you to the payment screen.
+
+You are required to fill in your entire personal information (with the exception of the **Middle Name** text box) to create a request to become a moderator. You do not need to have a subscription for such a request.
 
 If you have uploaded any **TM** files, whether it was to the public **TM** repository or your private one, you will be able to see the files in the **Account Management** tab. For public **TM** files, the approval status will be visible in the **Status** column. As a subscription user, you will have the ability to download any of these files at any time.
 
@@ -56,13 +58,13 @@ If you have uploaded any **TM** files, whether it was to the public **TM** repos
 
 ## User Experience
 
-There are five primary tabs in the **Hakutaku** UI that are available to the users and moderators: the **Search** tab, the **Personal Search** tab, the **Import** tab, the **Project TM** tab and the **Approve TM** tab. Their availability varies greatly for different roles, as seen in the table above.
+There are five primary tabs in the **Hakutaku** UI that are available to the users and moderators: the **Search** tab, the **Personal Search** tab, the **Import** tab, the **Project TM** tab and the **Approve TM** tab. Their availability varies greatly for different roles, as seen in the **User Role** table.
 
 ### The Search Tab
 
 Here, you can search the public **TM** database. Use the drop-down menus in the top part of the screen to narrow down your search by choosing the language pair to be used, the domain and company your interest lies in, the particular public TM file and the degree of accuracy of your search, as well as the amount of matches listed; if you're uncertain, you can search through "-ALL-" the domains, TM files or companies at once. Then, enter your query in either of the languages of the pair into the left or right textbox. The search results are updated every time you make a selection in the drop-down menus, press ENTER after typing into a text box, or press the **Search** button. The button between the two textboxes flips the language pair around. The "cross" button resets the search query.
 
-If you hold your cursor over the (?) symbol in the **Info** column for any of the records, a tooltip with detailed information on this record, listing its domain, company, TM file and owner (the user that had imported the record into the public **TM** database), will be displayed.
+If you hold your cursor over the (?) symbol in the **Info** column for any of the records, a tooltip with detailed information on this record, listing its domain, company, TM file and owner (the user that had imported the record into the public **TM** database) will be displayed.
 
 ![hakutaku_search](hakutaku_search.png)
 
@@ -92,7 +94,7 @@ After setting up the options, choose a file to be uploaded and press Upload. You
 
 There is a limit to the size of the **TM** files that you may upload. A registered user may upload files with the size of 10 Mb or less, and a moderator (external or reliable) may upload 100 Mb or less. Subscription users are not limited on the upload size.
 
-After a public **TM** file has uploaded, it needs to receive approval from a moderator before becoming a part of the public **TM** database. You will recive an email message upon approval or denial of your **TM** file.
+After a public **TM** file has been uploaded, it needs to receive approval from a moderator before becoming a part of the public **TM** database. You will recive an email message upon approval or denial of your **TM** file.
 
 ### The Project TM Tab
 
@@ -112,7 +114,7 @@ This tab is only available to moderators. If you have been approved for the role
 
 This tab consists of two lists: **Available TMs** and **My Checked Out TMs**. In the first one, you can see all the submitted **TM** files with language pairs that match the set of languages in your **Profile**. Of course, you only see the files that have not been checked out by other moderators. Simply click the **Check Out** button in the Action column to check out a file. Every time you check out a **TM** file, or have one assigned to you by an **Administrator**, you receive an email message containing its description and a link to the **Approve TM** tab.
 
-When a file is checked out, it is moved to the **My Checked Out TMs** table, and it becomes unavailable to other moderators.  Every file name in this table is a hyperlink that takes you to the **Approve View** screen where you can see the entirety of the **TM** file and decide if it should be approved ot not. Using the **Domain** drop-down menu and the **Set Domain** button, yiu can change the domain the **TM** file belongs to. Click the **Approve** button or the **Decline** button once you have made your final decision. **Reliable Moderators** also have access to the **Get TM** button, which enables them to download the **TM** as a TMX file and check it using third-party instruments.
+When a file is checked out, it is moved to the **My Checked Out TMs** table, and it becomes unavailable to other moderators.  Every file name in this table is a hyperlink that takes you to the **Approve View** screen where you can see the entirety of the **TM** file and decide if it should be approved ot not. Using the **Domain** drop-down menu and the **Set Domain** button, yiu can change the domain that the **TM** file belongs to. Click the **Approve** button or the **Decline** button once you have made your final decision. **Reliable Moderators** also have access to the **Get TM** button, which enables them to download the **TM** as a TMX file and check it using third-party instruments.
 
 ![hakutaku_approvetm_2](hakutaku_approvetm_2.png)
 
