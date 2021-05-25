@@ -19,6 +19,7 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 - Interpreter: the role of an interpreter, essential for any multilingual conference ([Functions](http://logrus.co/#/interpretisto?id=interpreter));
 - Attendee (Event Remote): the role of an attendee during a webinar-style conference ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-local));
 - Attendee (Event Local): the role of an attendee during a physical foreign-language conference ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-remote));
+- Conference Manager: the role for managing a particular conference or conferences ([Functions](http://logrus.co/#/interpretisto?id=conference-manager));
 
 ## Technical Requirements
 
@@ -181,6 +182,14 @@ The following UI elements and functions are available to an **Attendee (Event Lo
 1. *Interpretation language selection*
 2. *Interpretation On/off*
 
+### Conference Manager
+
+As a **Conference Manager**, you are enabled to set the parameters of the conference (or conferences) entrusted to you. This is elaborated in the chapter below.
+
+When a conference is ongoing, the **Conference Manager** has access to the **Mute All** button (1), and can selectively **Unmute** (2) any of the participants, effectively turning the conference into a webinar with one or more unmuted participants as presenters.
+
+![Conference Manager](ui_conference_manager.png)
+
 ## Managing Cofnerences
 
 We've made the UI for managing conference to be as intuitive as possible. If you have been empowered to manage conferences, you can access the management page by simply clicking the **Manage Conferences** link in the upper right corner of the screen.
@@ -203,7 +212,7 @@ On the editing screen, you can control every aspect of the conference:
 
 In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected.
 
-## Types of Conferences Possible
+### Types of Conferences Possible
 
 Interpretisto can be used for creating conferences of any kind. There are no strict pre-set rules, but possible variations include:
 
