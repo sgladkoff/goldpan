@@ -1,10 +1,96 @@
-# Rigora: The Ultrapowerful QA for bilingual files
+# Rigora: The Ultrapowerful QA Tool
 
-**Rigora** is THE most powerful technical and linguistic quality assurance (QA) tool to support localization of software and other content into any language.
+**Rigora** is an ultrapowerful desktop localization QA tool.
 
-Please, visit [www.rigora.stido](http://www.rigora.studio) web site for more details about the tool.
+Built on top of decades of localization engineering experience of the Logrus software developers and engineers (and recently, completely rewritten and drastically improved), **Rigora** enables you to perfrom the most advanced technical and linguistic checks on localized files, to fix errors interactively, and to do so in batch mode. **Rigora** can work with entire projects, as well as with singular files, making it an extremely convenient default editor for the XLIFF file format.
 
-The current version of Rigora is 1.3.10.
+It is an interactive tool, and it ranks among the most powerful tools for working with software and text content.
+
+You can visit the official website of **Rigora** here: [www.rigora.stido](http://www.rigora.studio)
+
+## Supported File Formats
+
+- Common bilingual file formats (XLIFF, SDLXLIFF, TMX, TTX)
+
+- Excel workbooks
+
+- Configurable parsing of arbitrary XML and delimited text formats
+
+![rigor1](rigor1.png)
+*Some of the file types supported by Rigora*
+
+## Projects
+
+**Rigora** supports two types of projects that differ from each oher drastically, including the difference with their handling of files: projects with embedded changes and projects with in-file changes (absolute and relative).
+
+![rigor2](rigor2.png)
+
+A project with embedded changes does not make any changes to its files.
+
+A project with in-file changes contains only a list of file locations and settings, with all the changes going directly into its files.
+
+## Checks
+
+**Rigora** runs more than 300 checks, all of them customizable. Among them are:
+
+- Common checks (punctuation, tag and placeholder matching, etc.), configurable for various language pairs
+
+- Check for invalid characters based on the target language alphabet
+
+- Check for partially untranslated source words
+
+- Consistency check, direct and reverse
+
+- TM consistency checks
+
+- Glossary Adherence Review (GAR) with stemming support, checking against external glossaries and in-project (using all project translations as a glossary)
+
+- Checks for prohibited terms
+
+You can fine-tune them from the Checks window:
+
+![rigor3](rigor3.png)
+
+The GAR check is very powerful, verifying the correct translation of all terms listed in TMX.
+
+### In-place editing
+
+As you run the checks, individual errors are shown in Check Results window. 
+
+As you walk through them, they are highlighted in the files. **Rigora** opens each file and highlights the string that contains the error. When you fix an error, it is removed from Checks Results window.
+
+![rigor4](rigor4.png)
+*Rigora finds several problems with string 11067*
+
+![rigor5](rigor5.png)
+*Rigora shows untranslated text in Japanese translations*
+
+After an error has been fixed, **Rigora** automatically re-checks the translation unit.
+
+### False Positives
+
+You can right-click an error in Check Results windows and mark it as False Positive. The error will then be removed from the list.
+
+### Spell Checking
+
+**Rigora** uses the Windows 10 spell checker by default:
+
+![rigor6](rigor6.png)
+*System spell checker is on by default*
+
+To enable this, the document language must be the default system language (check Start > Settings  > Time & Language > Language).
+
+![rigor6](rigor7.png)
+
+You can also use Hunspell dicrionaries, which are set up separately.
+
+### Export / Import Features
+
+**Rigora** is very good at exporting various file formats. For example, you can export the contents of a XLIFF file as an Excel or TMX file, or export unique records only to remove duplicates.
+
+## Software Updates
+
+When translating software, **Rigora** can do 100% matching updates of software strings, autotranslate ICE matches by TMX files (“software dictionary”, translated before).
 
 ## Keeping Track of the Translation Editing History at Every Stage, for Every Document Format
 
