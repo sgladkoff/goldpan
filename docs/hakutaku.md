@@ -24,17 +24,17 @@ The public **TM** respository submissions are moderated by volunteers. Any user 
 
 The **Internal User** and **Administrator** roles are reserved for **Logrus Global** employees and contractors.
 
-|  | Unregistered User | Registered User | Paid User | External Moderator | Reliable Moderator | Internal User | Administrator |
-| --------------- | -------------------- | ------------------------- | ----------- | ----------- | ----------- | ------------------ | ----------- |
-| Search | Search only | Search only | Search-based TM downloading | Search-based TM downloading | Search-based TM downloading | Search-based TM downloading | Search-based TM downloading, TM editing |
-| Project TM | n/a | n/a | Full Availability | Limited Availability | Limited Availability | Full Availability | Full Availability |
-| TM Importing | n/a | Import < 10Mb | Import any amount of TM | Import < 100Mb | Import < 100Mb | Non-moderated importing | Non-moderated importing |
-| Users | n/a | n/a | n/a | n/a | n/a | n/a | User role management |
-| TM Management | n/a | n/a | n/a | n/a | n/a | n/a | Can download or remove any public TM |
-| TM Approval | n/a | n/a | n/a | Uses a personal TM approval page, based on the language filter, with a personal checkout table | Uses a personal TM approval page, based on the language filter, with a personal checkout table | n/a | Can see the entire TM approval table, can change approval status |
-| Approve View | n/a | n/a | n/a | Available without the Get TM button | Available with the Get TM button | n/a | Full availability |
-| Profile PAge | n/a | Profile page available | Profile page available | Profile page available | Profile page available | Profile page available | Every user profile avaialble |
-| Private TM | n/a | n/a | Avaialble | n/a | n/a | n/a | Available |
+|  | Unregistered User | Registered User | Paid User | External Moderator | Reliable Moderator |
+| --------------- | -------------------- | ------------------------- | ----------- | ----------- | ----------- |
+| Search | Search only | Search only | Search-based TM downloading | Search-based TM downloading | Search-based TM downloading |
+| Project TM | n/a | n/a | Full Availability | Limited Availability | Limited Availability |
+| TM Importing | n/a | Import < 10Mb | Import any amount of TM | Import < 100Mb | Import < 100Mb |
+| Users | n/a | n/a | n/a | n/a | n/a |
+| TM Management | n/a | n/a | n/a | n/a | n/a |
+| TM Approval | n/a | n/a | n/a | Uses a personal TM approval page, based on the language filter, with a personal checkout table | Uses a personal TM approval page, based on the language filter, with a personal checkout table |
+| Approve View | n/a | n/a | n/a | Available without the Get TM button | Available with the Get TM button |
+| Profile PAge | n/a | Profile page available | Profile page available | Profile page available | Profile page available |
+| Private TM | n/a | n/a | Avaialble | n/a | n/a |
 
 ## Registration
 
