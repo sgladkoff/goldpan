@@ -22,8 +22,6 @@
 
 The public **TM** respository submissions are moderated by volunteers. Any user can apply to become an **External Moderator**, with possible elevation to **Reliable Moderator** status in the future.
 
-The **Internal User** and **Administrator** roles are reserved for **Logrus Global** employees and contractors.
-
 |  | Unregistered User | Registered User | Paid User | External Moderator | Reliable Moderator |
 | --------------- | -------------------- | ------------------------- | ----------- | ----------- | ----------- |
 | Search | Search only | Search only | Search-based TM downloading | Search-based TM downloading | Search-based TM downloading |
