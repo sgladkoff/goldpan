@@ -21,7 +21,7 @@ You can visit the official website of **Rigora** here: [www.rigora.stido](http:/
 
 ## Projects
 
-**Rigora** supports two types of projects that differ from each oher drastically, including the difference with their handling of files: projects with embedded changes and projects with in-file changes (absolute and relative).
+**Rigora** supports two types of projects that differ from each oher drastically, including the difference with their handling of files: projects with embedded changes and projects with in-file changes (absolute and relative). Each project may support a folder structure with possibly thousands of files, if necessary.
 
 ![rigor2](rigor2.png)
 
@@ -29,9 +29,11 @@ A project with embedded changes does not make any changes to its files.
 
 A project with in-file changes contains only a list of file locations and settings, with all the changes going directly into its files.
 
+**Rigora** can also be used to simply work with a single file of a supported format without creating a project, if you so choose - possibly while associating XLIFF files with Rigora in Windows.
+
 ## Checks
 
-**Rigora** runs more than 300 checks, all of them customizable. Among them are:
+**Rigora** may run a large variety - more than 300 in total - of checks on the files within its projects. Among them are:
 
 - Common checks (punctuation, tag and placeholder matching, etc.), configurable for various language pairs
 
@@ -43,21 +45,25 @@ A project with in-file changes contains only a list of file locations and settin
 
 - TM consistency checks
 
-- Glossary Adherence Review (GAR) with stemming support, checking against external glossaries and in-project (using all project translations as a glossary)
+- Glossary Adherence Review (GAR) with stemming support, checking against external glossaries as well as in-project (using all project translations as a glossary) to verify the correct translation of all terms
 
 - Checks for prohibited terms
 
-You can fine-tune them from the Checks window:
+An important quality of **Rigora** is that it will load all active files into the memory. Its checks are accomplished via in-memory processing, which ensures extremely fast checking, even for very large projects comprised of thousands of files.
+
+You can add or remove checks, as well as customize their properties from the **Checks** window:
 
 ![rigor3](rigor3.png)
 
-The GAR check is very powerful, verifying the correct translation of all terms listed in TMX.
+You can run all the checks from your check tree at once, or choose individual checks to run.
+
+After running a check, you can export the resulting report as an XLS file.
 
 ### In-place editing
 
-As you run the checks, individual errors are shown in Check Results window. 
+As you run your chosen set of checks, individual errors are displayed in the **Check Results** window.  
 
-As you walk through them, they are highlighted in the files. **Rigora** opens each file and highlights the string that contains the error. When you fix an error, it is removed from Checks Results window.
+As you walk through them, they are highlighted in the files. For each error, **Rigora** will activate the file and highlight the string that contains it. When an error is fixed, it is removed from the **Checks Results** window.
 
 ![rigor4](rigor4.png)
 *Rigora finds several problems with string 11067*
@@ -66,6 +72,8 @@ As you walk through them, they are highlighted in the files. **Rigora** opens ea
 *Rigora shows untranslated text in Japanese translations*
 
 After an error has been fixed, **Rigora** automatically re-checks the translation unit.
+
+Not all types of checks support in-place editing (consistency checks do not, for example).
 
 ### False Positives
 
