@@ -25,7 +25,7 @@ You can visit the official website of **Rigora** here: [www.rigora.stido](http:/
 
 ![rigor2](rigor2.png)
 
-A project with embedded changes does not make any changes to its files.
+A project with embedded changes does not make any changes to its files, saving all changes to the main RIGORA file. It is possible to export its document files with changes included via the Project menu.
 
 A project with in-file changes contains only a list of file locations and settings, with all the changes going directly into its files.
 
@@ -73,7 +73,7 @@ As you walk through them, they are highlighted in the files. For each error, **R
 
 After an error has been fixed, **Rigora** automatically re-checks the translation unit.
 
-Not all types of checks support in-place editing (consistency checks do not, for example).
+Not all types of checks support in-place editing (consistency and reverse consistency checks do not).
 
 ### False Positives
 
@@ -94,7 +94,7 @@ You can also use Hunspell dicrionaries, which are set up separately.
 
 ### Export / Import Features
 
-**Rigora** is very good at exporting various file formats. For example, you can export the contents of a XLIFF file as an Excel or TMX file, or export unique records only to remove duplicates.
+**Rigora** is very good at exporting various file formats. For example, you can export the contents of a XLIFF file as an Excel, Word or TMX file, or export unique records only to remove duplicates.
 
 ## Software Updates
 
