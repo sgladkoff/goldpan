@@ -96,6 +96,12 @@ You can also use Hunspell dicrionaries, which are set up separately.
 
 **Rigora** is very good at exporting various file formats. For example, you can export the contents of a XLIFF file as an Excel, Word or TMX file, or export unique records only to remove duplicates.
 
+### Additional Check Results Window Functionality for GAR
+
+As you run GAR checks in **Rigora**, you may need to copy and paste information from the glossary into one or more translation strings.
+
+Click on a **Check Results** string containing glossary information while holding down ALT to copy it into the clipboard. Then, you'll be able to quickly paste this information wherever you want.
+
 ## Software Updates
 
 When translating software, **Rigora** can do 100% matching updates of software strings, autotranslate ICE matches by TMX files (“software dictionary”, translated before).
@@ -126,3 +132,11 @@ The XLIFF format is especially convenient, as it enables visualizing a history o
 - evaluate the work of your MT post-editors
 
 - snapshot any translations out of your CAT system and provide them to your reviewers for checking in the simple DOCX format - without the trouble of arranging their access to your CAT system (or training them in its use)
+
+## Displaying and Editing Locked Tags in SDLXLIFF Files
+
+You can find the **Include Locked Content** and **Save Modified Locked Content** flags in the **SDLXLIFF** section of the **Project Properties** window.
+
+![Properties](thumbnail_image001.png)
+
+If you want to have the locked content inside SDLXLIFF files displayed and available for editing, switch these flags to **YES**.
