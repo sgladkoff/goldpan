@@ -3,7 +3,7 @@
 We are proud and happy to share this tool with the industry, free of charge.
 You do NOT have to pay anything for Goldpan - unless you want to use a couple of premium features needed only for large companies and serious projects. The core features of Goldpan are - *and will stay* - completely free.
 
-The current version of Goldpan is 3.6.
+The current version of Goldpan is 3.6.3.
 
 ## Why do I need Goldpan and what is it for?
 
@@ -57,11 +57,15 @@ Despite its simple visual interface, Goldpan has a lot of features. Some of them
 
 Goldpan supports differing sets of file formats for importing and exporting data. Some formats can be read, but not written in.
 
+### Viewing
+
+Viewing **TMX** files is a new function added in Version 3.6.3 of **Goldpan**, accessible via the **View** button in the **Home** tab. Pressing it displays a **TMX** file-opening dialog window - and, when you pick a **TMX** file to open, it is displayed in a **Large TMX Viewer** window. You can do this multiple times to view any number of **TMX** file at once, with a separate **Large TMX Viewer** window created for each. Such a window displays its **TMX** file as a collection of 1000-record pages, with the **Back** and **Forward** buttons available for navigation. You cannot edit a file via the **Large TMX Viewer** window.
+
 ### Importing
 
 With Goldpan, you can import translation resources from the **SDLTM**, **SDLXLIFF**, **XLIFF**, **TMX** and **TBX** file formats.
 
-To import translation resources from a file, open the Import/Export tab and press the Import File button. In the dialog window, select a file format from the drop-down menu, then find and select the file. This operation can only import resources from a single file per use. If necessary, employ this operation multiple times to import resources from several files.
+To import translation resources from a file, open the **Import/Export** tab and press the **Import File** button. In the dialog window, select a file format from the drop-down menu, then find and select the file. This operation can only import resources from a single file per use. If necessary, employ this operation multiple times to import resources from several files.
 
 ### Exporting
 
@@ -115,7 +119,7 @@ The **Clean** drop-down list in the **Text Cleaning** group of the Home tab is u
 
 - **Clear cells** clears the cells.
 
-If you are operating a **PRO Version** of Goldpan, there is now - as of Version 3.6 - another option ready for you: the **Clean tags in files** button in the Batch Tools tab. With it, you can clean up entire batches of files in a few clicks. Pressing this button calls a dialog window. There, you can set up a list of files to be cleared of tags using the **Add File** (which calls an additional dialog window for selecting one or more TMX/TBX files) and **Add TMX Dir** (which calls another window for designating entire folders) buttons. The **Clean tags**, **Clean tags like { }** and **Trim first and last spaces** checkboxes determine the method of tag-clearing to be employed, similiar to the buttons described above. After you've listed all the files and chosen the clearing method, press the CLEAN button to execute!
+If you are operating a **PRO Version** of Goldpan, there is another option ready for you: the **Clean tags in files** button in the Batch Tools tab. With it, you can clean up entire batches of files in a few clicks. Pressing this button calls a dialog window. There, you can set up a list of files to be cleared of tags using the **Add File** (which calls an additional dialog window for selecting one or more TMX/TBX files) and **Add TMX Dir** (which calls another window for designating entire folders) buttons. The **Clean tags**, **Clean tags like { }** and **Trim first and last spaces** checkboxes determine the method of tag-clearing to be employed, similiar to the buttons described above. After you've listed all the files and chosen the clearing method, press the CLEAN button to execute!
 
 ![The dialog window](clean.png)
 
@@ -149,7 +153,9 @@ The **Filter Checks** drop-down list from the Advanced group of the Filters and 
 
 The check is performed for a single language pair, i.e. the source language and a particular target language selected from the **Ref.Pair** drop-down list.
 
-A new element, **Text and RegExp Filter**, has been added in Version 3.5.3. It deserves a chapter of its own.
+Next to the **Filter Checks** drop-down list is the **Remove Duplicates** button, newly added in Version 3.6.3.  It is also tied to the **Ref.Pair** drop-down list, removing any duplicate records for the selected language pair.
+
+The **Text and RegExp Filter** element deserves a chapter of its own.
 
 ### Text and Regular Expression Filtering
 
