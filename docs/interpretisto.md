@@ -227,7 +227,7 @@ A new addition to the capabilities of **Interpretisto** is an add-on for the **M
 
 To install this add-on, download our setup package, close Outlook and launch the executable. We are currently working on an easier installation-from-network process. .NET Framework Version 4.6 or higher is required (present in Microsoft Windows 10 by default).
 
-Following the successful installation of the **Interpretisto** add-on, the **Interpretisto** item will become available in the **New Items** menu - both in the **Mail** and **Calendar** view:
+Following the successful installation of the **Interpretisto** add-on, the **Interpretisto** item will become available in the **New Items** menu - both in the **Mail** and **Calendar** views:
 
 ![New Items 1](inter_out_1.jpg)
 
