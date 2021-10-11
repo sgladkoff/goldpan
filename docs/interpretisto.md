@@ -247,7 +247,7 @@ With your connection set up, selecting **New Meeting** again will call up a dial
 
 ![Calendar](inter_out_6.jpg)
 
-The **Manage Conferences** screen will contain the new conference:
+The **Manage Conferences** screen of **Interpretisto** will contain the new conference:
 
 ![Interpretisto UI](inter_out_7.jpg)
 
