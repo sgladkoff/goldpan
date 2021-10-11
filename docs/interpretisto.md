@@ -221,7 +221,7 @@ Interpretisto can be used for creating conferences of any kind. There are no str
 - A webinar-type conference, with a single **Presenter** speaking, **Attendees** listening and **Interpreters** invited if necessary;
 - A meeting/webinar hybrid, with both **Attendees** and **Participants**;
 
-## Woking with the MS Outlook Add-On
+## Working with the MS Outlook Add-On
 
 A new addition to the capabilities of **Interpretisto** is an add-on for the **Microsoft Outlook** e-mail management system. Its function is to set up scheduled conferences in **Interpretisto**.
 
