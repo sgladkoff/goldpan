@@ -233,7 +233,7 @@ Following the successful installation of the **Interpretisto** add-on, the **Int
 
 ![New Items 2](inter_out_2.jpg)
 
-This item is a sub-menu, containing the **New Meeting** and the **Settings** items. When you first select the **New Meeting** item, you will be prompted to set up your connection to **Interpretisto**:
+This item is a sub-menu, containing the **New Meeting** and **Settings** items. When you first select the **New Meeting** item, you will be prompted to set up your connection to **Interpretisto**:
 
 ![Prompt](inter_out_3.jpg)
 
