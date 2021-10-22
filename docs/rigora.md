@@ -59,6 +59,30 @@ You can run all the checks from your check tree at once, or choose individual ch
 
 After running a check, you can export the resulting report as an XLS file.
 
+### Glossary Adherence Review (GAR) Checks
+
+We've written a short list of instructions for cases where you only want to run GAR checks using a particular **TMX** file on your project.
+
+After creating your project and adding in files, you should remove all the standard settings and leave the **Checklist** empty by using the right-click menu, like so:
+
+![rigor_gar1](rigor_gar1.png)
+
+The **Checks** window will become empty after this. Right-click again to create your custom checklist:
+
+![rigor_gar2](rigor_gar2.png)
+
+Right-click the custom checklist and select the **Add Checks** option.
+
+In the **Add Checks** window, select the **TMX File** option within the **GAR** folder and the **Glossary Type** subfolder.
+
+![rigor_gar3](rigor_gar3.png)
+
+In the **TMX File** window, name your new check and select the **TMX** file.
+
+![rigor_gar4](rigor_gar4.png)
+
+After this, you can launch the new check by right-clicking it and selecting the **Run** option. Any other check can be launched the same way.
+
 ### In-place editing
 
 As you run your chosen set of checks, individual errors are displayed in the **Check Results** window.  
