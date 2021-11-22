@@ -1,10 +1,10 @@
-#Paralela: the TM generation tool
+# Paralela: the TM generation tool
 
 Paralela enables you to create TM files from bilingual input streams such as TXT, DOCX or PDF files as well as websites.
 
 Any combination of data formats and languages is possible.
 
-#Paralela workflow in a nutshell
+# Paralela workflow in a nutshell
 
 The usual steps of the Paralela workflow are as follows:
 
