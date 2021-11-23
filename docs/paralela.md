@@ -10,7 +10,7 @@ The usual steps of the Paralela workflow are as follows:
 
 - Grabbing data from your input stream
 
-- Reviewing and clean up the grabbed data
+- Reviewing and cleaning up the grabbed data
 
 - Aligning the parallel texts
 
