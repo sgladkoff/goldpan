@@ -74,7 +74,7 @@ You will see the following buttons:
 
 *Note: you can skip the earlier steps and provide files and URLs for grabbing data directly in the Aligner,  resulting in finished grabber tasks. In this case, the grabbing phase will be done automatically. This may save some time; however, this will likely result in lower quality and longer processing. We strongly recommend proceeding from the start of this workflow.*
 
-You will need to designate tasks as source and target for the alignment process. Do so by clicking on the corresponding fields and picking them from the dialog box that emerges:
+You will need to designate grabber tasks as source and target for the alignment process. Do so by clicking on the corresponding fields and picking them from the dialog box that emerges:
 
 ![para8](para9.png)
 
