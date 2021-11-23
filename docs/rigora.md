@@ -6,7 +6,7 @@ Built on top of decades of localization engineering experience of the Logrus sof
 
 It is an interactive tool, and it ranks among the most powerful tools for working with software and text content.
 
-You can visit the official website of **Rigora** here: [www.rigora.stido](http://www.rigora.studio)
+You can visit the official website of **Rigora** here: [www.rigora.studio](http://www.rigora.studio)
 
 ## Supported File Formats
 
