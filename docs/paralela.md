@@ -104,15 +104,15 @@ After you are done with the particular set of data, press *Save Changes*. The or
 
 ## TM Downloading
 
-You can download a TM file from the editor by clicking the *TM* button:
+You can download a TM file from the *Editor* by clicking the *TM* button:
 
 ![para15](para15.png)
 
 # The Editor
 
-Paralela includes a simple but powerful Editor to manage, review and clean up output data.
+Paralela includes a simple but powerful *Editor* to manage, review and clean up output data.
 
-Depending on the module (Grabber/Aligner), the Editor has a somewhat different layout; however, the main features and principles remain the same:
+Depending on the module (*Grabber*/*Aligner*), the *Editor* has a somewhat different layout; however, the main features and principles remain the same:
 
 - *Managing* – setting output file properties, such as project, domain, file name etc.
 
