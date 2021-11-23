@@ -66,13 +66,13 @@ Navigate to the Aligner tab:
 
 You will see the following buttons:
 
-- *Select* to select grabber tasks for the *Aligner*
+- *Select* to select finished grabber tasks for the *Aligner*
 
 - *Upload* to upload files
 
 - *URL* to align websites
 
-*Note: you can skip the earlier steps and provide data directly in the Aligner to get finished grabber tasks. In this case, the grabbing phase will be done automatically. This may save some time; however this will likely result in lower quality and longer processing. We strongly recommend to proceed from the beginning of this workflow.*
+*Note: you can skip the earlier steps and provide files and URLs for grabbing data directly in the Aligner,  resulting in finished grabber tasks. In this case, the grabbing phase will be done automatically. This may save some time; however, this will likely result in lower quality and longer processing. We strongly recommend proceeding from the start of this workflow.*
 
 You will need to designate tasks as source and target for the alignment process. Do so by clicking on the corresponding fields and picking them from the dialog box that emerges:
 
