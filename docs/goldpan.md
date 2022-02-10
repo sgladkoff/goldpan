@@ -47,6 +47,8 @@ Currently, the following functons are restricted to the **PRO Version**:
 
 - the **Clean tags in files** button in the Batch Tools tab (see below in the **Clearing tags**)
 
+- the **Insert multiple rows** option group with options for inserting 50, 100, 500 and 1000 rows available - in the menu opened by right-clicking the table
+
 ## Creating, opening and editing TMX and TBX files
 
 Goldpan is an easy-to-use - but powerful - tool for creating, opening and editing multilingual translation memory (TMX) and terminology exchange (TBX) files with up to nine parallel language pairs.
