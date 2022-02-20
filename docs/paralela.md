@@ -48,6 +48,14 @@ The *Processed Tasks* table will contain all finished tasks:
 
 ![para5](para5.png)
 
+These tasks can be filtered by a search pattern, and using the large checkmark at the table header will select them all at once:
+
+![para32](para32.png)
+
+Hovering over the '(?)' icon in this table displays expiration info for the files listed in it:
+
+![para30](para30.png)
+
 ## Reviewing grabbed data
 
 You can access the data that has been grabbed from a source by clicking on its item in the *File Name* column. On the screen that follows, you can review and edit the data:
@@ -92,11 +100,23 @@ When a task is ready, it is listed in the *Processed Tasks* table:
 
 ![para12](para12.png)
 
+In a recent update, we've added a simple statistics display tool for alignment results. It is accessed by hovering the mouse over the '(?)' icon:
+
+![para28](para28.png)
+
+Additionally, the full list of grabber tasks used in an alignment may now be seen by hovering the mouse over the 'Source' or 'Target' in the table header:
+
+![para29](para29.png)
+
 ## Reviewing aligned data
 
 You can access the data that resulted from an alignment operation by clicking on its item in the *File Name* column. On the screen that follows, you can review and edit the data:
 
 ![para13](para13.png)
+
+Searching can be done for the source or target fields separately, or for pairs:
+
+![para31](para31.png)
 
 After you are done with the particular set of data, press *Save Changes*. The original file will be overwritten, and the corresponding task will be moved to the *Results* tab:
 
