@@ -164,3 +164,17 @@ You can find the **Include Locked Content** and **Save Modified Locked Content**
 ![Properties](thumbnail_image001.png)
 
 If you want to have the locked content inside SDLXLIFF files displayed and available for editing, switch these flags to **YES**.
+
+## Key bindings
+
+While working with Rigora, you can use the following bound keys and shortcuts:
+
+- Home / End: jump to the first / last cell of the currently selected record;
+
+- CTRL + Home / End: jump to the first / last record of the currently open document;
+
+- CTRL + PgUp / PgDn: jump to the first / last record of the currently viewed document page;
+
+- CTRL + Up / Down / Left / Right (arrow keys): scroll the document window one row/column in the direction of the arrow;
+
+- CTRL + Insert: copy the contents of Source to Target in the currently selected record;
