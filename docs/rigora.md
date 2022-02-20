@@ -169,12 +169,14 @@ If you want to have the locked content inside SDLXLIFF files displayed and avail
 
 While working with Rigora, you can use the following bound keys and shortcuts:
 
-- Home / End: jump to the first / last cell of the currently selected record;
+- **Home / End**: jump to the first / last cell of the currently selected record;
 
-- CTRL + Home / End: jump to the first / last record of the currently open document;
+- **CTRL + Home / End**: jump to the first / last record of the currently open document;
 
-- CTRL + PgUp / PgDn: jump to the first / last record of the currently viewed document page;
+- **CTRL + PgUp / PgDn**: jump to the first / last record of the currently viewed document page;
 
-- CTRL + Up / Down / Left / Right (arrow keys): scroll the document window one row/column in the direction of the arrow;
+- **CTRL + Up / Down / Left / Right (*arrow keys*)**: scroll the document window one row/column in the direction of the arrow;
 
-- CTRL + Insert: copy the contents of Source to Target in the currently selected record;
+- **CTRL + Insert**: copy the contents of Source to Target in the currently selected record;
+
+- **ALT + N (*where N is a numeric key corresponding to a tag that is present in Source*)**: place a numbered tag into Target, at cursor position;
