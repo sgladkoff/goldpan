@@ -179,4 +179,4 @@ While working with Rigora, you can use the following bound keys and shortcuts:
 
 - **CTRL + Insert**: copy the contents of Source to Target in the currently selected record;
 
-- **ALT + N (*where N is a numeric key corresponding to a tag that is present in Source*)**: place a numbered tag into Target, at cursor position;
+- **ALT + N (*where N is a numeric key corresponding to a tag that is present in Source, from 1 to 0(10)*)**: place a numbered tag into Target, at cursor position;
