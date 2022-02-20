@@ -50,11 +50,11 @@ The *Processed Tasks* table will contain all finished tasks:
 
 These tasks can be filtered by a search pattern, and using the large checkmark at the table header will select them all at once:
 
-![para32](para32.png)
+![para32](para32.jpg)
 
 Hovering over the '(?)' icon in this table displays expiration info for the files listed in it:
 
-![para30](para30.png)
+![para30](para30.jpg)
 
 ## Reviewing grabbed data
 
