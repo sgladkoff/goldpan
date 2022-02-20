@@ -181,7 +181,7 @@ Spell checking behavior in general is governed via the **Spell Check** item in t
 
 ![rigor_spell](rigor_spell.png)
 
-You can enable one of the following options:
+You can enable one of the following options for the **System spell checker** item:
 
 - **Always use for supported languages** (default option): **Rigora** will first check if your system has any support for spell checking in the required language, and will use **Windows** spell checking if it is available. Otherwise, Rigora will look for other options (Hunspell dictionaries with an enabled **Use for spelling** option);
 
