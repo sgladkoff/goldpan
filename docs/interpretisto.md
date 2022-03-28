@@ -40,6 +40,7 @@ Connect your headset and camera and enable your browser to access them prior to 
 If you're using Firefox, you'll also need to grant **Interpretisto** permission to access the microphone if you indend to use it, as seen below:
 
 ![inter_firefox_screen](inter_firefox_screen.png)
+
 ## Connecting to Interpretisto
 
 1. Enter the Interpretisto link you've been provided in your web browser to access your conference.
