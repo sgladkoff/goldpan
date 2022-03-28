@@ -37,6 +37,10 @@ The various user roles in **Interpretisto** have differing sets of requirements 
 
 Connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**.  Choose an environment without background noise, and with good lighting if you're using a camera to stream video. Remember to keep your microphone muted until it's your turn to speak.
 
+If you're using Firefox, you'll also need to grant **Interpretisto** permission to access the microphone if you indend to use it, as seen below:
+
+![inter_firefox_screen](inter_firefox_screen.png)
+
 ## Connecting to Interpretisto
 
 1. Enter the Interpretisto link you've been provided in your web browser to access your conference.
