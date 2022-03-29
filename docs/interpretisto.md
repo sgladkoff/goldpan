@@ -39,11 +39,11 @@ Connect your headset and camera and enable your browser to access them prior to 
 
 If you're using Firefox, you'll also need to grant **Interpretisto** permission to access the microphone if you indend to use it, as seen below:
 
-![inter_firefox_screen_2](inter_firefox_screen_2.png)
+<!--![inter_firefox_screen_2](inter_firefox_screen_2.png)
 
-<details><summary>![inter_firefox_screen_2](inter_firefox_screen_2.png)</summary><blockquote>
+<details><summary>![inter_firefox_screen_2](inter_firefox_screen_2.png)</summary>
 ![inter_firefox_screen](inter_firefox_screen.png)
-</blockquote></details>
+</details>-->
 
 ## Connecting to Interpretisto
 
