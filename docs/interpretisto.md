@@ -43,7 +43,7 @@ If you're using Firefox, you'll also need to grant **Interpretisto** permission 
 <p>
 ![inter_firefox_screen](inter_firefox_screen.png)
 </p>
-</details
+</details>
 
 ## Connecting to Interpretisto
 
