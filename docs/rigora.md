@@ -105,7 +105,7 @@ You can right-click an error in Check Results windows and mark it as False Posit
 
 ### Spell Checking
 
-**Rigora** uses the Windows 10 spell checker by default:
+**Rigora** uses the Windows spell checker by default:
 
 ![rigor6](rigor6.png)
 *System spell checker is on by default*
@@ -115,6 +115,12 @@ To enable this, the document language must be the default system language (check
 ![rigor6](rigor7.png)
 
 You can also use Hunspell dicrionaries, which are set up separately.
+
+To check your spelling, right click the Spell Check item in the Checks window and select Run:
+
+![rigor6](rigor_spch.png)
+
+Rigora will then highlight any misspelled words in Target.
 
 ### Export / Import Features
 
