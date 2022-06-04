@@ -285,3 +285,29 @@ A conference may be cancelled from the cancellation form, available by selecting
 To confirm your decision, press the **Send Cancellation** button on the form. As you do so, the conference will be removed from the calendar and from the **Interpretisto** server:
 
 ![Cancel](inter_out_11.jpg)
+
+## Advanced Interpretisto Tips
+
+### Sharing a single application window
+
+You can share a single application window instead of your entire screen:
+
+![Application](inter_add_1.png)
+
+### Dealing with Audio and Video Delay
+
+You can send your **Interpretisto** diagnostic data to the **Interpretisto Tech Support Team** to determine the cause of delays. Follow the instruction steps below:
+
+1. Type **cmd** in the system search window and launch Command Prompt:
+
+![Application](inter_add_2.png)
+
+2. Type the following in the Command Prompt window: **tracert interpretisto.logrusglobal.ru**
+
+Data strings will then be displayed, tracing the path of the signal.
+
+3. Highlight and copy these strings, or take a screenshot. The Command Prompt window menu has a Copy option:
+
+![Application](inter_add_3.png)
+
+4. Send the information to tech support.
