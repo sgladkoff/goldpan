@@ -6,7 +6,7 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 
 - Two-in-one communication service: Video conferencing + remote simultaneous interpreting.
 - Security: No public RSI service is used. The platform is built on its own RSI server and backend, and can be installed on a single machine inside the client's protected network. No audio/video data goes out to a public server.
-- Ease of use: As a conference attendee in any posible role, all you need is a web browser. There's no need to install any desktop or mobile software. The browser-based service offers a highly adaptive interface that meets the needs of various user roles.
+- Ease of use: As a conference attendee in any posible role, all you need is a web browser. We recommend using Chrome of Firefox. There's no need to install any desktop or mobile software. The browser-based service offers a highly adaptive interface that meets the needs of various user roles.
 - Communication features: Links to **Interpretisto** Meeting Rooms can be sent out to participants via e-mail, with the date and time of the scheduled event. Group chat, screen sharing and interpreting language selection features are available.
 - Interpreting: The platform provides multichannel audio streaming to support simultaneous translation into several languages in parallel. Interpreters have their own standard controls. They are able to see each other, communicate, pass controls, be on air at different times, and see the public event chat.
 
@@ -47,8 +47,9 @@ If you're using Firefox, you'll also need to grant **Interpretisto** permission 
 
 ## Connecting to Interpretisto
 
-1. Enter the Interpretisto link you've been provided in your web browser to access your conference.
-2. Alternatively, visit http://interpretisto.logrusglobal.com to enter your conference code and press the **Join Conference** button.
+1. Connect your microphone and camera **before** connecting.
+2. Enter the Interpretisto link you've been provided in your web browser to access your conference.
+3. Alternatively, visit http://interpretisto.logrusglobal.com to enter your conference code and press the **Join Conference** button.
 
 ![interpretisto_enter](interpretisto_enter.png)
 
