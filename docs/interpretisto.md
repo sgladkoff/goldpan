@@ -59,11 +59,21 @@ However, if you have the **Participant**, **Interpreter** or **Attendee (Event R
 
 ![interpretisto_enter](interpretisto_entry.png)
 
-Here, you can access the settings for various conference functions that are available to your role, such as video and audio streaming (1, 2), your camera view (3), additional materials (4) and the options menu (5) prior to connecting. 
+To the left, you can see the vertical panel used to set up the functions of your current conference. The avilability of these elements varies from role to role:
 
-If you have the **Participant** or **Interpreter** role, you will need to enter your username (6) before connecting. As an **Interpreter**, you will also need to pick a language pair.
+1. Video streaming, with the drop-down menu for selecting the video source (such as any connected cameras)
+2. Audio streaming, with the drop-down menu for selecting the audio source (such as any connected microphones, includng ones in your headset and camera)
+3. Screen sharing
+4. Camera view
+5. Interpreting language
+6. Additional materials download 
+7. Options
 
-When you are done, press the **Connect** button (7) to enter the conference.
+If you have the **Participant** or **Interpreter** role, you will need to enter your username (8) before connecting. As an **Interpreter**, you will also need to pick a language pair.
+
+Additionally, any **Interpreter** will be required to register an account in the Logrus Global Localization Cloud system (https://accounts.logrusglobal.com/?returnUrl=https://cloud.logrusglobal.com). If you're a conference creator and you need to have multiple **Interpreter** accounts set up, you can refer to the Cloud administrators.
+
+When you are done, press the **Connect** button (9) to enter the conference.
 
 ## Available Functions
 
