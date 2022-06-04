@@ -310,4 +310,4 @@ Data strings will then be displayed, tracing the path of the signal.
 
 ![Application](inter_add_3.png)
 
-4. Send this information to tech support.
+4. Send this information to tech support.df
