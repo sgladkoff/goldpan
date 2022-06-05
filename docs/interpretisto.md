@@ -66,7 +66,7 @@ To the left, you can see the vertical panel used to set up the functions of your
 3. *Screen sharing*
 4. *Camera view*
 5. *Interpreting language*
-6. *Additional materials download *
+6. *Additional materials download*
 7. *Options*
 
 If you have the **Participant** or **Interpreter** role, you will need to enter your username (8) before connecting. As an **Interpreter**, you will also need to pick a language pair.
