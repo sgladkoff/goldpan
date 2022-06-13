@@ -6,5 +6,6 @@
 * [Rigora](rigora.md)
 * [TermLode](termlode.md)
 * [Paralela](paralela.md)
+* [Perfectionist](perfectionist.md)
 * [Legal - Privacy Policy](privacypolicy.md)
 * [Legal - Terms of Use](termsofuse.md)
