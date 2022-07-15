@@ -100,7 +100,7 @@ You can select just a single **Glossary** or source/target language, or any numb
 
 ![termlode_add1](termlode_add_9.png)
 
-You can use **Prospector** to extract **Terms** from a file (the TXT, HTM/HTML, DOC/DOCX XLF/XLIFF/SDXLIFF formats are supported) or from a webpage URL. Choose either option with the File/URL switch and then either copy and paste the web page address into the text box, or click on it to call the file selection dialog. Then, select any pre-existing **Glossaries** as well as processing options that you'd like to use, and press the **Extract Terminology** button.
+You can use **Prospector** to extract **Terms** from a file (the TXT, HTM/HTML, DOC/DOCX XLF/XLIFF/SDXLIFF formats are supported) or from a webpage URL. Choose either option with the File/URL switch and then either copy and paste the web page address into the text box, or click on it to call the file selection dialog. Then, select any pre-existing **Glossaries** as well as processing options that you'd like to use, and press the **Extract Terminology** button. If you've selected any existing **glossaries**, any **terms** already present in them will not get extracted.
 
 You will see the **Terminology Candidates** window, with all the extracted **Terms** arranged in a list. The list has an option to search for **Terms**, as well as one to save any checked **Terms** in an XLS file. All the terms that appeared more than once will be, by default, checked for saving.
 
