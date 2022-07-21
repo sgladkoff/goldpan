@@ -65,9 +65,11 @@ Viewing **TMX** files is a new function added in Version 3.6.3 of **Goldpan**, a
 
 ### Importing
 
-With Goldpan, you can import translation resources from the **SDLTM**, **SDLXLIFF**, **XLIFF**, **TMX** and **TBX** file formats.
+With Goldpan, you can import translation resources from the **SDLTM**, **SDLXLIFF**, **XLIFF**, **TMX**, **TBX** and **XLSX** file formats.
 
 To import translation resources from a file, open the **Import/Export** tab and press the **Import File** button. In the dialog window, select a file format from the drop-down menu, then find and select the file. This operation can only import resources from a single file per use. If necessary, employ this operation multiple times to import resources from several files.
+
+Importing from an **XLSX** file will, in addition to importing the contents of its first and second columns into the **Source** and **Target** fields, also import the contents of its third column into the **Note** field.
 
 ### Exporting
 
@@ -200,5 +202,7 @@ The **Converters** group of the Batch Tools tab is used. Each of the buttons (Co
 - set the source language by selecting it from the Primary language drop-down list or entering a language code
 
 The OK button becomes active when a XLSX file is selected and at least two languages are added to the list.
+
+If the `XLSX` file has any data in its third column, its contents will become converted into the **Note** field of the `TMX` file.
 
 Goldpan lets the user choose each of the resources required from various sources and then merge them into new translation-memory resource files as needed.
