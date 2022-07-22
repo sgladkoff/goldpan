@@ -3,8 +3,6 @@
 We are proud and happy to share this tool with the industry, free of charge.
 You do NOT have to pay anything for Goldpan - unless you want to use a couple of premium features needed only for large companies and serious projects. The core features of Goldpan are - *and will stay* - completely free.
 
-The current version of Goldpan is 3.6.3.
-
 ## Why do I need Goldpan and what is it for?
 
 Goldpan has been created for handling bilingual translation data in order to preserve the linguistic knowledge that you accumulate via the bilingual translations in your possession. With Goldpan, you can:
