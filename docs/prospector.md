@@ -2,7 +2,7 @@
 
 **Prospector** is among the best available tools for extracting English terminology from source texts. Our registered users can access it at http://prospector.logrusglobal.com.
 
-According to our tests, **Prospector** is about as effecient at extracting terminology as a human **Terminologist** is, at the first pass: the level of efficiency is ~66%. Using **Prospector** enables the **Terminologist** to  mostly automate that first pass, saving a lot of time: they will only need to review the file again and add, possibly, add a couple of missed terms.
+According to our tests, **Prospector** is about as effecient at extracting terminology as a human **Terminologist** is, at the first pass: the level of efficiency is ~66%. Using **Prospector** enables the **Terminologist** to  mostly automate that first pass, saving a lot of time: they will only need to review the file again and, possibly, add a couple of missed terms.
 
 Additionally, if a database of existing terms is available, **Prospector** can be set to only extract new terms, saving even more time.
 
