@@ -1,6 +1,7 @@
 * [Overview of Language Cloud](README.md)
 * [Goldpan](goldpan.md)
 * [Hakutaku](hakutaku.md)
+* [Prospector](prospector.md)
 * [Interpretisto](interpretisto.md)
 * [Memose](memose.md)
 * [Rigora](rigora.md)
