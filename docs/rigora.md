@@ -210,3 +210,33 @@ While working with Rigora, you can use the following bound keys and shortcuts:
 - **CTRL + Insert**: copy the contents of Source to Target in the currently selected record;
 
 - **ALT + N (*where N is a numeric key corresponding to a tag that is present in Source, from 1 to 0(10)*)**: place a numbered tag into Target, at cursor position.
+
+## Using Rigora in ML Data Cleaning
+
+**Rigora** is indispensable in machine learning and data cleaning.
+
+It supports the **TSV** file format, which is a standard for ML training and inference, and is capable of using regular expressions to clean data, as well as 300 different types of filters.
+
+## Regular Expresssions
+
+You can employ **.NET regular expressions** (as described here: https://docs.microsoft.com/dotnet/standard/base-types/regular-expressions) in **Rigora**, greatly expanding the capabilities of what can be achieved using our product.
+
+![rigor_reg1](rigor_reg1.png)
+
+![rigor_reg2](rigor_reg2.png)
+
+Here's a small example: if you need to find every string that contains Russian characters in the Target column, you can use the following check:
+
+Target contains, Pattern: [абвгдеёжзийклмнопрстуфхцчшщъыьэюя], Pattern type: Regular expression, Case-sensitive: No
+
+You can also use Unicode character ranges, for example:
+
+[\u0401\u0410-\u044F\u0451]
+
+or
+
+[А-яЁё] (and Case-sensitive: Yes)
+
+You can also use the following range to look for all Cyrillic characters (not just the Russian ones):
+
+[\u0400-\u04FF]
