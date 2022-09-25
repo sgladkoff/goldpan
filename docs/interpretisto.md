@@ -75,9 +75,9 @@ Additionally, any **Interpreter** will be required to register an account in the
 
 When you are done, press the **Connect** button (9) to enter the conference.
 
-## Settings 
+## The Settings Menu
 
-When you have joined a conference, the **Settings** menu, accessible via a button on the vertical panel, becomes available:
+After you have connected to a conference, the **Settings** menu, accessible via a button on the vertical panel, becomes available:
 
 ![inter_settings](inter_settings.png)
 
