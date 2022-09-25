@@ -79,7 +79,7 @@ When you are done, press the **Connect** button (9) to enter the conference.
 
 After you have connected to a conference, the **Settings** menu, accessible via a button on the vertical panel, becomes available:
 
-![inter_settings](inter_settings.png)
+![inter_settings1](inter_settings1.png)
 
 Within this menu, you can:
 
