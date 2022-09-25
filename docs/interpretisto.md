@@ -67,13 +67,28 @@ To the left, you can see the vertical panel used to set up the functions of your
 4. *Camera view*
 5. *Interpreting language*
 6. *Additional materials download*
-7. *Options*
+7. *Settings*
 
 If you have the **Participant** or **Interpreter** role, you will need to enter your username (8) before connecting. As an **Interpreter**, you will also need to pick a language pair.
 
 Additionally, any **Interpreter** will be required to register an account in the **Logrus Global Localization Cloud** system (https://accounts.logrusglobal.com/?returnUrl=https://cloud.logrusglobal.com). If you're a conference creator and you need to have multiple **Interpreter** accounts set up, you can refer to the Cloud administrators.
 
 When you are done, press the **Connect** button (9) to enter the conference.
+
+## Settings 
+
+When you have joined a conference, the **Settings** menu, accessible via a button on the vertical panel, becomes available:
+
+![inter_settings](inter_settings.png)
+
+Within this menu, you can:
+
+- Select the camera or other video source that you'd like to stream to **Interpretisto**;
+- Select the microphone or other audio source that you'd like to stream to **Interpretisto**, as well as enable the audio enhancement functions available in **Interpretisto**;
+- Select and test your audio output option such as speakers;
+- Enable other conference options, such as whether to receive video streaming or not.
+
+Additionally, for conference managers, there are quick links to the conference property and activity screens.
 
 ## Available Functions
 
@@ -98,7 +113,7 @@ The following UI elements and functions are available to a **Presenter**:
 3. *Screen Sharing On/Off*
 4. *My Camera View On/Off*
 5. *Download Additional Materials*
-6. *Options Menu*
+6. *Settings Menu*
 7. *Video Streaming Window*
 8. *On Air switch & Mute*
 
@@ -111,7 +126,7 @@ As a **Participant**, you can, by default:
 - See and hear what the other **Participants** and **Presenters** are streaming and sharing;
 - Access the chat.
 
-If the conference has interpretation enabled, you will be able to choose your preferred language in order to hear the simultaneous interpretation being done for that language. Any other audio will be reduced in volume to 30%, by default, to make the interpreration easier to hear. You can change this reduction rate in the **Options** menu. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
+If the conference has interpretation enabled, you will be able to choose your preferred language in order to hear the simultaneous interpretation being done for that language. Any other audio will be reduced in volume to 30%, by default, to make the interpreration easier to hear. You can change this reduction rate in the **Settings** menu. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
@@ -126,7 +141,7 @@ The following UI elements and functions are available to a **Participant**:
 5. *Chat Window Show/Hide*
 6. *Interpretation On/Off and interpretation language selection*
 7. *Download Additional Materials*
-8. *Options Menu*
+8. *Settings Menu*
 9. *Participant Panel*
 10. *Current Speaker View*
 11. *Chat Window*
@@ -156,7 +171,7 @@ The following UI elements and functions are available to an **Interpreter**:
 4. *Chat Window Show/Hide*
 5. *My Camera View On/Off*
 6. *Download Additional Materials*
-7. *Options Menu*
+7. *Settings Menu*
 8. *On Air Switch*
 9. *Interpretation language selection*
 10. *Mute*
@@ -172,7 +187,7 @@ The following UI elements and functions are available to an **Interpreter**:
 
 As an **Attendee (Event Remote)**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video and audio, as well as monitor the chat. 
 
-If the conference has interpretation enabled, you will be able to choose your preferred language in order to hear the simultaneous interpretation being done for that language. Any other audio will be reduced in volume to 30%, by default, to make the interpreration easier to hear. You can change this reduction rate in the **Options** menu. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
+If the conference has interpretation enabled, you will be able to choose your preferred language in order to hear the simultaneous interpretation being done for that language. Any other audio will be reduced in volume to 30%, by default, to make the interpreration easier to hear. You can change this reduction rate in the **Settings** menu. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
@@ -184,7 +199,7 @@ The following UI elements and functions are available to an **Attendee (Event Re
 2. *Chat Window Show/Hide*
 3. *Interpretation On/Off and interpretation language selection*
 4. *Download Additional Materials*
-5. *Options Menu*
+5. *Settings Menu*
 6. *Participant Panel*
 7. *Current Speaker*
 8. *Chat Window*
