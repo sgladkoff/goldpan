@@ -301,6 +301,18 @@ To confirm your decision, press the **Send Cancellation** button on the form. As
 
 ![Cancel](inter_out_11.jpg)
 
+## Loopback Testing
+
+The current version of **Interpretisto** includes a **loopback testing** function. It is accessible through the link that you can take prior to connecting to a conference:
+
+![loop1](loop1.png)
+
+This function is intended for testing the quality of your connection to the server, as well as your audio and video streams. You will be asked to provide a testing name before entering the loopback test:
+
+![loop2](loop2.png)
+
+Then, **Interpretisto** will create a conference featuring a single virtual remote participant with your audio and video streams, enabling you to check if they work correctly.
+
 ## Advanced Interpretisto Tips
 
 ### Sharing a single application window
