@@ -242,3 +242,9 @@ You can also use the following range to look for all Cyrillic characters (not ju
 [\u0400-\u04FF]
 
 ## Release Notes
+
+**Rigora Version 2.0.0**: **November 24, 2022**
+
+New features: 
+
+- Logical combination of checks;
