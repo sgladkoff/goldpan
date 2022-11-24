@@ -240,3 +240,5 @@ or
 You can also use the following range to look for all Cyrillic characters (not just the Russian ones):
 
 [\u0400-\u04FF]
+
+## Release Notes
