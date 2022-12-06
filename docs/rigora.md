@@ -245,6 +245,44 @@ You can also use the following range to look for all Cyrillic characters (not ju
 
 **Rigora Version 2.0.0**: **November 24, 2022**
 
-New features: 
+**Changes introduced in Version 2.0.0:**
 
-- Logical combination of checks;
+- Expanded the existing support for hypertext tags;
+
+- Revamped and expanded the process of tuning checks;
+
+- Added an all-new capability for creating check combinations;
+
+- Spelling: tags will no longer confuse the spell checker;
+
+**Hypertect Tags**
+
+Tags belonging to different categories will now be displayed differently:
+
+- XML tags ( <…> </…> <…/> )
+
+- Hypertext entries ( &…; )
+
+- Breaks ( \n \r \t )
+
+- Placeholders ( {…} %… )
+
+**Check Tuning**
+
+- Most of the check types can now be combined using logical operators (AND, OR, NOT). The **Check Property Editor** now displays an expression made of checks and operators as a tree;
+
+- Checks will generate localization error alerts inside the text as underlines, and will add their own underlines to messages created earlier by different checks;
+
+- By default, checks now have a set of constraints that can be disabled if necessary. For example, the "Source does not equal target" constraint serves to speed up checking during translation work, as it cuts off the overabundance of false-positive Partially untranslated, Spell check and GAR alerts;
+
+- The context menu on the **Check Results** panel now has the **Go To Check** command for instant access to the check (on the **Check** panel) that had caused a particular alert;
+
+- The **Search Scope** option can now be used for searching in the text or the tags separately, or in the text and tags at the same time;
+
+- Several GAR checks can be ran at the same time, each with its own glossary and blacklist;
+
+- Spell checking will now run faster;
+
+- The **Ignore Untranslated Words** option has been added for spell checking, intended to reduce the amount of false-positive alerts and enabled by default;
+
+- Possible fixes are shown in the context menu of the **Check Results** panel, and will automatically replace the erroneous text when selected;
