@@ -247,15 +247,15 @@ You can also use the following range to look for all Cyrillic characters (not ju
 
 **Changes introduced in Version 2.0.0:**
 
-- Expanded the existing support for hypertext tags;
+- Extended hypertext tag support;
 
-- Revamped and expanded the process of tuning checks;
+- Revamped and expanded check customization capabilities;
 
-- Added an all-new capability for creating check combinations;
+- All-new capability of compound logical check combinations;
 
 - Spelling: tags will no longer confuse the spell checker;
 
-**Hypertect Tags**
+**Hypertext Tags**
 
 Tags belonging to different categories will now be displayed differently:
 
@@ -267,11 +267,11 @@ Tags belonging to different categories will now be displayed differently:
 
 - Placeholders ( {…} %… )
 
-**Check Tuning**
+**Check Customization Capablilities**
 
-- Most of the check types can now be combined using logical operators (AND, OR, NOT). The **Check Property Editor** now displays an expression made of checks and operators as a tree;
+- Most of the check types can now be combined using logical operators (AND, OR, NOT). The **Check Property Editor** now displays a logical expression made of checks and operators as a tree;
 
-- Checks will generate localization error alerts inside the text as underlines, and will add their own underlines to messages created earlier by different checks;
+- Checks will generate localization error alerts inside the text as wavy underlines, and will add their own wavy underlines to messages created earlier by different checks;
 
 - By default, checks now have a set of constraints that can be disabled if necessary. For example, the "Source does not equal target" constraint serves to speed up checking during translation work, as it cuts off the overabundance of false-positive Partially untranslated, Spell check and GAR alerts;
 
@@ -279,10 +279,10 @@ Tags belonging to different categories will now be displayed differently:
 
 - The **Search Scope** option can now be used for searching in the text or the tags separately, or in the text and tags at the same time;
 
-- Several GAR checks can be ran at the same time, each with its own glossary and blacklist;
+- Several **GAR** checks can be run at the same time, each with its own glossary and excludes;
 
-- Spell checking will now run faster;
+- Spell check will now run faster;
 
-- The **Ignore Untranslated Words** option has been added for spell checking, intended to reduce the amount of false-positive alerts and enabled by default;
+- The **Ignore Untranslated Words** option has been added spell check, intended to reduce the amount of false-positive alerts, and is enabled by default;
 
 - Possible fixes are shown in the context menu of the **Check Results** panel, and will automatically replace the erroneous text when selected;
