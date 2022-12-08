@@ -132,36 +132,29 @@ As you run GAR checks in **Rigora**, you may need to copy and paste information 
 
 Click on a **Check Results** string containing glossary information while holding down ALT to copy it into the clipboard. Then, you'll be able to quickly paste this information wherever you want.
 
-## Software Updates
+## Regular Expressions
 
-When translating software, **Rigora** can do 100% matching updates of software strings, autotranslate ICE matches by TMX files (“software dictionary”, translated before).
+You can employ **.NET regular expressions** (as described here: https://docs.microsoft.com/dotnet/standard/base-types/regular-expressions) in **Rigora**, greatly expanding the capabilities of what can be achieved using our product.
 
-## Keeping Track of the Translation Editing History at Every Stage, for Every Document Format
+![rigor_reg1](rigor_reg1.png)
 
-It is often necessary to keep track of how an editor makes changes to the document after receiving it from the translator - as well as keeping track of the document, in general, at all stages of the translation process. This is relevant for regular editors as well as MT post-editors. CAT tools often do not keep track of who exactly changes what (sometimes they do, but the process is often inconvenient).
+![rigor_reg2](rigor_reg2.png)
 
-**Rigora** solves this issue through its new function. It is used to covnert a duolingual XLIFF file into a MS Word document containting a table with two columns: source and translation. XLIFF files can be obtained easily from most CAT tools, as they enalbe the user to export a project as a set of XLIFF files at any stage of the project. So, in order to compare two versions of a document from different stages of its project, you can simply convert the XLIFF files to the DOCX format and then use the standard document-comparing function of MS Word. If you do a XLIFF export of your CAT project after the translation is done, and then another after the editing is done, you will be able to visualize everything that the editor had deemed right to fix in every document. 
+Here's a small example: if you need to find every string that contains Russian characters in the Target column, you can use the following check:
 
-![Convert a XLIFF file into a DOCX file using the File -> Export Items option with the Word Document file type](rig1.png)
-*You can convert a XLIFF file into a DOCX file using the File -> Export Items option with the Word Document file type.*
+Target contains, Pattern: [абвгдеёжзийклмнопрстуфхцчшщъыьэюя], Pattern type: Regular expression, Case-sensitive: No
 
-![This is what a DOCX file covnerted from XLIFF looks like.](rig2.png)
-*This is what a DOCX file covnerted from XLIFF looks like.*
+You can also use Unicode character ranges, for example:
 
-![Use the Review -> Compare option in MS Word to compare the changes between two DOCX files belonging to different versions of a document.](rig3.png)
-*Use the Review -> Compare option in MS Word to compare the changes between two DOCX files belonging to different versions of a document.*
+[\u0401\u0410-\u044F\u0451]
 
-Most CAT sytems do not offer the means of viewing versions of a document from different project stages, let alone a convenient way to view a history of changes. Making project snapshots in XLIFF format is an easy-to-use solution, available to everyone. 
+or
 
-The XLIFF format is especially convenient, as it enables visualizing a history of changes made to files of any format during the translation process. If you elect to use the XLIFF-to-DOCX convertion, you will be able to:
+[А-яЁё] (and Case-sensitive: Yes)
 
-- give edited files back to your translators for future reference, with any mistakes commented on in the DOCX files by the editors
+You can also use the following range to look for all Cyrillic characters (not just the Russian ones):
 
-- provide your layout designers with clearly pointed out last-minute fixes for translations
-
-- evaluate the work of your MT post-editors
-
-- snapshot any translations out of your CAT system and provide them to your reviewers for checking in the simple DOCX format - without the trouble of arranging their access to your CAT system (or training them in its use)
+[\u0400-\u04FF]
 
 ## Displaying and Editing Locked Tags in SDLXLIFF Files
 
@@ -195,7 +188,7 @@ You can enable one of the following options for the **System spell checker** ite
 
 - **Do not use**: no spell checking.
 
-## Key bindings
+## Shortcuts
 
 While working with Rigora, you can use the following bound keys and shortcuts:
 
@@ -211,39 +204,48 @@ While working with Rigora, you can use the following bound keys and shortcuts:
 
 - **ALT + N (*where N is a numeric key corresponding to a tag that is present in Source, from 1 to 0(10)*)**: place a numbered tag into Target, at cursor position.
 
-## Using Rigora in ML Data Cleaning
+## Use Cases
+
+### Software Updates
+
+When translating software, **Rigora** can do 100% matching updates of software strings, autotranslate ICE matches by TMX files (“software dictionary”, translated before).
+
+### Keeping Track of the Translation Editing History at Every Stage, for Every Document Format
+
+It is often necessary to keep track of how an editor makes changes to the document after receiving it from the translator - as well as keeping track of the document, in general, at all stages of the translation process. This is relevant for regular editors as well as MT post-editors. CAT tools often do not keep track of who exactly changes what (sometimes they do, but the process is often inconvenient).
+
+**Rigora** solves this issue through its new function. It is used to covnert a duolingual XLIFF file into a MS Word document containting a table with two columns: source and translation. XLIFF files can be obtained easily from most CAT tools, as they enalbe the user to export a project as a set of XLIFF files at any stage of the project. So, in order to compare two versions of a document from different stages of its project, you can simply convert the XLIFF files to the DOCX format and then use the standard document-comparing function of MS Word. If you do a XLIFF export of your CAT project after the translation is done, and then another after the editing is done, you will be able to visualize everything that the editor had deemed right to fix in every document. 
+
+![Convert a XLIFF file into a DOCX file using the File -> Export Items option with the Word Document file type](rig1.png)
+*You can convert a XLIFF file into a DOCX file using the File -> Export Items option with the Word Document file type.*
+
+![This is what a DOCX file covnerted from XLIFF looks like.](rig2.png)
+*This is what a DOCX file covnerted from XLIFF looks like.*
+
+![Use the Review -> Compare option in MS Word to compare the changes between two DOCX files belonging to different versions of a document.](rig3.png)
+*Use the Review -> Compare option in MS Word to compare the changes between two DOCX files belonging to different versions of a document.*
+
+Most CAT sytems do not offer the means of viewing versions of a document from different project stages, let alone a convenient way to view a history of changes. Making project snapshots in XLIFF format is an easy-to-use solution, available to everyone. 
+
+The XLIFF format is especially convenient, as it enables visualizing a history of changes made to files of any format during the translation process. If you elect to use the XLIFF-to-DOCX convertion, you will be able to:
+
+- give edited files back to your translators for future reference, with any mistakes commented on in the DOCX files by the editors
+
+- provide your layout designers with clearly pointed out last-minute fixes for translations
+
+- evaluate the work of your MT post-editors
+
+- snapshot any translations out of your CAT system and provide them to your reviewers for checking in the simple DOCX format - without the trouble of arranging their access to your CAT system (or training them in its use)
+
+### ML Data Cleaning
 
 **Rigora** is indispensable in machine learning and data cleaning.
 
 It supports the **TSV** file format, which is a standard for ML training and inference, and is capable of using regular expressions to clean data, as well as 300 different types of filters.
 
-## Regular Expresssions
-
-You can employ **.NET regular expressions** (as described here: https://docs.microsoft.com/dotnet/standard/base-types/regular-expressions) in **Rigora**, greatly expanding the capabilities of what can be achieved using our product.
-
-![rigor_reg1](rigor_reg1.png)
-
-![rigor_reg2](rigor_reg2.png)
-
-Here's a small example: if you need to find every string that contains Russian characters in the Target column, you can use the following check:
-
-Target contains, Pattern: [абвгдеёжзийклмнопрстуфхцчшщъыьэюя], Pattern type: Regular expression, Case-sensitive: No
-
-You can also use Unicode character ranges, for example:
-
-[\u0401\u0410-\u044F\u0451]
-
-or
-
-[А-яЁё] (and Case-sensitive: Yes)
-
-You can also use the following range to look for all Cyrillic characters (not just the Russian ones):
-
-[\u0400-\u04FF]
-
 ## Release Notes
 
-**Rigora Version 2.0.0**: **November 24, 2022**
+### Rigora Version 2.0.0: November 24, 2022
 
 **Changes introduced in Version 2.0.0:**
 
