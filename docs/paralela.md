@@ -242,3 +242,19 @@ Simply fill in the *Project Name* and optionally the *Comment* fields, then clic
 
 You can use projects to filter your tasks at the *Results* tab:
 ![para27](para27.png)
+
+# Paralela Use Cases
+
+You can make good use of **Paralela** for the following tasks:
+
+- Reuse of previously completed translations in cases when a TM does not exist or is difficult to find, but you still possess the source and target documents;
+
+- Mining of bilingual knowledge from fuzzy sets of documents (corporate document repository = knowledge base);
+
+- Mining domain-specific corpus from the Web, for custom MT training;
+
+- Mining client-specific corpus from a (potential) customer's website;
+
+- TM cleaning;
+
+- Cleaning of existing MT training corpus;
