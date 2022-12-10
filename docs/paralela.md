@@ -20,6 +20,8 @@ You can make good use of **Paralela** for the following tasks:
 
 - Cleaning of existing MT training corpus;
 
+- LSP or freelancer rendering data mining and data cleaning services for customers;
+
 # Paralela workflow in a nutshell
 
 The usual steps of the Paralela workflow are as follows:
