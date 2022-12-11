@@ -20,21 +20,21 @@ You can make good use of **Paralela** for the following tasks:
 
 - Cleaning of existing MT training corpus;
 
-- LSP or freelancer rendering data mining and data cleaning services for customers;
+- LSP or freelancer rendering data mining and data cleaning services for customers.
 
 # Paralela workflow in a nutshell
 
 The usual steps of the Paralela workflow are as follows:
 
-- Grabbing data from your input stream
+- Grabbing data from your input stream;
 
-- Reviewing and cleaning up the grabbed data
+- Reviewing and cleaning up the grabbed data;
 
-- Aligning the parallel texts
+- Aligning the parallel texts;
 
-- Reviewing and editing the aligned output
+- Reviewing and editing the aligned output;
 
-- Downloading the TM file
+- Downloading the TM file.
 
 ## Data grabbing
 
@@ -92,11 +92,11 @@ Navigate to the Aligner tab:
 
 You will see the following buttons:
 
-- *Select* to select finished grabber tasks for the *Aligner*
+- *Select* to select finished grabber tasks for the *Aligner*;
 
-- *Upload* to upload files
+- *Upload* to upload files;
 
-- *URL* to align websites
+- *URL* to align websites.
 
 *Note: you can skip the earlier steps and provide files and URLs for grabbing data directly in the Aligner,  resulting in finished grabber tasks. In this case, the grabbing phase will be done automatically. This may save some time; however, this will likely result in lower quality and longer processing. We strongly recommend proceeding from the start of this workflow.*
 
@@ -152,13 +152,13 @@ Paralela includes a simple but powerful *Editor* to manage, review and clean up 
 
 Depending on the module (*Grabber*/*Aligner*), the *Editor* has a somewhat different layout; however, the main features and principles remain the same:
 
-- *Managing* – setting output file properties, such as project, domain, file name etc.
+- *Managing* – setting output file properties, such as project, domain, file name etc;
 
-- *Filtering* – displaying data fitting a specific condition
+- *Filtering* – displaying data fitting a specific condition;
 
-- *Checking in/out* – switching on/off lines which should be saved with / removed from output file
+- *Checking in/out* – switching on/off lines which should be saved with / removed from output file;
 
-- *Editing* – correcting the output text
+- *Editing* – correcting the output text.
 
 ## Managing file info
 
@@ -166,15 +166,15 @@ At the very top of the Editor form, you can find read-only and editable informat
 
 ![para16](para16.png)
 
-- You can find the source and target file names or website address
+- You can find the source and target file names or website address;
 
-- You can set the *Project* and *Domain* values to filter your tasks at Results tab
+- You can set the *Project* and *Domain* values to filter your tasks at Results tab;
 
-- You must set the source/target languages to download a TMX file
+- You must set the source/target languages to download a TMX file;
 
-- You can set a specific output file name, otherwise the guid will be used instead
+- You can set a specific output file name, otherwise the guid will be used instead;
 
-- You can write a comment, which can be seen in the Results file table at the info panel of a file
+- You can write a comment, which can be seen in the Results file table at the info panel of a file.
 
 To save information to the database, don't forget to click the *Update* button.
 
@@ -210,11 +210,11 @@ You can filter the data using predefined categories, such as *Matches ranges* or
 
 For *Matches range* we are using a score which defines how the target sentence of an aligned pair is lexically close to a source sentence. There are four categories here:
 
-- Equivalents – the same units occur in both source and target. By default, switched off.
+- Equivalents – the same units occur in both source and target. By default, switched off;
 
-- Best matches – well aligned sentences. By default, switched on.
+- Best matches – well aligned sentences. By default, switched on;
 
-- Good matches – lexically close, but not perfectly matching. By default, also switched on.
+- Good matches – lexically close, but not perfectly matching. By default, also switched on;
 
 - Worst matches – all the rest. By default, switched off.
 
