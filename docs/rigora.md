@@ -8,6 +8,52 @@ It is an interactive tool, and it ranks among the most powerful tools for workin
 
 You can visit the official website of **Rigora** here: [www.rigora.studio](http://www.rigora.studio)
 
+## Release Notes
+
+### Rigora Version 2.0: November 24, 2022
+
+**Changes introduced in Version 2.0:**
+
+- Extended hypertext tag support;
+
+- Revamped and expanded check customization capabilities;
+
+- All-new capability of compound logical check combinations;
+
+- Spelling: tags will no longer confuse the spell checker;
+
+**Hypertext Tags**
+
+Tags belonging to different categories will now be displayed differently:
+
+- XML tags ( <…> </…> <…/> )
+
+- Hypertext entries ( &…; )
+
+- Breaks ( \n \r \t )
+
+- Placeholders ( {…} %… )
+
+**Check Customization Capablilities**
+
+- Most of the check types can now be combined using logical operators (AND, OR, NOT). The **Check Property Editor** now displays a logical expression made of checks and operators as a tree;
+
+- Checks will generate localization error alerts inside the text as wavy underlines, and will add their own wavy underlines to messages created earlier by different checks;
+
+- By default, checks now have a set of constraints that can be disabled if necessary. For example, the "Source does not equal target" constraint serves to speed up checking during translation work, as it cuts off the overabundance of false-positive Partially untranslated, Spell check and GAR alerts;
+
+- The context menu on the **Check Results** panel now has the **Go To Check** command for instant access to the check (on the **Check** panel) that had caused a particular alert;
+
+- The **Search Scope** option can now be used for searching in the text or the tags separately, or in the text and tags at the same time;
+
+- Several **GAR** checks can be run at the same time, each with its own glossary and excludes;
+
+- Spell check will now run faster;
+
+- The **Ignore Untranslated Words** option has been added spell check, intended to reduce the amount of false-positive alerts, and is enabled by default;
+
+- Possible fixes are shown in the context menu of the **Check Results** panel, and will automatically replace the erroneous text when selected;
+
 ## Supported File Formats
 
 - Common bilingual file formats (XLIFF, SDLXLIFF, TMX, TTX)
@@ -242,49 +288,3 @@ The XLIFF format is especially convenient, as it enables visualizing a history o
 **Rigora** is indispensable in machine learning and data cleaning.
 
 It supports the **TSV** file format, which is a standard for ML training and inference, and is capable of using regular expressions to clean data, as well as 300 different types of filters.
-
-## Release Notes
-
-### Rigora Version 2.0.0: November 24, 2022
-
-**Changes introduced in Version 2.0.0:**
-
-- Extended hypertext tag support;
-
-- Revamped and expanded check customization capabilities;
-
-- All-new capability of compound logical check combinations;
-
-- Spelling: tags will no longer confuse the spell checker;
-
-**Hypertext Tags**
-
-Tags belonging to different categories will now be displayed differently:
-
-- XML tags ( <…> </…> <…/> )
-
-- Hypertext entries ( &…; )
-
-- Breaks ( \n \r \t )
-
-- Placeholders ( {…} %… )
-
-**Check Customization Capablilities**
-
-- Most of the check types can now be combined using logical operators (AND, OR, NOT). The **Check Property Editor** now displays a logical expression made of checks and operators as a tree;
-
-- Checks will generate localization error alerts inside the text as wavy underlines, and will add their own wavy underlines to messages created earlier by different checks;
-
-- By default, checks now have a set of constraints that can be disabled if necessary. For example, the "Source does not equal target" constraint serves to speed up checking during translation work, as it cuts off the overabundance of false-positive Partially untranslated, Spell check and GAR alerts;
-
-- The context menu on the **Check Results** panel now has the **Go To Check** command for instant access to the check (on the **Check** panel) that had caused a particular alert;
-
-- The **Search Scope** option can now be used for searching in the text or the tags separately, or in the text and tags at the same time;
-
-- Several **GAR** checks can be run at the same time, each with its own glossary and excludes;
-
-- Spell check will now run faster;
-
-- The **Ignore Untranslated Words** option has been added spell check, intended to reduce the amount of false-positive alerts, and is enabled by default;
-
-- Possible fixes are shown in the context menu of the **Check Results** panel, and will automatically replace the erroneous text when selected;
