@@ -38,31 +38,31 @@ The usual steps of the Paralela workflow are as follows:
 
 ## Data grabbing
 
-Navigate to the *Grabber* tab to select the type of data source to grab from.
+Navigate to the **Grabber** tab to select the type of data source to grab from.
 
-You can press *Upload* to grab from a file:
+You can press **Upload** to grab from a file:
 
 ![para1](para1.png)
 
-Or *URL* to grab from a website:
+Or **URL** to grab from a website:
 
 ![para2](para2.png)
 
-In case of using *URL*, you can also check the *Recursive* option to grab all subsequent pages starting from the provided URL, or leave it unchecked to only grab from the one page.
+In case of using **URL**, you can also check the **Recursive** option to grab all subsequent pages starting from the provided URL, or leave it unchecked to only grab from the one page.
 
 Next, select a language from the drop-down list:
 
 ![para3](para3.png)
 
-Language is used by the *Grabber* component to select a set of rules to apply when automatically cleaning up and segmenting the grabbed content. 
+Language is used by the **Grabber** component to select a set of rules to apply when automatically cleaning up and segmenting the grabbed content. 
 
-With your data source ready, you can start grabbing data by clicking the *Grab* button:
+With your data source ready, you can start grabbing data by clicking the **Grab** button:
 
 ![para4](para4.png)
 
 *Note: the Grabber component operates tasks one by one, devoting all resources to the current one. Your tasks will be queued and then processed in order.*
 
-The *Processed Tasks* table will contain all finished tasks:
+The **Processed Tasks** table will contain all finished tasks:
 
 ![para5](para5.png)
 
@@ -76,11 +76,11 @@ Hovering over the '(?)' icon in this table displays expiration info for the file
 
 ## Reviewing grabbed data
 
-You can access the data that has been grabbed from a source by clicking on its item in the *File Name* column. On the screen that follows, you can review and edit the data:
+You can access the data that has been grabbed from a source by clicking on its item in the **File Name** column. On the screen that follows, you can review and edit the data:
 
 ![para6](para6.png)
 
-After you are done with the particular set of data, press *Save Changes*. The original file will be overwritten, and the corresponding task will be moved to the *Reviewed Tasks* table: 
+After you are done with the particular set of data, press **Save Changes**. The original file will be overwritten, and the corresponding task will be moved to the **Reviewed Tasks** table: 
 
 ![para7](para7.png)
 
@@ -92,11 +92,11 @@ Navigate to the Aligner tab:
 
 You will see the following buttons:
 
-- *Select* to select finished grabber tasks for the *Aligner*;
+- **Select** to select finished grabber tasks for the **Aligner**;
 
-- *Upload* to upload files;
+- **Upload** to upload files;
 
-- *URL* to align websites.
+- **URL** to align websites.
 
 *Note: you can skip the earlier steps and provide files and URLs for grabbing data directly in the Aligner,  resulting in finished grabber tasks. In this case, the grabbing phase will be done automatically. This may save some time; however, this will likely result in lower quality and longer processing. We strongly recommend proceeding from the start of this workflow.*
 
@@ -108,13 +108,13 @@ You will need to designate grabber tasks as source and target for the alignment 
 
 *Note: You can select multiple tasks for both source and target, but the Aligner always creates one file as output. If you need to align many files one-to-one, send them for processing separately.*
 
-Next, send the data for processing by clicking the *Align* button:
+Next, send the data for processing by clicking the **Align** button:
 
 ![para11](para11.png)
 
 *Note: the Aligner component also operates tasks one by one, devoting all resources to the current one. Your tasks will be queued and then processed in order.*
 
-When a task is ready, it is listed in the *Processed Tasks* table:
+When a task is ready, it is listed in the **Processed Tasks** table:
 
 ![para12](para12.png)
 
@@ -128,7 +128,7 @@ Additionally, the full list of grabber tasks used in an alignment may now be see
 
 ## Reviewing aligned data
 
-You can access the data that resulted from an alignment operation by clicking on its item in the *File Name* column. On the screen that follows, you can review and edit the data:
+You can access the data that resulted from an alignment operation by clicking on its item in the **File Name** column. On the screen that follows, you can review and edit the data:
 
 ![para13](para13.png)
 
@@ -136,29 +136,29 @@ Searching can be done for the source or target fields separately, or for pairs:
 
 ![para31](para31.png)
 
-After you are done with the particular set of data, press *Save Changes*. The original file will be overwritten, and the corresponding task will be moved to the *Results* tab:
+After you are done with the particular set of data, press **Save Changes**. The original file will be overwritten, and the corresponding task will be moved to the **Results** tab:
 
 ![para14](para14.png)
 
 ## TM Downloading
 
-You can download a TM file from the *Editor* by clicking the *TM* button:
+You can download a TM file from the **Editor** by clicking the **TM** button:
 
 ![para15](para15.png)
 
 # The Editor
 
-Paralela includes a simple but powerful *Editor* to manage, review and clean up output data.
+Paralela includes a simple but powerful **Editor** to manage, review and clean up output data.
 
-Depending on the module (*Grabber*/*Aligner*), the *Editor* has a somewhat different layout; however, the main features and principles remain the same:
+Depending on the module (**Grabber**/**Aligner**), the **Editor** has a somewhat different layout; however, the main features and principles remain the same:
 
-- *Managing* – setting output file properties, such as project, domain, file name etc;
+- **Managing** – setting output file properties, such as project, domain, file name etc;
 
-- *Filtering* – displaying data fitting a specific condition;
+- **Filtering** – displaying data fitting a specific condition;
 
-- *Checking in/out* – switching on/off lines which should be saved with / removed from output file;
+- **Checking in/out** – switching on/off lines which should be saved with / removed from output file;
 
-- *Editing* – correcting the output text.
+- **Editing** – correcting the output text.
 
 ## Managing file info
 
@@ -168,7 +168,7 @@ At the very top of the Editor form, you can find read-only and editable informat
 
 - You can find the source and target file names or website address;
 
-- You can set the *Project* and *Domain* values to filter your tasks at Results tab;
+- You can set the **Project** and **Domain** values to filter your tasks at Results tab;
 
 - You must set the source/target languages to download a TMX file;
 
@@ -176,13 +176,13 @@ At the very top of the Editor form, you can find read-only and editable informat
 
 - You can write a comment, which can be seen in the Results file table at the info panel of a file.
 
-To save information to the database, don't forget to click the *Update* button.
+To save information to the database, don't forget to click the **Update** button.
 
 ## Filtering via search
 
 You can filter the data using a search query or with a predefined filter.
 
-To display only the lines that contain a certain word or phrase, simply enter the query into the *Search* field:
+To display only the lines that contain a certain word or phrase, simply enter the query into the **Search** field:
 
 ![para17](para17.png)
 
@@ -198,17 +198,17 @@ https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 
 https://en.wikipedia.org/wiki/Regular_expression
 
-You can use the arrow buttons to find a next occurrence and replace it with the query from the *Replace by* field:
+You can use the arrow buttons to find a next occurrence and replace it with the query from the **Replace by** field:
 
 ![para19](para19.png)
 
 ## Filtering by category
 
-You can filter the data using predefined categories, such as *Matches ranges* or *Mismatches size*: 
+You can filter the data using predefined categories, such as **Matches ranges** or **Mismatches size**: 
 
 ![para20](para20.png)
 
-For *Matches range* we are using a score which defines how the target sentence of an aligned pair is lexically close to a source sentence. There are four categories here:
+For **Matches range** we are using a score which defines how the target sentence of an aligned pair is lexically close to a source sentence. There are four categories here:
 
 - Equivalents – the same units occur in both source and target. By default, switched off;
 
@@ -218,7 +218,7 @@ For *Matches range* we are using a score which defines how the target sentence o
 
 - Worst matches – all the rest. By default, switched off.
 
-You can also display pairs which are of different size (in characters) by selecting the *Mismatching* option. The values for matching ranges and the size mismatching ratio are defined in project options:
+You can also display pairs which are of different size (in characters) by selecting the **Mismatching** option. The values for matching ranges and the size mismatching ratio are defined in project options:
 
 ![para21](para21.png)
 
@@ -232,7 +232,7 @@ You can switch all the filtered lines on or off at the same time by clicking the
 
 ![para23](para23.png)
 
-To apply your selection, click the *Save Changes* button. The file will be overwritten, removing all the unchecked lines. 
+To apply your selection, click the **Save Changes** button. The file will be overwritten, removing all the unchecked lines. 
 
 ## Editing
 
@@ -244,7 +244,7 @@ To finish editing, just click somewhere outside of the current text field or pre
 
 # Projects
 
-*Projects* are there help you to manage your tasks.
+**Projects** are there help you to manage your tasks.
 
 ## Creating projects
 
@@ -252,13 +252,13 @@ You can create a new project at your account page:
 
 ![para25](para25.png)
 
-Simply fill in the *Project Name* and optionally the *Comment* fields, then click the *Create* button. A project page will be opened, where you will be able to configure the options of your project:
+Simply fill in the **Project Name** and optionally the **Comment** fields, then click the **Create** button. A project page will be opened, where you will be able to configure the options of your project:
 
 ![para26](para26.png)
 
 ## Using projects
 
-You can use projects to filter your tasks at the *Results* tab:
+You can use projects to filter your tasks at the **Results** tab:
 ![para27](para27.png)
 
 # Frequently Asked Questions
@@ -269,23 +269,23 @@ It's quite simple. First, you can register your email account by following this 
 
 ### How much does Paralela cost?
 
-Unlimited access to *Paralela* costs $1000 a year per user. Email our sales team (sales-team@logrusglobal.com) to arrange a purchase.
+Unlimited access to **Paralela** costs $1000 a year per user. Email our sales team (sales-team@logrusglobal.com) to arrange a purchase.
 
 ### Why do I need to use both Grabber and Aligner? 
 
-The primary components of *Paralela* are these two tools: *Grabber* and *Aligner*.
+The primary components of **Paralela** are these two tools: **Grabber** and **Aligner**.
 
-*Grabber* is a very powerful and effective tool for extracting the textual content from documents or webpages. It also enables you to manually clean files up before sending them to *Aligner*. As a result, your TM becomes cleaner and much more useful overall.
+**Grabber** is a very powerful and effective tool for extracting the textual content from documents or webpages. It also enables you to manually clean files up before sending them to **Aligner**. As a result, your TM becomes cleaner and much more useful overall.
 
-*Aligner*, just as its name implies, automatically aligns the textual content in segments and lets you export your TM. 
+**Aligner**, just as its name implies, automatically aligns the textual content in segments and lets you export your TM. 
 
-By using these tools in combination, you achieve the best possible performance of *Paralela* without implication or errors. 
+By using these tools in combination, you achieve the best possible performance of **Paralela** without implication or errors. 
 
 ### Can I skip Grabber and upload my texts directly to Aligner?
 
-Yes, but it is not recommended. Text extraction from your files or webpages is a necessary step in the alignment process, and the tool that serves this function is *Grabber*.
+Yes, but it is not recommended. Text extraction from your files or webpages is a necessary step in the alignment process, and the tool that serves this function is **Grabber**.
 
-If any materials are uploaded directly to *Aligner*, it will activate *Grabber* to extract the textual content. During this stage, unexpected implications may occur due to corrupted encoding or file formats errors, disrupting the queue of tasks in *Aligner* for a long while. Such disruptions can be avoided if detected on an earlier stage, while processing data in *Grabber*.
+If any materials are uploaded directly to **Aligner**, it will activate **Grabber** to extract the textual content. During this stage, unexpected implications may occur due to corrupted encoding or file formats errors, disrupting the queue of tasks in **Aligner** for a long while. Such disruptions can be avoided if detected on an earlier stage, while processing data in **Grabber**.
 
 ### Why does Paralela fail to grab a particular webpage?
 
@@ -293,16 +293,16 @@ Websites and webpages can be static or dynamic. A static website displays stable
 
 In a dynamic website, on the other hand, the pages are generated in real time, and the content is constantly updated in response to user actions and data analytics.
 
-Hence, *Paralela* (like most tools that we know of) often cannot deliver stable results for websites with a dynamic structure.
+Hence, **Paralela** (like most tools that we know of) often cannot deliver stable results for websites with a dynamic structure.
 
 ### I cannot find the TM button to download the TMX file. What can I do? 
 
-Normally, once you open your files with *Aligner*'s Editor, you can see three buttons (X, TM, XL) in the top right side of the screen. The TM button enables you to download the aligned TMX file. If you cannot see the buttons on that screen, you may need to change your screen display settings or to simply zoom out until they become visible.\
+Normally, once you open your files with **Aligner**'s Editor, you can see three buttons (X, TM, XL) in the top right side of the screen. The TM button enables you to download the aligned TMX file. If you cannot see the buttons on that screen, you may need to change your screen display settings or to simply zoom out until they become visible.\
 
 ### What is the “Copy File” option in the Editors of Grabber and Aligner?
 
-The *Copy File* option enables you to save the current version of your file in our cloud server. With this, you can make any changes you like while preserving a copy of the original file (or of a previous file version).
+The **Copy File** option enables you to save the current version of your file in our cloud server. With this, you can make any changes you like while preserving a copy of the original file (or of a previous file version).
 
 ### Can I merge segments? 
 
-*Paralela* recognizes the sentence as a linguistic unit. This is why each sentence is a segment, and there is no option to merge or separate segments. However, you can still merge segments manually by copying and pasting the content from one segment to another and unticking (deleting) the empty segment that is left.
+**Paralela** recognizes the sentence as a linguistic unit. This is why each sentence is a segment, and there is no option to merge or separate segments. However, you can still merge segments manually by copying and pasting the content from one segment to another and unticking (deleting) the empty segment that is left.
