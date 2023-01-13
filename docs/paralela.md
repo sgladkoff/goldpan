@@ -22,6 +22,52 @@ You can make good use of **Paralela** for the following tasks:
 
 - LSP or freelancer rendering data mining and data cleaning services for customers.
 
+# Frequently Asked Questions
+
+### How do I gain access to Paralela?
+
+It's quite simple. First, you can register your email account by following this link: https://paralela.logrusglobal.com/register. After completing the registration, you can contact our sales team (sales-team@logrusglobal.com) to activate your account. 
+
+### How much does Paralela cost?
+
+Unlimited access to **Paralela** costs $1000 a year per user. Email our sales team (sales-team@logrusglobal.com) to arrange a purchase.
+
+### Why do I need to use both Grabber and Aligner? 
+
+The primary components of **Paralela** are these two tools: **Grabber** and **Aligner**.
+
+**Grabber** is a very powerful and effective tool for extracting the textual content from documents or webpages. It also enables you to manually clean files up before sending them to **Aligner**. As a result, your TM becomes cleaner and much more useful overall.
+
+**Aligner**, just as its name implies, automatically aligns the textual content in segments and lets you export your TM. 
+
+By using these tools in combination, you achieve the best possible performance of **Paralela** without implication or errors. 
+
+### Can I skip Grabber and upload my texts directly to Aligner?
+
+Yes, but it is not recommended. Text extraction from your files or webpages is a necessary step in the alignment process, and the tool that serves this function is **Grabber**.
+
+If any materials are uploaded directly to **Aligner**, it will activate **Grabber** to extract the textual content. During this stage, unexpected implications may occur due to corrupted encoding or file format errors, disrupting the queue of tasks in **Aligner** for a long while. Such disruptions can be avoided if detected on an earlier stage while processing data in **Grabber**.
+
+### Why does Paralela fail to grab a particular webpage?
+
+Websites and webpages can be static or dynamic. A static website displays stable content which is the same for all users, regardless of who they are, where they are from, and which browser they are using.
+
+In a dynamic website, on the other hand, the pages are generated in real time, and the content is constantly updated in response to user actions and data analytics.
+
+Hence, **Paralela** (like most tools that we know of) often cannot deliver stable results for websites with a dynamic structure.
+
+### I cannot find the TM button to download the TMX file. What can I do? 
+
+Normally, once you open your files with **Aligner**'s Editor, you can see three buttons (X, TM, XL) in the top right side of the screen. The TM button enables you to download the aligned TMX file. If you cannot see the buttons on that screen, you may need to change your screen display settings or to simply zoom out until they become visible.
+
+### What is the “Copy File” option in the Editors of Grabber and Aligner?
+
+The **Copy File** option enables you to save the current version of your file in our cloud server. With this, you can make any changes you like while preserving a copy of the original file (or of a previous file version).
+
+### Can I merge segments? 
+
+**Paralela** recognizes the sentence as a linguistic unit. This is why each sentence is a segment, and there is no option to merge or separate segments. However, you can still merge segments manually by copying and pasting the content from one segment to another and unticking (deleting) the empty segment that is left.
+
 # Paralela workflow in a nutshell
 
 The usual steps of the Paralela workflow are as follows:
@@ -260,49 +306,3 @@ Simply fill in the **Project Name** and optionally the **Comment** fields, then 
 
 You can use projects to filter your tasks at the **Results** tab:
 ![para27](para27.png)
-
-# Frequently Asked Questions
-
-### How do I gain access to Paralela?
-
-It's quite simple. First, you can register your email account by following this link: https://paralela.logrusglobal.com/register. After completing the registration, you can contact our sales team (sales-team@logrusglobal.com) to activate your account. 
-
-### How much does Paralela cost?
-
-Unlimited access to **Paralela** costs $1000 a year per user. Email our sales team (sales-team@logrusglobal.com) to arrange a purchase.
-
-### Why do I need to use both Grabber and Aligner? 
-
-The primary components of **Paralela** are these two tools: **Grabber** and **Aligner**.
-
-**Grabber** is a very powerful and effective tool for extracting the textual content from documents or webpages. It also enables you to manually clean files up before sending them to **Aligner**. As a result, your TM becomes cleaner and much more useful overall.
-
-**Aligner**, just as its name implies, automatically aligns the textual content in segments and lets you export your TM. 
-
-By using these tools in combination, you achieve the best possible performance of **Paralela** without implication or errors. 
-
-### Can I skip Grabber and upload my texts directly to Aligner?
-
-Yes, but it is not recommended. Text extraction from your files or webpages is a necessary step in the alignment process, and the tool that serves this function is **Grabber**.
-
-If any materials are uploaded directly to **Aligner**, it will activate **Grabber** to extract the textual content. During this stage, unexpected implications may occur due to corrupted encoding or file format errors, disrupting the queue of tasks in **Aligner** for a long while. Such disruptions can be avoided if detected on an earlier stage while processing data in **Grabber**.
-
-### Why does Paralela fail to grab a particular webpage?
-
-Websites and webpages can be static or dynamic. A static website displays stable content which is the same for all users, regardless of who they are, where they are from, and which browser they are using.
-
-In a dynamic website, on the other hand, the pages are generated in real time, and the content is constantly updated in response to user actions and data analytics.
-
-Hence, **Paralela** (like most tools that we know of) often cannot deliver stable results for websites with a dynamic structure.
-
-### I cannot find the TM button to download the TMX file. What can I do? 
-
-Normally, once you open your files with **Aligner**'s Editor, you can see three buttons (X, TM, XL) in the top right side of the screen. The TM button enables you to download the aligned TMX file. If you cannot see the buttons on that screen, you may need to change your screen display settings or to simply zoom out until they become visible.
-
-### What is the “Copy File” option in the Editors of Grabber and Aligner?
-
-The **Copy File** option enables you to save the current version of your file in our cloud server. With this, you can make any changes you like while preserving a copy of the original file (or of a previous file version).
-
-### Can I merge segments? 
-
-**Paralela** recognizes the sentence as a linguistic unit. This is why each sentence is a segment, and there is no option to merge or separate segments. However, you can still merge segments manually by copying and pasting the content from one segment to another and unticking (deleting) the empty segment that is left.
