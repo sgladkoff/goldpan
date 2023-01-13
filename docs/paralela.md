@@ -285,7 +285,7 @@ By using these tools in combination, you achieve the best possible performance o
 
 Yes, but it is not recommended. Text extraction from your files or webpages is a necessary step in the alignment process, and the tool that serves this function is **Grabber**.
 
-If any materials are uploaded directly to **Aligner**, it will activate **Grabber** to extract the textual content. During this stage, unexpected implications may occur due to corrupted encoding or file formats errors, disrupting the queue of tasks in **Aligner** for a long while. Such disruptions can be avoided if detected on an earlier stage, while processing data in **Grabber**.
+If any materials are uploaded directly to **Aligner**, it will activate **Grabber** to extract the textual content. During this stage, unexpected implications may occur due to corrupted encoding or file format errors, disrupting the queue of tasks in **Aligner** for a long while. Such disruptions can be avoided if detected on an earlier stage, while processing data in **Grabber**.
 
 ### Why does Paralela fail to grab a particular webpage?
 
