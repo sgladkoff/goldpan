@@ -297,7 +297,7 @@ Hence, **Paralela** (like most tools that we know of) often cannot deliver stabl
 
 ### I cannot find the TM button to download the TMX file. What can I do? 
 
-Normally, once you open your files with **Aligner**'s Editor, you can see three buttons (X, TM, XL) in the top right side of the screen. The TM button enables you to download the aligned TMX file. If you cannot see the buttons on that screen, you may need to change your screen display settings or to simply zoom out until they become visible.\
+Normally, once you open your files with **Aligner**'s Editor, you can see three buttons (X, TM, XL) in the top right side of the screen. The TM button enables you to download the aligned TMX file. If you cannot see the buttons on that screen, you may need to change your screen display settings or to simply zoom out until they become visible.
 
 ### What is the “Copy File” option in the Editors of Grabber and Aligner?
 
