@@ -82,28 +82,6 @@ When a conference is ongoing, the **Conference Manager** has access to the **Mut
 
 ![Conference Manager](ui_conference_manager.png)
 
-### Managing Conferences
-
-We've made the UI for managing conference to be as intuitive as possible. If you have been empowered to manage conferences, you can access the management page by simply clicking the **Manage Conferences** link in the upper right corner of the screen.
-
-![Management 1](manage_conf_1.png)
-*The Management Screen*
-
-Once there, you can create a new conference by writing its name in the text box and pressing the **Create Conference** button. If there are existing conferences, you can jump to the editing screen of a particular conference by clicking the link in its name, as well as close or delete them with the appropriate buttons.
-
-![Management 2](manage_conf_2.png)
-*The Editing Screen*
-
-On the editing screen, you can control every aspect of the conference:
-
-- Set its name, or rename it at any time in the top section;
-- Set the time period when the conference will be available using the **Schedule**  section;
-- Set the language pair, or pairs, that will be used for interpreting - as many as you need, in the **Interpreted Language Pairs** section;
-- Upload a picture to serve as a logo that all invitees will see in the top right corner of their UI, in the **Logo** section;
-- Upload any files that you want your invitees (besides the **Attendee (Event Local)** role) to have access to, in the **Additional Materials** section;
-
-In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected.
-
 ## Interpreter
 
 As an **Interpreter**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video (active speaker only) and audio.
@@ -196,6 +174,28 @@ The following UI elements and functions are available to a **Presenter**:
 
 
 
+# Creating and Managing Conferences
+
+We've made the UI for managing conference to be as intuitive as possible. If you have been empowered to manage conferences, you can access the management page by simply clicking the **Manage Conferences** link in the upper right corner of the screen.
+
+![Management 1](manage_conf_1.png)
+*The Management Screen*
+
+Once there, you can create a new conference by writing its name in the text box and pressing the **Create Conference** button. If there are existing conferences, you can jump to the editing screen of a particular conference by clicking the link in its name, as well as close or delete them with the appropriate buttons.
+
+![Management 2](manage_conf_2.png)
+*The Editing Screen*
+
+On the editing screen, you can control every aspect of the conference:
+
+- Set its name, or rename it at any time in the top section;
+- Set the time period when the conference will be available using the **Schedule**  section;
+- Set the language pair, or pairs, that will be used for interpreting - as many as you need, in the **Interpreted Language Pairs** section;
+- Upload a picture to serve as a logo that all invitees will see in the top right corner of their UI, in the **Logo** section;
+- Upload any files that you want your invitees (besides the **Attendee (Event Local)** role) to have access to, in the **Additional Materials** section;
+
+In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected.
+
 
 
 
@@ -240,7 +240,19 @@ Additionally, any **Interpreter** will be required to register an account in the
 
 When you are done, press the **Connect** button (9) to enter the conference.
 
-## Managing Conference Settings
+## Loopback Testing
+
+The current version of **Interpretisto** includes a **loopback testing** function. It is accessible through the link that you can take prior to connecting to a conference:
+
+![loop1](loop1.png)
+
+This function is intended for testing the quality of your connection to the server, as well as your audio and video streams. You will be asked to provide a testing name before entering the loopback test:
+
+![loop2](loop2.png)
+
+Then, **Interpretisto** will create a conference featuring a single virtual remote participant with your audio and video streams, enabling you to check if they work correctly.
+
+## Conference Settings
 
 After you have connected to a conference, the **Settings** menu, accessible via a button on the vertical panel, becomes available:
 
@@ -322,18 +334,6 @@ A conference may be cancelled from the cancellation form, available by selecting
 To confirm your decision, press the **Send Cancellation** button on the form. As you do so, the conference will be removed from the calendar and from the **Interpretisto** server:
 
 ![Cancel](inter_out_11.jpg)
-
-# Loopback Testing
-
-The current version of **Interpretisto** includes a **loopback testing** function. It is accessible through the link that you can take prior to connecting to a conference:
-
-![loop1](loop1.png)
-
-This function is intended for testing the quality of your connection to the server, as well as your audio and video streams. You will be asked to provide a testing name before entering the loopback test:
-
-![loop2](loop2.png)
-
-Then, **Interpretisto** will create a conference featuring a single virtual remote participant with your audio and video streams, enabling you to check if they work correctly.
 
 
 
