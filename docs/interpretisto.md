@@ -1,4 +1,4 @@
-# Interpretisto: the simultaneous interpreting platform
+# Interpretisto: a Simultaneous Interpreting Platform
 
 **Interpretisto** is a platform that enables you to conduct conference calls and host online and onsite events with simultaneous interpretation.
 
@@ -14,7 +14,7 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 
 
 
-## Types of Conferences
+# Types of Conferences
 
 Interpretisto can be used for creating conferences of any kind. There are no strict pre-set rules, but possible variations include:
 
@@ -30,7 +30,7 @@ Interpretisto can be used for creating conferences of any kind. There are no str
 
 
 
-## Conference Participants Roles
+# Conference Participants Roles
 
 **Interpretisto** enables its users to participate in conferences in a variety of roles. Links and join codes are generated for every applicable role in a conference.
 
@@ -41,7 +41,7 @@ Interpretisto can be used for creating conferences of any kind. There are no str
 - Participant: the role for an equal participant during a meeting-style conference ([Functions](http://logrus.co/#/interpretisto?id=participant));
 - Presenter: the role for a presenter during a webinar-style conference ([Functions](http://logrus.co/#/interpretisto?id=presenter));
 
-### Attendee (Event Local)
+## Attendee (Event Local)
 
 As an **Attendee (Event Local)**, you can only listen to any available **Interpreters** that translate into the language of your choice.
 
@@ -52,7 +52,7 @@ The following UI elements and functions are available to an **Attendee (Event Lo
 1. *Interpretation language selection*
 2. *Interpretation On/off*
 
-### Attendee (Event Remote)
+## Attendee (Event Remote)
 
 As an **Attendee (Event Remote)**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video and audio, as well as monitor the chat. 
 
@@ -74,7 +74,7 @@ The following UI elements and functions are available to an **Attendee (Event Re
 8. *Chat Window*
 9. *Leave Conference*
 
-### Conference Manager
+## Conference Manager
 
 As a **Conference Manager**, you are enabled to set the parameters of the conference (or conferences) entrusted to you.
 
@@ -82,7 +82,7 @@ When a conference is ongoing, the **Conference Manager** has access to the **Mut
 
 ![Conference Manager](ui_conference_manager.png)
 
-#### Managing Conferences
+### Managing Conferences
 
 We've made the UI for managing conference to be as intuitive as possible. If you have been empowered to manage conferences, you can access the management page by simply clicking the **Manage Conferences** link in the upper right corner of the screen.
 
@@ -104,7 +104,7 @@ On the editing screen, you can control every aspect of the conference:
 
 In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected.
 
-### Interpreter
+## Interpreter
 
 As an **Interpreter**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video (active speaker only) and audio.
 
@@ -138,7 +138,7 @@ The following UI elements and functions are available to an **Interpreter**:
 14. *My Camera View (present due to the My Camera View switch being put in the ON position)*
 15. *Leave Conference*
 
-### Participant
+## Participant
 
 As a **Participant**, you can, by default:
 
@@ -168,7 +168,7 @@ The following UI elements and functions are available to a **Participant**:
 11. *Chat Window*
 12. *Leave Conference*
 
-### Presenter
+## Presenter
 
 As a **Presenter**, you can stream your video and audio, as well as share your screen.
 
@@ -206,7 +206,7 @@ The following UI elements and functions are available to a **Presenter**:
 
 
 
-## Connecting to Conference
+# Connecting to Conference
 
 **Interpretisto** provides a unique set of available functions for each user role, as all of them differ in the types of data they can stream and receive.
 
@@ -240,7 +240,7 @@ Additionally, any **Interpreter** will be required to register an account in the
 
 When you are done, press the **Connect** button (9) to enter the conference.
 
-### Managing Conference Settings
+## Managing Conference Settings
 
 After you have connected to a conference, the **Settings** menu, accessible via a button on the vertical panel, becomes available:
 
@@ -277,7 +277,7 @@ Additionally, for conference managers, there are quick links to the conference p
 
 
 
-## MS Outlook Add-On
+# MS Outlook Add-On
 
 A new addition to the capabilities of **Interpretisto** is an add-on for the **Microsoft Outlook** e-mail management system. Its function is to set up scheduled conferences in **Interpretisto**.
 
@@ -323,7 +323,7 @@ To confirm your decision, press the **Send Cancellation** button on the form. As
 
 ![Cancel](inter_out_11.jpg)
 
-## Loopback Testing
+# Loopback Testing
 
 The current version of **Interpretisto** includes a **loopback testing** function. It is accessible through the link that you can take prior to connecting to a conference:
 
@@ -347,9 +347,9 @@ Then, **Interpretisto** will create a conference featuring a single virtual remo
 
 
 
-## Advanced Interpretisto Tips
+# Advanced Interpretisto Tips
 
-### Sharing a single application window
+## Sharing a single application window
 
 You can share a single application window instead of your entire screen:
 
@@ -368,7 +368,7 @@ You can share a single application window instead of your entire screen:
 
 
 
-## Technical Requirements
+# Technical Requirements
 
 The various user roles in **Interpretisto** have differing sets of requirements to your connection speed,  software and hardware:
 
@@ -396,9 +396,9 @@ If you're using Firefox, you'll also need to grant **Interpretisto** permission 
 
 
 
-## Technical Support
+# Technical Support
 
-### Troubleshooting Audio and Video Delays
+## Troubleshooting Audio and Video Delays
 
 You can send your **Interpretisto** diagnostic data to the **Interpretisto Tech Support Team** to determine the cause of delays. Follow the instruction steps below:
 
