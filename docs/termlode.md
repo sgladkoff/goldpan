@@ -17,7 +17,12 @@ In the sense of architecture, it has the following components:
 - The **Prospector** Cloud Front End;
 - The **TermLode** **Trados** Connector DLL.
 
-## Data Model
+
+
+
+
+
+# Data Model
 
 The **TermLode** data model conforms to the TBX standard (ISO 30042). There’s a **Concept** in the root of the hierarchy, and **Terms** in various languages descend from the root, as shown on the figure:
 
@@ -25,9 +30,20 @@ The **TermLode** data model conforms to the TBX standard (ISO 30042). There’s 
 
 There's a One-to-Many relationship between a **Concept** and multiple **Terms** is any language, and a Many-to-Many relationship between **Terms** in different languages. This data model reflects the situation when one source term can have several terms for a target language and vice versa.
 
-## User Experience
 
-### TermLode
+
+
+
+
+# Functionality
+
+
+
+
+
+
+
+## TermLode
 
 As you enter the **TermLode** page, the **Terminology Database Manager** will be the first screen you see. 
 
@@ -84,7 +100,13 @@ The drop-down menu over the **Term Filter** is used to switch the top frame betw
 
 ![termlode_add1](termlode_add_6.png)
 
-### OmniTran
+
+
+
+
+
+
+## OmniTran
 
 The **TermLode** data model organizes collections of **Terms** into **Glossaries** by client, as well as by topic. **OmniTran**, a global search front end web interface, enables you to carry out searches for a **Term** across multiple **Glossaries** at once.
 
@@ -94,7 +116,14 @@ You can select just a single **Glossary** or source/target language, or any numb
 
 ![termlode_f7](termlode_f7.png)
 
-### Prospector
+
+
+
+
+
+
+
+## Prospector
 
 **Prospector** is an automatic English terminology extraction tool with possibility to review and manually filter terminology candidates.
 
@@ -106,7 +135,14 @@ You will see the **Terminology Candidates** window, with all the extracted **Ter
 
 ![termlode_add1](termlode_add_10.png)
 
-## Architecture
+
+
+
+
+
+
+
+# Architecture
 
 **TermLode** has an SQL-based backen and a .NET-based frontend, which is an ideal architecture for cloud deployment:
 
