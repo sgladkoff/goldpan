@@ -139,7 +139,7 @@ After running a check, you can export the resulting report as an XLS file.
 
 
 
-## Glossary Adherence Review (GAR) Checks
+## Glossary Adherence Review (GAR)
 
 We've written a short list of instructions for cases where you only want to run GAR checks using a particular **TMX** file on your project.
 
