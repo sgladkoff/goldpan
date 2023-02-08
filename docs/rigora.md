@@ -16,9 +16,9 @@ You can visit the official website of **Rigora** here: [www.rigora.studio](http:
 
 # Release Notes
 
-## Rigora Version 2.0: November 24, 2022
+## Version 2.0: November 24, 2022
 
-**Changes introduced in Version 2.0:**
+**Features introduced in this version:**
 
 - Extended hypertext tag support;
 
@@ -66,11 +66,11 @@ Tags belonging to different categories will now be displayed differently:
 
 # Supported File Formats
 
-- Common bilingual file formats (XLIFF, SDLXLIFF, TMX, TTX)
+- Common bilingual file formats (**SDLXLIFF**, **TMX**, **TTX**, **XLIFF**)
 
-- Excel workbooks
+- Excel workbooks (**XLSX**)
 
-- Configurable parsing of arbitrary XML and delimited text formats
+- Configurable parsing of arbitrary **XML** and **delimited text formats (TXT)**
 
 ![rigor1](rigor1.png)
 *Some of the file types supported by Rigora*
