@@ -163,6 +163,13 @@ In the **TMX File** window, name your new check and select the **TMX** file.
 
 After this, you can launch the new check by right-clicking it and selecting the **Run** option. Any other check can be launched the same way.
 
+### Additional Check Results Window Functionality for GAR
+
+As you run GAR checks in **Rigora**, you may need to copy and paste information from the glossary into one or more translation strings.
+
+Click on a **Check Results** string containing glossary information while holding down ALT to copy it into the clipboard. Then, you'll be able to quickly paste this information wherever you want.
+
+
 
 
 
@@ -219,15 +226,9 @@ Rigora will then highlight any misspelled words in Target.
 
 
 
-# Export / Import Features
+# Content Export / Import Features
 
 **Rigora** is very good at exporting various file formats. For example, you can export the contents of a XLIFF file as an Excel, Word or TMX file, or export unique records only to remove duplicates.
-
-## Additional Check Results Window Functionality for GAR
-
-As you run GAR checks in **Rigora**, you may need to copy and paste information from the glossary into one or more translation strings.
-
-Click on a **Check Results** string containing glossary information while holding down ALT to copy it into the clipboard. Then, you'll be able to quickly paste this information wherever you want.
 
 
 
