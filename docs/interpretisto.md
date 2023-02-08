@@ -34,12 +34,12 @@ Interpretisto can be used for creating conferences of any kind. There are no str
 
 **Interpretisto** enables its users to participate in conferences in a variety of roles. Links and join codes are generated for every applicable role in a conference.
 
-- Attendee (Event Local): the role of an attendee during a physical foreign-language conference ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-remote));
-- Attendee (Event Remote): the role of an attendee during a webinar-style conference ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-local));
-- Conference Manager: the role for managing a particular conference or conferences ([Functions](http://logrus.co/#/interpretisto?id=conference-manager));
-- Interpreter: the role of an interpreter, essential for any multilingual conference ([Functions](http://logrus.co/#/interpretisto?id=interpreter));
-- Participant: the role for an equal participant during a meeting-style conference ([Functions](http://logrus.co/#/interpretisto?id=participant));
-- Presenter: the role for a presenter during a webinar-style conference ([Functions](http://logrus.co/#/interpretisto?id=presenter));
+- Attendee (Event Local): the role of an attendee during a physical foreign-language conference ([See details](http://logrus.co/#/interpretisto?id=attendee-event-remote));
+- Attendee (Event Remote): the role of an attendee during a webinar-style conference ([See details](http://logrus.co/#/interpretisto?id=attendee-event-local));
+- Conference Manager: the role for managing a particular conference or conferences ([See details](http://logrus.co/#/interpretisto?id=conference-manager));
+- Interpreter: the role of an interpreter, essential for any multilingual conference ([See details](http://logrus.co/#/interpretisto?id=interpreter));
+- Participant: the role for an equal participant during a meeting-style conference ([See details](http://logrus.co/#/interpretisto?id=participant));
+- Presenter: the role for a presenter during a webinar-style conference ([See details](http://logrus.co/#/interpretisto?id=presenter));
 
 ## Attendee (Event Local)
 
