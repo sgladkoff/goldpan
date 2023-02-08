@@ -49,4 +49,4 @@ A **Reviewer** can mark several errors in each translation unit, and their selec
 
 # Downloading the LQA report
 
-As the review process is finished, the **Reviewer** marks the job as complete. Then, the **Requestor** becomes able to see the results and to download an **XLS** scorecard with the results of the evaluation (according to the  metric selected).
+As the review process is finished, the **Reviewer** marks the job as complete. Then, the **Requestor** becomes able to see the results and to download an **XLSX** scorecard with the results of the evaluation (according to the  metric selected).
