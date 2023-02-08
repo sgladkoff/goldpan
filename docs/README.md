@@ -1,4 +1,4 @@
-# Logrus Global Language Cloud - Overview
+# Logrus Global Localization Cloud - Overview
 
 Logrus Global Localization Cloud is a cloud-based universe of tools and services created to support translation and localization workflow in the era of diverse, both cloud-based and desktop toolset where information worker has to operate with often incompatible tools and formats.
 
@@ -13,7 +13,7 @@ With the tools of Logrus Global Language cloud you can:
 * run simpler workflows
 * do things that previously required very expensive solutions
 
-The Logrus Global Language Cloud includes the following tools:
+The Logrus Global Localization Cloud includes the following tools:
 
 * [Goldpan](goldpan.md) - a free, simple to use yet powerful desktop TMX/TBX Editor
 * [Hakutaku](hakutaku.md) - a cloud-based storage and management system for TM with public and private repositories

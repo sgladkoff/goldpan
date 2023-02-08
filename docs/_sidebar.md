@@ -1,4 +1,4 @@
-* [Overview of Language Cloud](README.md)
+* [Overview of Localization Cloud](README.md)
 * [Goldpan](goldpan.md)
 * [Hakutaku](hakutaku.md)
 * [Interpretisto](interpretisto.md)
