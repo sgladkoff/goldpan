@@ -67,10 +67,9 @@ Tags belonging to different categories will now be displayed differently:
 # Supported File Formats
 
 - Common bilingual file formats (**SDLXLIFF**, **TMX**, **TTX**, **XLIFF**)
-
+- Special bilingual file formats (**TSV**)
 - Excel workbooks (**XLSX**)
-
-- Any **XML** and **delimited text (TXT)** formats via configurable parser
+- Any **XML** and **delimited text (TXT)** formats via embedded configurable parsers
 
 ![rigor1](rigor1.png)
 *Some of the file types supported by Rigora*
