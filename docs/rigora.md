@@ -8,9 +8,15 @@ It is an interactive tool, and it ranks among the most powerful tools for workin
 
 You can visit the official website of **Rigora** here: [www.rigora.studio](http://www.rigora.studio)
 
-## Release Notes
 
-### Rigora Version 2.0: November 24, 2022
+
+
+
+
+
+# Release Notes
+
+## Rigora Version 2.0: November 24, 2022
 
 **Changes introduced in Version 2.0:**
 
@@ -54,7 +60,11 @@ Tags belonging to different categories will now be displayed differently:
 
 - Possible fixes are shown in the context menu of the **Check Results** panel, and will automatically replace the erroneous text when selected;
 
-## Supported File Formats
+
+
+
+
+# Supported File Formats
 
 - Common bilingual file formats (XLIFF, SDLXLIFF, TMX, TTX)
 
@@ -65,7 +75,15 @@ Tags belonging to different categories will now be displayed differently:
 ![rigor1](rigor1.png)
 *Some of the file types supported by Rigora*
 
-## Projects
+
+
+
+
+
+
+
+
+# Projects
 
 **Rigora** supports two types of projects that differ from each oher drastically, including the difference with their handling of files: projects with embedded changes and projects with in-file changes (absolute and relative). Each project may support a folder structure with possibly thousands of files, if necessary.
 
@@ -77,7 +95,20 @@ A project with in-file changes contains only a list of file locations and settin
 
 **Rigora** can also be used to simply work with a single file of a supported format without creating a project, if you so choose - possibly while associating XLIFF files with Rigora in Windows.
 
-## Checks
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Checks
 
 **Rigora** may run a large variety - more than 300 in total - of checks on the files within its projects. Among them are:
 
@@ -105,7 +136,10 @@ You can run all the checks from your check tree at once, or choose individual ch
 
 After running a check, you can export the resulting report as an XLS file.
 
-### Glossary Adherence Review (GAR) Checks
+
+
+
+## Glossary Adherence Review (GAR) Checks
 
 We've written a short list of instructions for cases where you only want to run GAR checks using a particular **TMX** file on your project.
 
@@ -129,7 +163,10 @@ In the **TMX File** window, name your new check and select the **TMX** file.
 
 After this, you can launch the new check by right-clicking it and selecting the **Run** option. Any other check can be launched the same way.
 
-### In-place editing
+
+
+
+## In-place editing
 
 As you run your chosen set of checks, individual errors are displayed in the **Check Results** window.  
 
@@ -145,11 +182,17 @@ After an error has been fixed, **Rigora** automatically re-checks the translatio
 
 Not all types of checks support in-place editing (consistency and reverse consistency checks do not).
 
-### False Positives
+
+
+
+## False Positives
 
 You can right-click an error in Check Results windows and mark it as False Positive. The error will then be removed from the list.
 
-### Spell Checking
+
+
+
+## Spell Checking
 
 **Rigora** uses the Windows spell checker by default:
 
@@ -168,17 +211,39 @@ To check your spelling, right click the Spell Check item in the Checks window an
 
 Rigora will then highlight any misspelled words in Target.
 
-### Export / Import Features
+
+
+
+
+
+
+
+
+# Export / Import Features
 
 **Rigora** is very good at exporting various file formats. For example, you can export the contents of a XLIFF file as an Excel, Word or TMX file, or export unique records only to remove duplicates.
 
-### Additional Check Results Window Functionality for GAR
+## Additional Check Results Window Functionality for GAR
 
 As you run GAR checks in **Rigora**, you may need to copy and paste information from the glossary into one or more translation strings.
 
 Click on a **Check Results** string containing glossary information while holding down ALT to copy it into the clipboard. Then, you'll be able to quickly paste this information wherever you want.
 
-## Regular Expressions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Regular Expressions
 
 You can employ **.NET regular expressions** (as described here: https://docs.microsoft.com/dotnet/standard/base-types/regular-expressions) in **Rigora**, greatly expanding the capabilities of what can be achieved using our product.
 
@@ -202,7 +267,23 @@ You can also use the following range to look for all Cyrillic characters (not ju
 
 [\u0400-\u04FF]
 
-## Displaying and Editing Locked Tags in SDLXLIFF Files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Displaying and Editing Locked Tags in SDLXLIFF Files
 
 You can find the **Include Locked Content** and **Save Modified Locked Content** flags in the **SDLXLIFF** section of the **Project Properties** window.
 
@@ -210,7 +291,20 @@ You can find the **Include Locked Content** and **Save Modified Locked Content**
 
 If you want to have the locked content inside SDLXLIFF files displayed and available for editing, switch these flags to **YES**.
 
-## Spell checking
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Spell checking
 
 **Rigora** offers two primary methods of spell checking.
 
@@ -234,7 +328,21 @@ You can enable one of the following options for the **System spell checker** ite
 
 - **Do not use**: no spell checking.
 
-## Shortcuts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Keyboard Shortcuts
 
 While working with Rigora, you can use the following bound keys and shortcuts:
 
@@ -250,13 +358,32 @@ While working with Rigora, you can use the following bound keys and shortcuts:
 
 - **ALT + N (*where N is a numeric key corresponding to a tag that is present in Source, from 1 to 0(10)*)**: place a numbered tag into Target, at cursor position.
 
-## Use Cases
 
-### Software Updates
+
+
+
+
+
+
+
+
+
+
+
+
+# Use Cases
+
+
+
+
+## Software Updates
 
 When translating software, **Rigora** can do 100% matching updates of software strings, autotranslate ICE matches by TMX files (“software dictionary”, translated before).
 
-### Keeping Track of the Translation Editing History at Every Stage, for Every Document Format
+
+
+
+## Keeping Track of the Translation Editing History at Every Stage, for Every Document Format
 
 It is often necessary to keep track of how an editor makes changes to the document after receiving it from the translator - as well as keeping track of the document, in general, at all stages of the translation process. This is relevant for regular editors as well as MT post-editors. CAT tools often do not keep track of who exactly changes what (sometimes they do, but the process is often inconvenient).
 
@@ -283,8 +410,12 @@ The XLIFF format is especially convenient, as it enables visualizing a history o
 
 - snapshot any translations out of your CAT system and provide them to your reviewers for checking in the simple DOCX format - without the trouble of arranging their access to your CAT system (or training them in its use)
 
-### ML Data Cleaning
+
+
+
+## Machine Learning Data Cleaning
 
 **Rigora** is indispensable in machine learning and data cleaning.
 
 It supports the **TSV** file format, which is a standard for ML training and inference, and is capable of using regular expressions to clean data, as well as 300 different types of filters.
+
