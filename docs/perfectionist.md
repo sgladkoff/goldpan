@@ -11,7 +11,7 @@ The service is built in accordance with the most recent proceedings of ASTM Inte
 ## Supported File Formats
 
 You can review bilingual files of the following formats: 
-- **XLS** (a sample is available on the requestor page)
+- **XLSX** (a sample is available on the requestor page)
 - **XLIFF**
 
 
