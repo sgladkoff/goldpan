@@ -8,7 +8,11 @@ With this service you can:
 
 The service is built in accordance with the most recent proceedings of ASTM International Committee F43 featuring an advanced analytic-holistic LQA methodology.
 
+## Supported File Formats
 
+You can review bilingual files of the following formats: 
+- **XLS** (a sample is available on the requestor page)
+- **XLIFF**
 
 
 
@@ -22,8 +26,6 @@ A user will have one of two roles: **Requestor** or **Reviewer**.
 ## Requestor
 
 A **Requestor** can create review jobs (at https://lqa.logrusglobal.com/requestor-room) by clicking the **New Job** button on the **Requestor tab**.
-
-Reviews can be requested using files in the **XLS** (a sample is available on the requestor page) or **XLIFF** format.
 
 A **Requestor** can also choose a metric to use in the review: currently we have implemented two metrics, **MQM** and **LOGIPEM**. We intend to also implement the **Interpro** metric in the future.
 
