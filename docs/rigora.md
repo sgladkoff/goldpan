@@ -200,7 +200,29 @@ You can right-click an error in Check Results windows and mark it as False Posit
 
 
 ## Spell Checking
+**Rigora** offers two primary methods of spell checking.
 
+By default, for **Windows 8+**, it uses your system API to employ the **Basic Typing** component that is present in a lot of the **Microsoft** language packs. You can check the **Language** settings menu in **Windows** to see if the **Basic Typing** component (visualized as the ABC-and-checkmark symbol) is present for the language pack(s) that are present in your system.
+
+Spell checking behavior in general is governed via the **Spell Check** item in the **Checks** menu:
+
+![rigor_spell](rigor_spell.png)
+
+You can enable one of the following options for the **System spell checker** item:
+
+- **Always use for supported languages** (default option): **Rigora** will first check if your system has any support for spell checking in the required language, and will use **Windows** spell checking if it is available. Otherwise, Rigora will look for other options (Hunspell dictionaries with an enabled **Use for spelling** option);
+
+- **Use if no other spelling tool is available for a language**: **Rigora** will do the opposite, checking for user-set spell checkers (**Hunspell**) first and looking for a **Windows** component if none are available;
+
+- **Do not use**: no spell checking.
+
+To check your spelling, right click the Spell Check item in the Checks window and select Run:
+
+![rigor6](rigor_spch.png)
+
+Rigora will then highlight any misspelled words in Target.
+
+### Windows Spell Checker
 **Rigora** uses the Windows spell checker by default:
 
 ![rigor6](rigor6.png)
@@ -210,13 +232,15 @@ To enable this, the document language must be the default system language (check
 
 ![rigor6](rigor7.png)
 
-You can also use Hunspell dicrionaries, which are set up separately.
+### Hunspell Dicrionaries
+You can also use Hunspell dicrionaries to check spelling. The dicrionaries are set up separately.
 
-To check your spelling, right click the Spell Check item in the Checks window and select Run:
+Currently, you can use **Hunspell** (http://hunspell.github.io/), but we intend to add more capabilities as **Rigora** is developed further.
 
-![rigor6](rigor_spch.png)
+**Hunspell** dictionaries can be connected to **Rigora** via the **Options** -> **Tools** -> **Hunspell** menu. Here, you can also decide if your connected **Hunspell** dictionaries are to be used by **Rigora** for stemming and/or for spell checking.
 
-Rigora will then highlight any misspelled words in Target.
+![rigor_hunspell](rigor_hunspell.png)
+
 
 
 
@@ -291,44 +315,6 @@ You can find the **Include Locked Content** and **Save Modified Locked Content**
 ![Properties](thumbnail_image001.png)
 
 If you want to have the locked content inside SDLXLIFF files displayed and available for editing, switch these flags to **YES**.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Spell checking
-
-**Rigora** offers two primary methods of spell checking.
-
-By default, for **Windows 8+**, it uses your system API to employ the **Basic Typing** component that is present in a lot of the **Microsoft** language packs. You can check the **Language** settings menu in **Windows** to see if the **Basic Typing** component (visualized as the ABC-and-checkmark symbol) is present for the language pack(s) that are present in your system.
-
-**Rigora** is also intended to employ other spell checking dictionaries. Currently, it can use **Hunspell** (http://hunspell.github.io/), but we intend to add more capabilities as **Rigora** is developed further.
-
-**Hunspell** dictionaries can be connected to **Rigora** via the **Options** -> **Tools** -> **Hunspell** menu. Here, you can also decide if your connected **Hunspell** dictionaries are to be used by **Rigora** for stemming and/or for spell checking.
-
-![rigor_hunspell](rigor_hunspell.png)
-
-Spell checking behavior in general is governed via the **Spell Check** item in the **Checks** menu:
-
-![rigor_spell](rigor_spell.png)
-
-You can enable one of the following options for the **System spell checker** item:
-
-- **Always use for supported languages** (default option): **Rigora** will first check if your system has any support for spell checking in the required language, and will use **Windows** spell checking if it is available. Otherwise, Rigora will look for other options (Hunspell dictionaries with an enabled **Use for spelling** option);
-
-- **Use if no other spelling tool is available for a language**: **Rigora** will do the opposite, checking for user-set spell checkers (**Hunspell**) first and looking for a **Windows** component if none are available;
-
-- **Do not use**: no spell checking.
-
 
 
 
