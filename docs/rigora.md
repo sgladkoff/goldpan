@@ -70,7 +70,7 @@ Tags belonging to different categories will now be displayed differently:
 
 - Excel workbooks (**XLSX**)
 
-- Configurable parsing of arbitrary **XML** and **delimited text formats (TXT)**
+- Any **XML** and **delimited text (TXT)** formats via configurable parser
 
 ![rigor1](rigor1.png)
 *Some of the file types supported by Rigora*
