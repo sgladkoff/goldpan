@@ -250,7 +250,7 @@ Currently, you can use **Hunspell** (http://hunspell.github.io/), but we intend 
 
 
 
-# Content Export / Import Features
+# Content Export / Import
 
 **Rigora** is very good at exporting various file formats. For example, you can export the contents of a XLIFF file as an Excel, Word or TMX file, or export unique records only to remove duplicates.
 
