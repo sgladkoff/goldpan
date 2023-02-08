@@ -15,9 +15,11 @@ With the tools of Logrus Global Language cloud you can:
 
 The Logrus Global Language Cloud includes the following tools:
 
-* [Goldpan](goldpan.md) - a free, simple to use yet powerful TMX/TBX Editor;
-* [Hakutaku](hakutaku.md) - a cloud-based storage and management system for TM with public and private repositories;
-* [Interpretisto](interpretisto.md) - the video conferencing and remote simultaneous interpreting platform that lets you conduct conference calls and host online and onsite events with simultaneous interpretation;
-* [Memose](memose.md) - a cloud-based, infinitely scalable and ultrafast Translation Memory and CAT tool (editor) with access to more than 32 MT engines;
-* [Rigora](rigora.md) - the most powerful technical and linguistic quality assurance (QA) tool for supporting localization of software and other content into any language;
-* [TermLode](termlode.md) - an application family that offers a client-server, cloud-based terminology database solution, consisting of the TermLode terminology database with Trados connection, the Omnitran search application and the Prospector terminology extractor.
+* [Goldpan](goldpan.md) - a free, simple to use yet powerful desktop TMX/TBX Editor
+* [Hakutaku](hakutaku.md) - a cloud-based storage and management system for TM with public and private repositories
+* [Interpretisto](interpretisto.md) - a cloud-based video conferencing and remote simultaneous interpreting platform that lets you conduct conference calls and host online and onsite events with simultaneous interpretation
+* [Memose](memose.md) - a cloud-based, infinitely scalable and ultrafast Translation Memory and CAT tool (editor) with access to more than 32 MT engines
+* [Paralela](paralela.md) - a cloud-based bilingual corpus alignment and TM generation tool
+* [Perfectionist](perfectionist.md) - a cloud-based LQA tool
+* [Rigora](rigora.md) - the most powerful desktop technical and linguistic quality assurance (QA) tool for supporting localization of software and other content into any language
+* [TermLode](termlode.md) - an application family that offers a client-server, cloud-based terminology database solution, consisting of the TermLode terminology database with Trados connection, the Omnitran search application and the Prospector terminology extractor
