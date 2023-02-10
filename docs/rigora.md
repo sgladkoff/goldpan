@@ -276,7 +276,7 @@ Operator: "Target contains", Pattern: ([^0-9]\,[^ \W])|([^0-9]\.[^ com0-9[\W]), 
 
 ![rigor_reg1](rigor_reg1.png)
 
-
+![rigor_reg2](rigor_reg2.png)
 
 
 
