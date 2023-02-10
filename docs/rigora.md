@@ -272,14 +272,9 @@ You can employ **.NET regular expressions** (as described here: https://docs.mic
 
 Here's a small example: if you need to find every string that is missing spaces after comma or ending dot in the Target sentence, you can use the following check:
 
-Operator: "Target contains", Pattern: ([^0-9]\,[^ \W])|([^0-9]\.[^ com[0-9]\W]), Pattern type: Regular expression, Case-sensitive: No
+Operator: "Target contains", Pattern: ([^0-9]\,[^ \W])|([^0-9]\.[^ com0-9[\W]), Pattern type: Regular expression, Case-sensitive: No
 
 ![rigor_reg1](rigor_reg1.png)
-
-![rigor_reg2](rigor_reg2.png)
-
-
-
 
 
 
