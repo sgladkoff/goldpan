@@ -69,7 +69,7 @@ Tags belonging to different categories will now be displayed differently:
 - Common bilingual file formats (**SDLXLIFF**, **TMX**, **TTX**, **XLIFF**)
 - Special bilingual file formats (**TSV**)
 - Excel workbooks (**XLSX**)
-- Any **XML** and **delimited text (TXT)** formats via embedded configurable parsers
+- Any **XML** and **delimited text (TXT)** formats by means of embedded configurable parsers
 
 ![rigor1](rigor1.png)
 *Some of the file types supported by Rigora*
@@ -140,27 +140,33 @@ After running a check, you can export the resulting report as an XLS file.
 
 ## Glossary Adherence Review (GAR)
 
-We've written a short list of instructions for cases where you only want to run GAR checks using a particular **TMX** file on your project.
+Here is an example of checking consistency of project translations against a bilingual **TMX** file as a glossary.
 
-After creating your project and adding in files, you should remove all the standard settings and leave the **Checklist** empty by using the right-click menu, like so:
-
-![rigor_gar1](rigor_gar1.png)
-
-The **Checks** window will become empty after this. Right-click again to create your custom checklist:
+Right-click **Checks** window to create new check and select the **Add > New Check** option:
 
 ![rigor_gar2](rigor_gar2.png)
 
-Right-click the custom checklist and select the **Add Checks** option.
-
-In the **Add Checks** window, select the **TMX File** option within the **GAR** folder and the **Glossary Type** subfolder.
+On a toolbar, click *GAR*:
 
 ![rigor_gar3](rigor_gar3.png)
 
-In the **TMX File** window, name your new check and select the **TMX** file.
+Click to select the glossary file format:
 
 ![rigor_gar4](rigor_gar4.png)
 
-After this, you can launch the new check by right-clicking it and selecting the **Run** option. Any other check can be launched the same way.
+![rigor_gar5](rigor_gar5.png)
+
+Click to select the file: 
+
+![rigor_gar6](rigor_gar6.png)
+
+![rigor_gar7](rigor_gar7.png)
+
+Now you can launch the new check by right-clicking it and selecting the **Run** option. 
+
+![rigor_gar8](rigor_gar8.png)
+
+Any other check can be launched the same way.
 
 ### Additional Check Results Window Functionality for GAR
 
@@ -172,7 +178,7 @@ Click on a **Check Results** string containing glossary information while holdin
 
 
 
-## In-place editing
+## In-place Editing
 
 As you run your chosen set of checks, individual errors are displayed in the **Check Results** window.  
 
