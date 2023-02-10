@@ -168,15 +168,11 @@ Now you can launch the new check by right-clicking it and selecting the **Run** 
 
 Any other check can be launched the same way.
 
-### Additional Check Results Window Functionality for GAR
+### How to fix incorrect term translation found by GAR
 
-As you run GAR checks in **Rigora**, you may need to copy and paste information from the glossary into one or more translation strings.
+As you run GAR checks in **Rigora**, you are able to copy and paste the correct term translations from the glossary into one or more translation strings.
 
-Click on a **Check Results** string containing glossary information while holding down ALT to copy it into the clipboard. Then, you'll be able to quickly paste this information wherever you want.
-
-
-
-
+Click any error message string at the **Check Results** panel while holding down ALT key. The correct translation(s) suggested by the GAR will be copied into the clipboard. Then you can click the respective target column at the main panel and paste the correct translation there.
 
 ## In-place Editing
 
