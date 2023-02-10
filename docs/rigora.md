@@ -270,28 +270,13 @@ Currently, you can use **Hunspell** (http://hunspell.github.io/), but we intend 
 
 You can employ **.NET regular expressions** (as described here: https://docs.microsoft.com/dotnet/standard/base-types/regular-expressions) in **Rigora**, greatly expanding the capabilities of what can be achieved using our product.
 
+Here's a small example: if you need to find every string that is missing spaces after comma or ending dot in the Target sentence, you can use the following check:
+
+Operator: "Target contains", Pattern: ([^0-9]\,[^ \W])|([^0-9]\.[^ com[0-9]\W]), Pattern type: Regular expression, Case-sensitive: No
+
 ![rigor_reg1](rigor_reg1.png)
 
 ![rigor_reg2](rigor_reg2.png)
-
-Here's a small example: if you need to find every string that contains Russian characters in the Target column, you can use the following check:
-
-Target contains, Pattern: [абвгдеёжзийклмнопрстуфхцчшщъыьэюя], Pattern type: Regular expression, Case-sensitive: No
-
-You can also use Unicode character ranges, for example:
-
-[\u0401\u0410-\u044F\u0451]
-
-or
-
-[А-яЁё] (and Case-sensitive: Yes)
-
-You can also use the following range to look for all Cyrillic characters (not just the Russian ones):
-
-[\u0400-\u04FF]
-
-
-
 
 
 
