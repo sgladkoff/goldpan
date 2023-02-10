@@ -168,11 +168,11 @@ Now you can launch the new check by right-clicking it and selecting the **Run** 
 
 Any other check can be launched the same way.
 
-### How to fix incorrect term translation found by GAR
+### How to fix incorrect term translations found by GAR
 
 As you run GAR checks in **Rigora**, you are able to copy and paste the correct term translations from the glossary into one or more translation strings.
 
-Click any error message string at the **Check Results** panel while holding down ALT key. The correct translation(s) suggested by the GAR will be copied into the clipboard. Then you can click the respective target column at the main panel and paste the correct translation there.
+Click any error message string at the **Check Results** panel while holding down ALT key. The correct translation(s) suggested by GAR will be copied to the clipboard. Then you can click the respective target column at the main panel and paste the correct translation there.
 
 ## In-place Editing
 
@@ -181,12 +181,9 @@ As you run your chosen set of checks, individual errors are displayed in the **C
 As you walk through them, they are highlighted in the files. For each error, **Rigora** will activate the file and highlight the string that contains it. When an error is fixed, it is removed from the **Checks Results** window.
 
 ![rigor4](rigor4.png)
-*Rigora finds several problems with string 11067*
+*Rigora found a problem with terminology*
 
-![rigor5](rigor5.png)
-*Rigora shows untranslated text in Japanese translations*
-
-After an error has been fixed, **Rigora** automatically re-checks the translation unit.
+As soon as the translation is fixed, **Rigora** automatically re-checks the translation unit.
 
 Not all types of checks support in-place editing (consistency and reverse consistency checks do not).
 
