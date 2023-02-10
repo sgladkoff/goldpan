@@ -146,17 +146,17 @@ Right-click **Checks** window to create new check and select the **Add > New Che
 
 ![rigor_gar2](rigor_gar2.png)
 
-On a toolbar, click *GAR*:
+On a toolbar, click **GAR**:
 
 ![rigor_gar3](rigor_gar3.png)
 
-Click to select the glossary file format:
+Click to select the glossary **file format**:
 
 ![rigor_gar4](rigor_gar4.png)
 
 ![rigor_gar5](rigor_gar5.png)
 
-Click to select the file: 
+Click to select the **glossary file**: 
 
 ![rigor_gar6](rigor_gar6.png)
 
