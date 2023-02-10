@@ -180,7 +180,7 @@ As you run your chosen set of checks, individual errors are displayed in the **C
 
 As you walk through them, they are highlighted in the files. For each error, **Rigora** will activate the file and highlight the string that contains it. When an error is fixed, it is removed from the **Checks Results** window.
 
-![rigor4](rigor4.png)
+![rigor4](rigor4.jpeg)
 *Rigora found a problem with terminology*
 
 As soon as the translation is fixed, **Rigora** automatically re-checks the translation unit.
@@ -192,7 +192,7 @@ Not all types of checks support in-place editing (consistency and reverse consis
 
 ## False Positives
 
-You can right-click an error in Check Results windows and mark it as False Positive. The error will then be removed from the list.
+You can right-click an error in **Check Results** panel and mark it as **False Positive**. The error will then be removed from the list.
 
 
 
