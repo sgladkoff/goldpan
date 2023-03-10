@@ -338,8 +338,11 @@ While working with Rigora, you can use the following bound keys and shortcuts:
 
 # Toolbar
 **Check [file name]**: Running all checks selected in the active checklist on the file currently displayed.
+
 **Check All**: Running all checks selected in the active checklist on all files currently opened in the tool or all files of the current project.
+
 **Save**: Saving all changes made in translations (Target column).
+
 ** Save All**: Saving all changes made in translations (Target column) in all project files and project settings.
 
 
