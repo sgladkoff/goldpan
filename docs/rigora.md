@@ -343,7 +343,7 @@ While working with Rigora, you can use the following bound keys and shortcuts:
 
 **Save**: Saving all changes made in translations (Target column).
 
-** Save All**: Saving all changes made in translations (Target column) in all project files and project settings.
+**Save All**: Saving all changes made in translations (Target column) in all project files and project settings.
 
 
 
