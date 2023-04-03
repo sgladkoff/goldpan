@@ -1,12 +1,20 @@
-# Perfectionist: our cloud-based LQA Tool
+# Perfectionist: a cloud-based LQA Tool
 
-**Perfectionist** is a cloud-based tool for measuring translation quality, post editing quality, and raw machine translation quality. 
+**Perfectionist** is a Web service for measuring translation quality, post editing quality, and raw machine translation quality. 
 
 With this service you can:
 - Outsource LQA tasks to internal and third-party experts
 - Keep track of reviewes in the LQA reports repository
+- Download LQA reports
+
+For translation quality evaluation, you can use several embedded quality metrics:
+- standard LQA metrics based on MQM error typology
+- advanced LOGIPEM metrics for most adequate and precise quality evaluation of raw and post edited machine translation
+- any user-defined metrics (by request)
 
 The service is built in accordance with the most recent proceedings of ASTM International Committee F43 featuring an advanced analytic-holistic LQA methodology.
+
+For enterprises, any customizations of the service functionality can be provided upon request.
 
 ## Supported File Formats
 
