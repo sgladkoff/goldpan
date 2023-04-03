@@ -35,26 +35,43 @@ A user will have one of two roles: **Requestor** or **Reviewer**.
 
 A **Requestor** can create review jobs (at https://lqa.logrusglobal.com/requestor-room) by clicking the **New Job** button on the **Requestor tab**.
 
-A **Requestor** can also choose a metric to use in the review: currently we have implemented two metrics, **MQM** and **LOGIPEM**. We intend to also implement the **Interpro** metric in the future.
+![perf0](perf0.png)
+
+If you don't want to review the whole file, you can get a sample with a certain number of words less than the number of words in the file. The **Requestor** can set the sample size after uploading the file using the **Sample size** field above the table. After entering the desired sample size, click the **Resample randomly** button.
+
+![perf4](perf4.png)
 
 When you create a LQA job as a **Requestor**, you need to assign a **Reviewer** by submitting their email. If there isn't a Cloud account for a submitted email, it is created with **Reviewer** rights automatically.
+
+A **Requestor** can also choose a metric to use in the review: currently we have implemented two metrics, **MQM** and **LOGIPEM**. Any user-defined metrics can be implemented by request.
+
+![perf5](perf5.png)
+
+
+
 
 ## Reviewer
 
 After a job is created, the **Reviewer** is sent an email with the link to new LQA review task. 
 
-As a **Reviewer**, if your account had just been generated, you will be promted to create a new password. Then, the **Review** table will be opened in the browser, with two columns: **Source** and **Target**.
+As a **Reviewer**, if your account had just been generated, you will be promted to create a new password. Then, the **Review** table will be opened in the browser, with the following columns: **Source**, **Target**, **Errors**, and **Reviewed**. The **Reviewed** checkbox is set automatically each time any translation error is logged in given translation unit, or manually when the unit is fully reviewed. 
 
-You will be required to compare each of the **Source** and **Target** lines. If there is an error,you will need to highlight the erroreous text fragment.
+![perf6](perf6.png)
+
+You will be required to compare each of the **Source** and **Target** lines. If there is an error,you will need to highlight the erroneous text fragment.
 
 A pop-up window will appear on screen when you highlight a fragment. There, you will be able to suggest a correct translation or enter a comment; but, most importantly, you will need to pick a **Category** and a degree of **Severity** for each error.
 
+![perf1](perf1.png)
+
 A **Reviewer** can mark several errors in each translation unit, and their selections may overlap.
 
+Upon completion of the review, the task should be marked as completed using the **Finish Review** button. A pop-up window will appear for entering a general conclusion on the file, which will be available to the **Requestor**.
 
-
-
+![perf2](perf2.png)
 
 # Downloading the LQA report
 
-As the review process is finished, the **Reviewer** marks the job as complete. Then, the **Requestor** becomes able to see the results and to download an **XLSX** scorecard with the results of the evaluation (according to the  metric selected).
+As the review process is finished, the **Reviewer** marks the job as complete. Then, the results become available for **Requestor** to view and download as the **XLSX** scorecard with selected metrics.
+
+![perf3](perf3.png)
