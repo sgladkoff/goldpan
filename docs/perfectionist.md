@@ -77,7 +77,7 @@ Upon completion of the review, the task should be marked as completed using the 
 
 ## Stakeholder
 
-**Requestor** can assign the external users the **Stakeholder** role to view only the results of LQA tasks.
+**Requestor** can assign the **Stakeholder** role to external users to view only the results of LQA tasks.
 
 # Downloading the LQA report
 
