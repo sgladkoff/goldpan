@@ -74,6 +74,11 @@ Upon completion of the review, the task should be marked as completed using the 
 
 ![perf2](perf2.png)
 
+
+## Stakeholder
+
+**Requestor** can assign the external users the **Stakeholder** role to view only the results of LQA tasks.
+
 # Downloading the LQA report
 
 As the review process is finished, the **Reviewer** marks the job as complete. Then, the results become available for **Requestor** to view and download as the **XLSX** scorecard with selected metrics.
