@@ -4,6 +4,8 @@
 
 With this service you can:
 - Outsource LQA tasks to internal and third-party experts
+- Review random translation samples of given size
+- Exclude repeated translation units from the scope of review
 - Keep track of reviewes in the LQA reports repository
 - Download LQA reports
 
