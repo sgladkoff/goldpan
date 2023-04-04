@@ -9,7 +9,7 @@ With this service you can:
 - Keep track of reviewes in the LQA reports repository
 - Download LQA reports
 
-For translation quality evaluation, you can use several embedded quality metrics:
+For translation quality evaluation, you can choose from several embedded quality metrics:
 - standard LQA metrics based on MQM error typology
 - advanced LOGIPEM metrics for most adequate and precise quality evaluation of raw and post edited machine translation
 - any user-defined metrics (by request)
@@ -38,6 +38,8 @@ A user will have one of two roles: **Requestor** or **Reviewer**.
 A **Requestor** can create review jobs (at https://lqa.logrusglobal.com/requestor-room) by clicking the **New Job** button on the **Requestor tab**.
 
 ![perf0](perf0.png)
+
+All repeated translation units are excluded from the file when uploading it to the service.
 
 If you don't want to review the whole file, you can get a sample with a certain number of words less than the number of words in the file. The **Requestor** can set the sample size after uploading the file using the **Sample size** field above the table. After entering the desired sample size, click the **Resample randomly** button.
 
