@@ -56,7 +56,7 @@ A **Requestor** can also choose a metric to use in the review: currently we have
 
 ## Reviewer
 
-After a job is created, the **Reviewer** is sent an email with the link to new LQA review task. 
+After the job is created, the email with the link to new LQA review task is sent to the assigned **Reviewer**. 
 
 As a **Reviewer**, if your account had just been generated, you will be promted to create a new password. Then, the **Review** table will be opened in the browser, with the following columns: **Source**, **Target**, **Errors**, and **Reviewed**. The **Reviewed** checkbox is set automatically each time any translation error is logged in given translation unit, or manually when the unit is fully reviewed. 
 
