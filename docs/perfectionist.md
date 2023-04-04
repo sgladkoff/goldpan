@@ -41,7 +41,7 @@ A **Requestor** can create review jobs (at https://lqa.logrusglobal.com/requesto
 
 All repeated translation units are excluded from the file when uploading it to the service.
 
-If you don't want to review the whole file, you can get a sample with a certain number of words less than the number of words in the file. The **Requestor** can set the sample size after uploading the file using the **Sample size** field above the table. After entering the desired sample size, click the **Resample randomly** button.
+If you don't want to review the whole file, you can get a random sample with a certain number of words less than the number of words in the file. The **Requestor** can set the sample size after uploading the file using the **Sample size** field above the table. After entering the desired sample size, click the **Resample randomly** button.
 
 ![perf4](perf4.png)
 
