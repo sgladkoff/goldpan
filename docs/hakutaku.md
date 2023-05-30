@@ -62,7 +62,17 @@ If you have uploaded any **TM** files, whether it was to the public **TM** repos
 
 ## User Experience
 
-There are five primary tabs in the **Hakutaku** UI that are available to the users and moderators: the **Search** tab, the **Personal Search** tab, the **Import** tab, the **Project TM** tab and the **Approve TM** tab. Their availability varies greatly for different roles, as seen in the **User Roles** table.
+There are the following **Main Menu Tabs** in the Hakutaku that are available to the users and moderators:
+**Search**
+**Personal Search**
+**Import**
+**Project TM**
+**Users**
+**Manage TM**
+**Approve TM**
+**MT Translations**
+**AI Editor**
+Availability of each tab depends on the user role as described in the **User Roles** table.
 
 ### The Search Tab
 
