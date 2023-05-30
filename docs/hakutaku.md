@@ -72,6 +72,7 @@ There are the following **Main Menu Tabs** in the Hakutaku that are available to
 - **Approve TM**
 - **MT Translations**
 - **AI Editor**
+
 Availability of each tab depends on the user role as described in the **User Roles** table.
 
 ### The Search Tab
