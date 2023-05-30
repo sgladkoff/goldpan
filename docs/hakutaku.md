@@ -4,17 +4,23 @@
 
 ## Advantages of Hakutaku
 
-- The public **TM** repository of **Hakutaku** is open for everyone to search in, registration being optional.
+- You can quickly **translate a pieces of text** using **Instant MT Translations** from the best providers.
 
-- Any companies (LSPs and LSP clients) or freelancers may use **Hakutaku** as a private **TM** repository instead of purchasing an SDL server. These **TM** will not be accessible to other users. **Hakutaku** may serve as their private **TM Server** with its search functions and **Project TM** creation capability.
+- You can **polish content** in any language in the way you want with **ChatGPT Editor**.
 
-- Any companies or freelancers that desire a common availability of **TMs** may use the public **Hakutaku** **TM** repository for storing their industry-related arrays of **TM**, accumulating knowledge over time and creating reliable **TM** databases for BIM, medicine, sports etc.
+- **MT Translations API Hub** allows you to implement **machine translation assistants** in your IT services.
 
-- Public non-profit organizations may store **TM** in the public repository, speeding up community translation.
+- The Hakutaku **public TM repository** is available for everyone to search in for free.
 
-- Freelancers may find eployment in building up private **TM** repositories for companies.
+- Any **companies or freelancers** may use the public Hakutaku TM repository for storing their publicly available **industry-spesific TMs**, accumulating knowledge over time and creating reliable databases for medicine, sports, etc.
 
-- Researchers and engineers will be able to obtain **TM** data for training topical translation engines.
+- Public **non-profit organizations** may store their TM in the public repository, speeding up **community translation projects**.
+
+- **NLP researchers and data engineers** will be able to obtain, store and clean corpora **to train Machine Translation systems**.
+
+- Any **companies (LSPs and LSP clients) or freelancers** may use Hakutaku as their **private TM repository** instead of purchasing any TM servers. These TMs will not be accessible to other users. Hakutaku may serve as their **private TM Server** with its search functions and **Project TM** creation capability.
+
+- **Freelancers** may find eployment in building up **private TM repositories for their clients**.
 
 ## User Roles
 
@@ -106,6 +112,14 @@ Select the language pair you need and, optionally, set the parameters to limit t
 
 After the search is concluded, press the **Download** button. You will receive an archive containing a complete **TM** file in the XLSX format, as well as two other XLSX files: one with the terms that were not found in the public database, and another with statistical data. The archive will also contain the original XLIFF file.
 
+### The Users Tab
+
+Administrator can add, edit, assign roles, and remove the users of their organization (company).
+
+### The Manage TM Tab
+
+The TM owners can download or delete their public or private TMs depending of their user role and access level.
+
 ### The Approve TM Tab
 
 This tab is only available to moderators. If you have been approved for the role of an **External or Reliable Moderator**, you can access it in order to check any **TM** files that have been submitted by the users.
@@ -119,3 +133,46 @@ When a file is checked out, it is moved to the **My Checked Out TMs** table, and
 ![hakutaku_approvetm_2](hakutaku_approvetm_2.png)
 
 A checked out **TM file** may be returned without approving or declining it by clicking the **Cancel** button on the **Approve View** screen, or the one on the main screen of the **Approve TM** tab, in the **Action** column of the **My Checked Out TMs** table.
+
+### The MT Translations Tab
+
+Here you can instantly translate an arbitrary piece of text using several machine translation systems and choose the best one. To do this, follow these steps: 
+- Type or copy up to 1000 characters of text in the source language.
+- Select the source and target languages.
+- Click **Translate Text** button.
+- Get machine translation variants from several leading providers, including ChatGPT, Google, Microsoft, ModernMT, Yandex, DeepL. Each MT engine panel has a **Copy to Clipboard** button.
+
+![hakutaku_MT_Translations](hakutaku_MT_Translations.jpg)
+
+### The AI Editor Tab
+
+Here you can improve any text with ChatGPT's intelligent robot assistant. To do this, follow these steps:
+- Type or copy up to 5000 characters of text in any language.
+- Select the scenario according to which your text will be rewritten.
+- Click **Improve Text** button.
+- Get the result, which you can copy to the clipboard using the special button.
+
+![hakutaku_AI_Editor](hakutaku_AI_Editor.jpg)
+
+Text editing scenarios:
+- Edit for vocabulary and gramma
+- Edit for clarity
+- Check spelling
+- Edit on more elaborate fashion
+
+## MT Engines API
+
+In your personal account, you can get API access to the leading machine translation providers, including ChatGPT, Microsoft Translator, Google, ModernMT, DeepL, Yandex.
+
+Through this API, you can enhance any service in your enterprise network with machine translation capabilities.
+
+To obtain prepaid access to API Hub, follow these steps:
+- Make an initial deposit using one of the buttons **Pay…$**.
+- Click the **Generate** button to create an API key.
+- Copy and store the API key in safe place.
+- Use this API key when connecting your services to our **MT Engines API Hub**.
+- Track the usage of your deposit.
+
+![hakutaku_API](hakutaku_API.jpg)
+
+
