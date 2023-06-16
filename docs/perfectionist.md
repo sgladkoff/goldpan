@@ -32,7 +32,7 @@ A user will have one of three roles: **Requestor**, **Reviewer** or **Stakeholde
 
 ## Requestor
 
-A **Requestor** operates the **Requestor Room** page at https://lqa.logrusglobal.com/requestor-room. This user role has the capability of creating new projects and new testing projects.
+A **Requestor** operates the **Requestor Room** page at https://lqa.logrusglobal.com/requestor-room. This user role has the capability of creating new LQA projects and new testing projects for evaluating personnel.
 
 ### Creating New Projects
 
