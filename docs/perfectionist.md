@@ -84,7 +84,7 @@ In the **Results** tab, you will be able to review the body of the task file, wi
 
 ![perf8](perfN8.png)
 
-From the **Status** tab, by clicking the **Review mistakes** button, you will be able to view each of the errors the **Reviewer** had found in detail, and then comment on them as well as edit or delete them, if necessary. You can access the **Error Review** dialog window for interacting with an error by clicking on that error in the table.
+From the **Status** tab, by clicking the **Review mistakes** button, you will be able to view each of the errors the **Reviewer** had found in detail, and comment on them as well as edit or delete them, or propose your own full translation for the **Fixed Target** field, if necessary. You can access the **Error Review** dialog window for interacting with an error by clicking on that error in the table.
 
 ![perf9](perfN9.png)
 
