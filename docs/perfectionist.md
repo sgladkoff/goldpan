@@ -52,7 +52,7 @@ Clicking the **Create** button calls up a special dialog box where you can drag 
 
 ![perf2](perfN2.png)
 
-All repeated translation units are excluded from the file when uploading it to the service.
+Any duplicate translation units are excluded from the file when it is uploaded to **Perfectionist**.
 
 If a project has already had files assigned to it, clicking on its name in the list of project will take you to its project page, with a list of tasks assigned to it. You can assign more tasks with the **Create Task** button.
 
