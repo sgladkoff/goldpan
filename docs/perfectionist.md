@@ -158,6 +158,3 @@ As a **Stakeholder**, you can view the in-progress task similarly to how the **R
 While the review process is ongoing (or after it has been finished) in any given task, the **Requestor** as well as any invited **Stakeholders** may download the score card in the form of an **XLSX** file. This option is available in the form of the download symbol next to each assigned task in the project's list of tasks.
 
 The **XLSX** file will be composed according to the metric chosen by the **Requestor** when assigning the task.
-
-![perf3](perf3.png)
-
