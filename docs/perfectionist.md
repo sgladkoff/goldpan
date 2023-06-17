@@ -54,7 +54,7 @@ Clicking the **Create** button calls up a special dialog box where you can drag 
 
 Any duplicate translation units are excluded from the file when it is uploaded to **Perfectionist**.
 
-If a project has already had files assigned to it, clicking on its name in the list will take you to the project page, where each uploaded file is represented as a task. You can assign more tasks with the **Create Task** button.
+If a project has already had files assigned to it, clicking on its name in the list will take you to the project page, where each uploaded file is represented as a task. You can add more tasks with the **Create Task** button.
 
 ![perf3](perfN3.png)
 
