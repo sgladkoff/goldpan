@@ -72,7 +72,7 @@ As a **Requestor**, you need to assign a **Reviewer** for each of the project's 
 
 ![perf6](perfN6.png)
 
-If there isn't a Cloud account for a submitted email, it is created with **Reviewer** rights automatically.
+If there isn't a **Cloud** account for a submitted email, it is created with **Reviewer** rights automatically.
 
 You will need to choose a metric to use in the review. Currently, we have implemented the **LOGIPEM**, **MQM** and **Holistic** metrics. Any user-defined metrics can be implemented by request.
 
@@ -116,7 +116,7 @@ After the attendee had pressed the **Finish Task** button, the finished task is 
 
 When a **Requestor** assigns an LQA task, an email with the link is sent to the **Reviewer**.
 
-If there isn't a **Logrus Cloud** account connected with the assigned email address, it is created automatically with a prompt to create a new password.
+If there isn't a **Cloud** account connected with the assigned email address, it is created automatically with a prompt to create a new password.
 
 ![perf17](perfN17.png)
 
