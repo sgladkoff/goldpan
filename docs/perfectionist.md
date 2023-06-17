@@ -90,7 +90,7 @@ From the **Status** tab, by clicking the **Review mistakes** button, you will be
 
 ![perf10](perfN10.png)
 
-When you are ready to complete the task, click on the **Finish Review** button in the bottom left.
+When you are ready to complete the task, click on the **Finish Review** button on the bottom right.
 
 ### Creating Testing Projects
 
