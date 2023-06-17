@@ -64,7 +64,7 @@ You can also invite other users to be the the project's **Stakeholders** with th
 
 You can enter the **Work Area** of a particular task by clicking its name in the list of tasks.
 
-If you don't need the entire file reviewed, you can have a randomized sample created for reviewing. Its size can be set using the **Sample size** field above the table. After entering the desired sample size, click the **Resample randomly** button, and **Perfectionist** will generate a randomized collection of line pairs from the file, close in total wordcount to the **Sample size** value you have set.
+If you don't need the entire file reviewed, you can have a randomized sample created for reviewing. Its size can be set using the **Sample size** field above the table. After entering the desired sample size, click the **Resample randomly** button, and **Perfectionist** will generate a randomized collection of translation units from the file, close in total wordcount to the **Sample size** value you have set.
 
 ![perf5](perfN5.png)
 
