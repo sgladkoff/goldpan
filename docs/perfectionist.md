@@ -104,7 +104,7 @@ Click on the project name, and then on the **Create** button to enter the email 
 
 ![perf12](perfN12.png)
 
-If you've set the task to be a **Translation**, then the **Target** field in the task file will be empty, and the attendee will be required to fill it in. If you've set **Editing**, it will be filled with text for the attendee to edit.
+If you've set the task to be a **Translation**, then the **Your Input** field in the task file will be empty, and the attendee will be required to fill it in. If you've set **Editing**, it will be filled with text for the attendee to edit.
 
 ![perf13](perfN13.png)
 
