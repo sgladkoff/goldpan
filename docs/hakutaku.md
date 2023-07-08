@@ -166,10 +166,10 @@ Here you can improve any text with ChatGPT's intelligent robot assistant. To do 
 ![hakutaku_AI_Editor](hakutaku_AI_Editor.jpg)
 
 Text editing scenarios:
-- Edit for vocabulary and gramma
+- Edit for vocabulary and grammar
 - Edit for clarity
 - Check spelling
-- Edit on more elaborate fashion
+- Edit in a more elaborate fashion
 
 ## MT Engines API
 
