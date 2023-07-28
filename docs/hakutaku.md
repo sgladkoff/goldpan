@@ -204,11 +204,11 @@ Download the plugin [here](https://logrusglobal.com/_download/HakutakuTradosPlug
 - Double-click the plugin file of the same version as your Trados Studio client
 - Choose the installation option:
 
-![Hakutaku_plugin_installation_1](Hakutaku plugin 01.jpg) 
+![Hakutaku_plugin_installation_1](Hakutaku_plugin_01.jpg) 
 
 - Confirm the installation of unsigned plugin - it's safe!
 
-![Hakutaku_plugin_installation_2](Hakutaku plugin 02.jpg) 
+![Hakutaku_plugin_installation_2](Hakutaku_plugin_02.jpg) 
 
 - Restart your **Trados Studo** application
 
