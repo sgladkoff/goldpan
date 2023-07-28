@@ -200,14 +200,13 @@ Download the plugin [here](https://logrusglobal.com/_download/HakutakuTradosPlug
 
 ### Plugin installation
 - Unpack the downloaded archive
-- Choose the plugin file of the same version as your Trados Studio client
 - Close any open instances of **Trados Studo**
-- If you have any version of the plugin already installed, t will be replaced with selected one
-- Open an **Explorer** window and paste "%APPDATA%\SDL\SDL Trados Studio\" into the address bar
-- Go further to the "XX\Plugins\Packages" folder, where XX is the version ID of your **Trados Studio** release
-- Copy the plugin file of the same version as your Trados Studio client to this folder
+- Double-click the plugin file of the same version as your Trados Studio client
+- Choose the installation option:
+![Hakutaku plugin installation - Pic. 1](Hakutaku plugin 01.jpg) 
+- Confirm the installation of unsigned plugin - it's safe!
+![Hakutaku plugin installation - Pic. 2](Hakutaku plugin 02.jpg) 
 - Restart your **Trados Studo** application
-- A window will pop up to warn you of a new "unsigned" plugin (see image) - click **Yes**
 
 ### Configuring the plugin
 < TBD >
