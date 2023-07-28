@@ -213,4 +213,25 @@ Download the plugin [here](https://logrusglobal.com/_download/HakutakuTradosPlug
 - Restart your **Trados Studo** application
 
 ### Configuring the plugin
-< TBD >
+
+- In Trados Studio, open the project you wll be working on and click the **Project Settings** menu.
+
+- Select **Translation Memory and Automated Translation** section,  click the **Use...** list, and select **Hakutaku*** as a provider:
+
+![Hakutaku_plugin_setup_01](Hakutaku_plugin_setup_01.jpg)
+
+-Click the **Server** button to enter your Hakutaku API key. The key is available in your Hakutaku account:
+
+![Hakutaku_plugin_setup_02](Hakutaku_plugin_setup_02.jpg)
+
+![Hakutaku_plugin_setup_03](Hakutaku_plugin_setup_03.jpg)
+
+- Select one o more MT providers available to you under your Hakutaku subscription:
+
+![Hakutaku_plugin_setup_04](Hakutaku_plugin_setup_04.jpg)
+
+- Check if the providers are selected in the Project settings:
+
+![Hakutaku_plugin_setup_05](Hakutaku_plugin_setup_05.jpg)
+
+Now you should see the MT prompts from selected MT providers each time your open the translation segment in Trados Studio.
