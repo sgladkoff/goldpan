@@ -1,6 +1,12 @@
-# Hakutaku: Cloud-based Translation Memory Storage
+# Hakutaku: Cloud-based Translation Memory Server and Machine Translation Hub
 
-**Hakutaku** is a cloud-based solution for any **TM** storage and management problems that you or your organization may encounter. It offers free access to a public **TM** repository to all users, with private **TM** repositories and other features reserved for subscription users.
+**Hakutaku** is a cloud-based solution for any **TM** storage and management problems that you or your organization may encounter. It provides free access to the public **TM** repository available to all users, with private **TM** repositories and other features reserved for subscription users.
+
+With **Hakutaku**, you can instantly translate an arbitrary piece of text in your browser using several machine translation systems and choose the best one.
+
+You can also rewrite and improve any text in several ways automatically with ChatGPT's intelligent robot assistant.
+
+For corporate users, **Hakutaku** provides an API access to the leading machine translation providers, including ChatGPT, Microsoft Translator, Google, ModernMT, DeepL, Yandex.
 
 ## Advantages of Hakutaku
 
@@ -186,4 +192,22 @@ To obtain prepaid access to API Hub, follow these steps:
 
 ![hakutaku_API](hakutaku_API.jpg)
 
+## MT Hub Trados Studio Plugin
 
+The Trados Studio Plugin for Hakutaku provides you the access to the leading machine translation providers while working in Trados Studio.
+
+Download the plugin [here](https://logrusglobal.com/_download/HakutakuTradosPlugin.zip).
+
+### Plugin installation
+- Unpack the downloaded archive
+- Choose the plugin file of the same version as your Trados Studio client
+- Close any open instances of **Trados Studo**
+- If you have any version of the plugin already installed, t will be replaced with selected one
+- Open an **Explorer** window and paste "%APPDATA%\SDL\SDL Trados Studio\" into the address bar
+- Go further to the "XX\Plugins\Packages" folder, where XX is the version ID of your **Trados Studio** release
+- Copy the plugin file of the same version as your Trados Studio client to this folder
+- Restart your **Trados Studo** application
+- A window will pop up to warn you of a new "unsigned" plugin (see image) - click **Yes**
+
+### Configuring the plugin
+< TBD >

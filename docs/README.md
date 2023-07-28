@@ -16,7 +16,7 @@ With the tools of Logrus Global Localization Cloud you can:
 The Logrus Global Localization Cloud includes the following tools:
 
 * [Goldpan](goldpan.md) - a free, simple to use yet powerful desktop TMX/TBX Editor
-* [Hakutaku](hakutaku.md) - a cloud-based storage and management system for TM with public and private repositories
+* [Hakutaku](hakutaku.md) - a cloud-based Translation Memory Server with public and private repositories and Machine Translation hub
 * [Interpretisto](interpretisto.md) - a cloud-based video conferencing and remote simultaneous interpreting platform that lets you conduct conference calls and host online and onsite events with simultaneous interpretation
 * [Memose](memose.md) - a cloud-based, infinitely scalable and ultrafast Translation Memory and CAT tool (editor) with access to more than 32 MT engines
 * [Paralela](paralela.md) - a cloud-based bilingual corpus alignment and TM generation tool
