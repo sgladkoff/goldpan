@@ -321,7 +321,8 @@ To use an API POST request, please provide user credentials in a JavaScript Form
 			host = document.getElementById('host').value,
 			lang = document.getElementById('urllang').value,
 			rec_flag = +document.getElementById('recflag').checked, //must be a number 0 or 1
-			resp = document.getElementById('grabberurlresp');			
+			resp = document.getElementById('grabberurlresp');		
+			
 		resp.innerHTML = "";
 		const url = document.getElementById('grabberurl').value;
 		const form_data = new FormData();
@@ -330,6 +331,7 @@ To use an API POST request, please provide user credentials in a JavaScript Form
 		form_data.append('userpass', pass);    
 		form_data.append('rec_flag', rec_flag);    
 		form_data.append('source_lang',  lang);
+		
 		fetch(host+"/api.php/grabber/url", {
 			method:"POST",
 			body: form_data
