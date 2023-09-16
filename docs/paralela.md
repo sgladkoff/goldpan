@@ -315,13 +315,13 @@ This description of the Paralela API corresponds to the update we've implemented
 
 To use an API POST request, please provide user credentials in a JavaScript FormData object. For example:
 
-	function grabUrl(){ 
-	   let email = document.getElementById('usermail').value,
-	pass = document.getElementById('userpass').value,
-	host = document.getElementById('host').value,
-	lang = document.getElementById('urllang').value,
-	rec_flag = +document.getElementById('recflag').checked, //must be a number 0 or 1
-		  resp = document.getElementById('grabberurlresp');
+	function grabUrl(){
+	    let email = document.getElementById('usermail').value,
+			pass = document.getElementById('userpass').value,
+			host = document.getElementById('host').value,
+			lang = document.getElementById('urllang').value,
+			rec_flag = +document.getElementById('recflag').checked, //must be a number 0 or 1
+			resp = document.getElementById('grabberurlresp');			
 		resp.innerHTML = "";
 		const url = document.getElementById('grabberurl').value;
 		const form_data = new FormData();
