@@ -306,3 +306,194 @@ Simply fill in the **Project Name** and optionally the **Comment** fields, then 
 
 You can use projects to filter your tasks at the **Results** tab:
 ![para27](para27.png)
+
+# The Paralela API
+
+This description of the Paralela API corresponds to the update we've implemented on September 15, 2023.
+
+## API User Information
+
+To use an API POST request, please provide user credentials in a JavaScript FormData object. For example:
+
+	function grabUrl(){ 
+	   let email = document.getElementById('usermail').value,
+	pass = document.getElementById('userpass').value,
+	host = document.getElementById('host').value,
+	lang = document.getElementById('urllang').value,
+	rec_flag = +document.getElementById('recflag').checked, //must be a number 0 or 1
+		  resp = document.getElementById('grabberurlresp');
+		resp.innerHTML = "";
+		const url = document.getElementById('grabberurl').value;
+		const form_data = new FormData();
+		form_data.append('url1', url);
+		form_data.append('usermail', email);    
+		form_data.append('userpass', pass);    
+		form_data.append('rec_flag', rec_flag);    
+		form_data.append('source_lang',  lang);
+		fetch(host+"/api.php/grabber/url", {
+			method:"POST",
+			body: form_data
+		}).then(function(response){
+			return response.json();
+		}).then(
+			function(data){
+				resp.innerHTML = data.message;
+				console.log(data)
+			}
+		);
+	}
+
+Alternatively, you can provide a JSON data object as the body of a POST request.
+
+## The API Workflow
+
+The process of getting aligned bilingual text via the API has the following steps:
+
+1. Send the source file, receive a GUID back.
+2. Send the target file, receive a GUID back.
+3. Send an Align request, receive a GUID of the task back.
+4. With the task GUID, you can monitor the task status.
+5. When the aligner process  is complete, you can do cleanup (reject everything that is lower than a certain match ratio).
+6. Get the aligned bilingual file.
+7. There are also API requests to remove files.
+8. There is an API request to get the list of all alignment tasks.
+
+## Possible API Calls
+
+### Task Creation
+
+#### File Grabbing
+	
+	POST "/api.php/grabber/file"
+
+Function: Sends file to grabber.
+
+Parameters:
+- usermail – account email
+- userpass – account password
+- grabber_file – file object
+- source_lang – language code in the “en-us” format
+
+Returns: A response object, containing either the task GUID or a failure reason description in the “message” field.
+
+#### URL Grabbing
+
+	POST "/api.php/grabber/url"
+
+Function: Sends URL to grabber.
+
+Parameters:
+- usermail – account email
+- userpass – account password
+- url1 – URL
+- rec_flag – recursive flag (0 or 1)
+- source_lang – language code in the “en-us” format
+
+Returns: A response object, containing either the task GUID or a failure reason description in the “message” field.
+
+#### Task Alignment
+
+	POST "/api.php/aligner/tasks"
+	
+Function: Sends tasks to aligner.
+
+Parameters:
+- usermail – account email
+- userpass – account password
+- guids1 – comma or comma-space separated list of Grabber tasks guids of sources
+- guids2 – comma or comma-space separated list of Grabber tasks guids of targets
+
+Returns: A response object, containing either the task GUID or a failure reason description in the “message” field.
+
+### API Task Management
+
+All management requests use the following three parameters:
+- usermail – account email
+- userpass – account password
+- guid – the task's GUID
+
+#### Task Info 
+
+	POST "/api.php/grabber/info"
+	
+	POST "/api.php/aligner/info"
+
+Function: Retrieves file information for the selected task.
+
+Returns: A response object, containing a fileinfo object in the “message” field.
+
+#### Get Task 
+
+	POST "/api.php/grabber/get"
+	
+	POST "/api.php/aligner/get"
+	
+Function: Retrieves an Excel file for downloading.
+
+Returns: Either a blob object of the Excel file on success or a response object on failure (with a failure reason in the “message” field).
+
+#### Delete Task 
+
+	POST "/api.php/grabber/delete"
+	
+	POST "/api.php/aligner/delete"
+	
+Function: Deletes the task and all its related files.
+
+Returns: A response object, containing either a success message or a description of the failure reason in the “message” field.
+
+#### Clean up Task 
+
+	POST "/api.php/aligner/get"
+	
+Function: Resaves an aligner task, removing all pairs with the score outside of the required interval.
+
+Additional Parameters:
+- high – highest acceptable score
+- low – lowest acceptable score 
+
+Returns: A response object, containing either a success message or a description of the failure reason in the “message” field.
+
+### Other API (GET)
+
+#### Task Status 
+
+	GET "/api.php/grabber/status/{guid}"
+	
+	GET "/api.php/aligner/status/{guid}"
+	
+Returns: A response object, containing the task status in the “message” field, with one of the following values:
+- "0": "Queued"
+- "1": "Active"
+- "2": "Finished"
+- "3": "Reviewed"
+- "-1" - "-4": "Failed"
+
+#### List Tasks
+
+	POST "/api.php/grabber/list"
+	
+	POST "/api.php/aligner/list"
+	
+Function: Lists all the tasks of a selected user with either the grabber or the aligner, filtered by status (if not empty).
+
+Parameters:
+- usermail – account email
+- userpass – account password
+- user – user email
+- app – application (grabber or aligner)
+- status: status to filter by
+
+Returns: A response object, containing either a list of task GUIDs with their status or a description of the failure reason in the “message” field.
+
+#### List Languages
+
+	GET "/api.php/language/list"
+	
+Returns: A response object, containing a list of all the languages supported by the aligner in the “message” field, with the following format: "en-us English (United States)".
+
+#### List Language Codes
+
+	GET "/api.php/language/codes"
+
+Returns: A response object, containing a list of all the language codes supported by the aligner in “message” field, with the following format: "en-us".
