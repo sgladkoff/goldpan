@@ -345,20 +345,18 @@ To use an API POST request, please provide user credentials in a JavaScript Form
 		);
 	}
 
-Alternatively, you can provide a JSON data object as the body of a POST request.
-
 ## The API Workflow
 
 The process of getting aligned bilingual text via the API has the following steps:
 
-1. Send the source file, receive a GUID back.
-2. Send the target file, receive a GUID back.
-3. Send an Align request, receive a GUID of the task back.
+1. Send a source file, receive the grabber task GUID back.
+2. Send a target file, receive the grabber task GUID back.
+3. Send an Align request using grabber task GUIDs of source and target, receive the GUID of the aligner task back.
 4. With the task GUID, you can monitor the task status.
 5. When the aligner process  is complete, you can do cleanup (reject everything that is lower than a certain match ratio).
 6. Get the aligned bilingual file.
 7. There are also API requests to remove files.
-8. There is an API request to get the list of all alignment tasks.
+8. There is an API request to get the list of all GUIDs of a user’s tasks.
 
 ## Possible API Calls
 
