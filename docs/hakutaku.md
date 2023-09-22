@@ -173,9 +173,7 @@ Here you can instantly translate an arbitrary piece of text using several machin
 
 ![hakutaku_MT_Translations](hakutaku_MT_Translations.jpg)
 
-**Hakutaku** will only list the MT systems that are enabled on the **Account** page, in the **Available MT Providers** table.
-
-![hakutaku_3](hakutaku_3.png)
+**Hakutaku** will only list the MT systems that are enabled on the **Account** page, in the **Available MT Providers** table (see **MT Engines API**).
 
 ### The AI Editor Tab
 
@@ -206,7 +204,7 @@ To obtain prepaid access to API Hub, follow these steps:
 - Use this API key when connecting your services to our **MT Engines API Hub**.
 - Track the usage of your deposit.
 
-![hakutaku_API](hakutaku_API.jpg)
+![hakutaku_API](hakutaku_API.png)
 
 ## MT Hub Trados Studio Plugin
 
