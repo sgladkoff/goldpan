@@ -66,6 +66,18 @@ If you have uploaded any **TM** files, whether it was to the public **TM** repos
 
 ![hakutaku_files](hakutaku_files.png)
 
+## User Group Control
+
+As an account holder, you have the option to create secondary users. Any such users will be tied to your own account.
+
+This function is accessed from the **Group** page, available via the **Group** option in the drop-down menu revealed by hovering the mouse over the account picture in the top right corner.
+
+![hakutaku_1](hakutaku_1.png)
+
+The **Group** page provides the tools for registering new secondary users as well as deleting them.
+
+![hakutaku_2](hakutaku_2.png)
+
 ## User Experience
 
 There are the following **Main Menu Tabs** in the Hakutaku that are available to the users and moderators:
