@@ -173,6 +173,10 @@ Here you can instantly translate an arbitrary piece of text using several machin
 
 ![hakutaku_MT_Translations](hakutaku_MT_Translations.jpg)
 
+**Hakutaku** will only list the MT systems that are enabled on the **Account** page, in the **Available MT Providers** table.
+
+![hakutaku_3](hakutaku_3.png)
+
 ### The AI Editor Tab
 
 Here you can improve any text with ChatGPT's intelligent robot assistant. To do this, follow these steps:
