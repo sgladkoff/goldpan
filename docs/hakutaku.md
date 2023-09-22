@@ -183,7 +183,7 @@ Here you can improve any text with ChatGPT's intelligent robot assistant. To do 
 - Click **Improve Text** button.
 - Get the result, which you can copy to the clipboard using the special button.
 
-![hakutaku_AI_Editor](hakutaku_AI_Editor.jpg)
+![hakutaku_AI_Editor](hakutaku_AI_Editor.png)
 
 Text editing scenarios:
 - Edit for vocabulary and grammar
@@ -203,8 +203,6 @@ To obtain prepaid access to API Hub, follow these steps:
 - Copy and store the API key in safe place.
 - Use this API key when connecting your services to our **MT Engines API Hub**.
 - Track the usage of your deposit.
-
-![hakutaku_API](hakutaku_API.png)
 
 ## MT Hub Trados Studio Plugin
 
