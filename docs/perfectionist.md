@@ -104,6 +104,8 @@ Click on the project name, and then on the **Create** button to enter the email 
 
 ![perf12](perfN12.png)
 
+Emails are not sent automatically. Links to testing tasks are available to the **Requestor**, and they are required to email/message them manually to the **Translator** which is to be tested. This is because such a **Translator**, at that time, only gets one-time access to the testing task; we don’t need them as a full user of our **Cloud** yet because we may never see them again. By the same token, the link to the testing project is only needed once, and for a limited period of time. We left it up to the **Requestor** to determine the best way to deliver the project link to the **Translator**, instead of using automatic emails.
+
 If you've set the task to be a **Translation**, then the **Your Input** field in the task file will be empty, and the attendee will be required to fill it in. If you've set **Editing**, it will be filled with text for the attendee to edit.
 
 ![perf13](perfN13.png)
@@ -111,6 +113,36 @@ If you've set the task to be a **Translation**, then the **Your Input** field in
 After the attendee had pressed the **Finish Task** button, the finished task is treated as if it is an LQA project. Clicking on the name of a finished task takes you to a **Work Area**, where you can assign it to a **Reviewer**, as described previously, to find out how the attendee handled their task.
 
 ![perf14](perfN14.png)
+
+### Arbitrating
+
+The **Requestor** sees a window with the **Status** and **Results** tabs upon opening a task:
+
+![perf_arb_1](perf_arb_1.png)
+
+The **Status** tab shows basic information about the task, with a button for switching to reviewing errors.
+
+Below are the workflow buttons: the **Complete Task** button completes the task, and the **Assign Task** button enables either sending the task for review to a translator, or sending it for second review to a reviewer, or sending it to an arbiter. With the third option, you may start the arbitration cycle and design it as you wish. When sending a task for review, the same email is sent as when issuing an initial task.
+
+The error reviewing screen looks much the same as a normal review, but without the ability to add new errors by highlighting text. You can click on an error that's already present, and a screen with data on it. The data can't be changed directly, but at the bottom there are the buttons to **Accept**, **Reject**, **Propose Edit**:
+
+![perf_arb_2](perf_arb_2.png)
+
+**Accept** marks the error as closed.
+
+**Reject** requires a comment and marks the error as rejected.
+
+**Propose Edit** enables you to edit the Category, Severity and Fixed Target fields. You will need to add a comment:
+
+![perf_arb_3](perf_arb_3.png)
+
+The buttons may differ depending on the error status. For example, if the **Translator** selects **Reject**, then at the next stage of the review there will be a button to **Accept Rejection**, which will remove the error.
+
+Arbiters have different buttons; they can simply change any fields and close the error.
+
+Also on this screen there is the **View history** button for viewing the history of changes to the error:
+
+![perf_arb_4](perf_arb_4.png)
 
 ## Reviewer
 
