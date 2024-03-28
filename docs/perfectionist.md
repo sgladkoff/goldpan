@@ -175,7 +175,7 @@ Having reviewed the entire file, you will need to mark the task as finished by c
 
 ## Stakeholder
 
-As a **Stakeholder**, you operate the **Stakeholder Room** page at https://lqa.logrusglobal.com/stakeholder-room. There, you can see the list of projects which you have been invited to as a **Stakeholder** by the project's **Requestor**.
+As a **Stakeholder**, you operate the **Stakeholder Room** page at https://lqa.logrusglobal.com/stakeholder-room. There, you can see the list of projects which you have been invited to as a **Stakeholder** by the project's **Requestor**. Stakeholders supervise the performance of their company requestors and reviewers, monitor the overall translation quality level, and catch any pitfalls.
 
 ![perf19](perfN19.png)
 
