@@ -54,7 +54,7 @@ Clicking the **Create** button calls up a special dialog box where you can drag 
 
 Any duplicate translation units are excluded from the file when it is uploaded to **Perfectionist**. If you need to still include the duplicates, check the **Do not remove duplicates** box.
 
-If a project has already had files assigned to it, clicking on its name in the list will take you to the project page, where each uploaded file is represented as a task. You can add more tasks with the **Create Task** button. Tasks can be deleted, renamed, or transfered to a different project using the icons at the end of the task's line in the table.
+If a project has already had files assigned to it, clicking on its name in the list will take you to the project page, where each uploaded file is represented as a task. You can add more tasks with the **Create Task** button. Tasks can be deleted, renamed, or transfered to a different project by clicking the icons at the end of the task's line in the table.
 
 ![perf3](perfnew5.png)
 
@@ -70,7 +70,7 @@ If you don't need the entire file reviewed, you can have a randomized sample cre
 
 ![perf3](perfnew7.png)
 
-When the **Sample** button is clicked, **Perfectionist** will generate a randomized collection of translation units from the file, close in total wordcount to the **Sample size** value you have set, and display the results. You can then click either the **Confirm** button to have task presented as the generated sample, or the **Don't sample request** button to cancel.
+When the **Sample** button is clicked, **Perfectionist** will generate a randomized collection of translation units from the file, close in total wordcount to the **Sample size** value you have set, and display the results. You can then click either the **Confirm** button to have this task presented as the generated sample, or the **Don't sample request** button to cancel.
 
 ![perf3](perfnew8.png)
 
