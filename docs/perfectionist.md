@@ -44,15 +44,15 @@ This button calls a simple dialog window where you can name the new project.
 
 ![perf1](perfN1.png)
 
-After you have named the new project, it will appear in the **Requestor Room**'s table of projects. Each line in the table represents a different project, lists its type and number of tasks (files) in in, as well as enables the **Reviewer** to download its results or delete it.
+After you have named the new project, it will appear in the **Requestor Room**'s table of projects. Each line in the table represents a different project, lists its type and number of tasks (files) in in, as well as enables the **Reviewer** to download its results, delete it or rename the project.
 
 Clicking on a name of a new project with zero tasks brings you to the **New Job** window, where you can set the project up with tasks. The sample.xlsx file is also available there.
 
 Clicking the **Create** button calls up a special dialog box where you can drag and drop suitable bilingual files; you can also click on the box itself to call up a standard Explorer interface to look for the files you need.
 
-![perf2](perfN2.png)
+![perf2](perfnew4.png)
 
-Any duplicate translation units are excluded from the file when it is uploaded to **Perfectionist**.
+Any duplicate translation units are excluded from the file when it is uploaded to **Perfectionist**. If you need to still include the duplicates, check the **Do not remove duplicates** box.
 
 If a project has already had files assigned to it, clicking on its name in the list will take you to the project page, where each uploaded file is represented as a task. You can add more tasks with the **Create Task** button.
 
