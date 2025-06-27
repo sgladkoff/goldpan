@@ -54,9 +54,9 @@ Clicking the **Create** button calls up a special dialog box where you can drag 
 
 Any duplicate translation units are excluded from the file when it is uploaded to **Perfectionist**. If you need to still include the duplicates, check the **Do not remove duplicates** box.
 
-If a project has already had files assigned to it, clicking on its name in the list will take you to the project page, where each uploaded file is represented as a task. You can add more tasks with the **Create Task** button.
+If a project has already had files assigned to it, clicking on its name in the list will take you to the project page, where each uploaded file is represented as a task. You can add more tasks with the **Create Task** button. Tasks can be deleted, renamed, or transfered to a different project using the icons at the end of the task's line in the table.
 
-![perf3](perfN3.png)
+![perf3](perfnew5.png)
 
 You can also invite other users to be the the project's **Stakeholders** with the **Add User** button. It calls a simple dialog window where you can enter another user's email address to add them to the list of **Stakeholders**.
 
@@ -64,9 +64,15 @@ You can also invite other users to be the the project's **Stakeholders** with th
 
 You can enter the **Work Area** of a particular task by clicking its name in the list of tasks.
 
-If you don't need the entire file reviewed, you can have a randomized sample created for reviewing. Its size can be set using the **Sample size** field above the table. After entering the desired sample size, click the **Resample randomly** button, and **Perfectionist** will generate a randomized collection of translation units from the file, close in total wordcount to the **Sample size** value you have set.
+![perf3](perfnew6.png)
 
-![perf5](perfN5.png)
+If you don't need the entire file reviewed, you can have a randomized sample created for reviewing. This is done in the **Sampling** screen, which you can access with the **Sampling** button. The size of the sample - either in **words**, or in **translation units** - can be set using the **Sample size** field and the adjacent drop-down menu; you can also set the sample to consist of either **random**, or **consecutive** translation units with the appropriate radio button. 
+
+![perf3](perfnew7.png)
+
+When the **Sample** button is clicked, **Perfectionist** will generate a randomized collection of translation units from the file, close in total wordcount to the **Sample size** value you have set, and display the results. You can then click either the **Confirm** button to have task presented as the generated sample, or the **Don't sample request** button to cancel.
+
+![perf3](perfnew8.png)
 
 As a **Requestor**, you need to assign a **Reviewer** for each of the project's tasks by submitting their email. The dialog window to do that is called by clicking the **Assign** button in the bottom right of the **Work Area**.
 
