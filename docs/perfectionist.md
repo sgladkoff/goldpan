@@ -22,7 +22,7 @@ For enterprises, any customizations of the service functionality can be provided
 
 You can review bilingual files of the following formats: 
 - **XLSX** (a sample is available on the requestor page)
-- **XLIFF**, **XLF**, **SDLXLIFF**, **TSV**
+- **XLIFF**, **XLF**, **MXLIFF**, **MQXLIFF** **SDLXLIFF**, **TSV**
 
 # User Account and Role
 
@@ -38,7 +38,7 @@ A **Requestor** operates the **Requestor Room** page at https://lqa.logrusglobal
 
 This is done by using the **Create Project** button on the top right of the screen. 
 
-![perf0](perfN0.png)
+![perf0](perfnew1.png)
 
 This button calls a simple dialog window where you can name the new project.
 
@@ -143,6 +143,18 @@ Arbiters have different buttons; they can simply change any fields and close the
 Also on this screen there is the **View history** button for viewing the history of changes to the error:
 
 ![perf_arb_4](perf_arb_4.png)
+
+### Analytics
+
+The **Requestor** can access the **Analytics** page using the **Analytics** button. Here, you can filter out the list of accessible files using one or more of a wide variety of applicable filter conditions:
+
+![perf_arb_4](perfnew2.png)
+
+The **Analytics** window will display filtered results as a table:
+
+![perf_arb_4](perfnew3.png)
+
+Using the **Export** button, these results may be exported as an XLSX file.
 
 ## Reviewer
 
