@@ -74,9 +74,9 @@ When the **Sample** button is clicked, **Perfectionist** will generate a randomi
 
 ![perf3](perfnew8.png)
 
-As a **Requestor**, you need to assign a **Reviewer** for each of the project's tasks by submitting their email. The dialog window to do that is called by clicking the **Assign** button in the bottom right of the **Work Area**.
+As a **Requestor**, you need to assign a **Reviewer** for each of the project's tasks by submitting their email. The dialog window to do that is called by clicking the **Assign** button in the bottom right of the **Work Area**. Optionally, you can also assign a **Translator** for the task.
 
-![perf6](perfN6.png)
+![perf3](perfnew9.png)
 
 If there isn't a **Cloud** account for a submitted email, it is created with **Reviewer** rights automatically.
 
@@ -86,17 +86,17 @@ If a task has already been assigned to a **Reviewer**, upon clicking it in the l
 
 ![perf7](perfN7.png)
 
-In the **Results** tab, you will be able to review the body of the task file, with all the errors the **Reviewer** had found marked in the text and summarized on top of the list.
+In the **Results** tab, you will be able to review the body of the task file, with all the errors the **Reviewer** had found marked in the text and summarized on top of the list using by-segment and by-wordcount diagrams.
 
-![perf8](perfN8.png)
+![perf3](perfnew10.png)
 
-From the **Status** tab, by clicking the **Review mistakes** button, you will be able to view each of the errors the **Reviewer** had found in detail, and comment on them as well as edit or delete them, or propose your own full translation for the **Fixed Target** field, if necessary. You can access the **Error Review** dialog window for interacting with an error by clicking on that error in the table.
+From the **Status** tab, by clicking the **Review mistakes** button, you will be able to view each of the errors the **Reviewer** had found in detail, and comment on them as well as edit or delete them, or propose your own full translation for the **Fixed Target** field, if necessary. You can access the **Error Review** dialog window for interacting with an error by double-clicking on that error in the table.
 
-![perf9](perfN9.png)
+![perf3](perfnew11.png)
 
-![perf10](perfN10.png)
+![perf3](perfnew12.png)
 
-When you are ready to complete the task, click on the **Finish Review** button on the bottom right.
+When you consider the task to be complete, click on the **Finish Review** button on the bottom right.
 
 ### Creating Testing Projects
 
