@@ -100,7 +100,7 @@ When you consider the task to be complete, click on the **Finish Review** button
 
 ### Creating Testing Projects
 
-**Testing Projects** are a feature that we've added to **Perfectionist** recently. They are employed to evaluate the capabilities of linguistic personnel using translation or editing tasks.
+**Testing Projects** are employed to evaluate the capabilities of linguistic personnel using translation or editing tasks.
 
 Clicking the **Create Testing Project** button calls the **New Testing Project** dialog. Here, you need to input the name of the project, choose one of the premade testing files and set **Translation** or **Editing** as the type of test that your linguist is to attend.
 
