@@ -124,11 +124,11 @@ After the attendee had pressed the **Finish Task** button, the finished task is 
 
 The **Requestor** sees a window with the **Status** and **Results** tabs upon opening a task:
 
-![perf_arb_1](perf_arb_1.png)
+![perf3](perfnew13.png)
 
 The **Status** tab shows basic information about the task, with a button for switching to reviewing errors.
 
-Below are the workflow buttons: the **Complete Task** button completes the task, and the **Assign Task** button enables either sending the task for review to a translator, or sending it for second review to a reviewer, or sending it to an arbiter. With the third option, you may start the arbitration cycle and design it as you wish. When sending a task for review, the same email is sent as when issuing an initial task.
+Below are the workflow buttons: the **Complete Task** button completes the task, and the **Assign Task** button enables either sending the task for review to a translator, and/or sending it for second review to a reviewer, or sending it to an arbiter. With the third option, you may start the arbitration cycle and design it as you wish. When sending a task for review, the same email is sent as when issuing an initial task.
 
 The error reviewing screen looks much the same as a normal review, but without the ability to add new errors by highlighting text. You can click on an error that's already present, and a screen with data on it. The data can't be changed directly, but at the bottom there are the buttons to **Accept**, **Reject**, **Propose Edit**:
 
