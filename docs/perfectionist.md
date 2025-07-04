@@ -148,7 +148,7 @@ Arbiters have different buttons; they can simply change any fields and close the
 
 Also on this screen there is the **View history** button for viewing the history of changes to the error:
 
-![perf_arb_4](perf_arb_4.png)
+![perf_arb_4](perf_arb_4_1.png)
 
 ### Analytics
 
