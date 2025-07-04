@@ -130,7 +130,7 @@ The **Status** tab shows basic information about the task, with a button for swi
 
 Below are the workflow buttons: the **Complete Task** button completes the task, and the **Assign** button enables either sending the task for review to a translator, and/or sending it for second review to a reviewer, or sending it to an arbiter. With the third option, you may start the arbitration cycle and design it as you wish. When sending a task for review, the same email is sent as when issuing an initial task.
 
-The error reviewing screen looks differently depending on the role of the user and the stage of the task. For the **Arbiter**  who had been invited to **Arbitration**, it looks the same as for the **Requestor** as described previously.
+The error reviewing screen looks differently depending on the role of the user and the stage of the task. For a user who had been invited for **Arbitration**, it looks the same as for the **Requestor** as described previously.
 
 For a **Reviewer** who has been invited to do a **Translator's review**, it is much the same as a normal review, but without the ability to add new errors by highlighting text. You can click on an error that's already present to access its review screen.
 
