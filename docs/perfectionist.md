@@ -182,7 +182,7 @@ You will be required to compare the **Source** and **Target** fields in each of 
 
 Highlighting any part of the **Target** field brings up the **Error Annotation, Suggestion and Comments** dialog window. There, you will need to set the **Category** and the degree of **Severity** of this particular error; optionally, you are also enabled to leave a comment or to offer your own variant of the full translated sentence for the **Fixed Target** field.
 
-![perf16](perfN16.png)
+![perf_arb_4](perfnew17.png)
 
 Multiple errors may be marked in each translation unit, and their highlighted text fragments may overlap.
 
