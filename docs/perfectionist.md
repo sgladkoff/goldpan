@@ -90,13 +90,13 @@ In the **Results** tab, you will be able to review the body of the task file, wi
 
 ![perf3](perfnew10.png)
 
-From the **Status** tab, by clicking the **Review mistakes** button, you will be able to view each of the errors the **Reviewer** had found in detail, and comment on them as well as edit or delete them, or propose your own full translation for the **Fixed Target** field, if necessary. You can access the **Error Review** dialog window for interacting with an error by double-clicking on that error in the table.
+From the **Status** tab, by clicking the **Review mistakes** button, you will be able to view each of the errors the **Reviewer** had found in detail, and comment on them as well as edit or delete them, or propose your own full translation for the **Fixed Target** field, if necessary. You can access the **Error Review** dialog window for interacting with an error by clicking on that error in the table.
 
 ![perf3](perfnew11.png)
 
-![perf3](perfnew12.png)
+![perf3](perfnew19.png)
 
-When you consider the task to be complete, click on the **Finish Review** button on the bottom right.
+When you consider the task to be complete, click on the **Complete Task** button on the bottom right.
 
 ### Creating Testing Projects
 
@@ -128,9 +128,13 @@ The **Requestor** sees a window with the **Status** and **Results** tabs upon op
 
 The **Status** tab shows basic information about the task, with a button for switching to reviewing errors.
 
-Below are the workflow buttons: the **Complete Task** button completes the task, and the **Assign Task** button enables either sending the task for review to a translator, and/or sending it for second review to a reviewer, or sending it to an arbiter. With the third option, you may start the arbitration cycle and design it as you wish. When sending a task for review, the same email is sent as when issuing an initial task.
+Below are the workflow buttons: the **Complete Task** button completes the task, and the **Assign** button enables either sending the task for review to a translator, and/or sending it for second review to a reviewer, or sending it to an arbiter. With the third option, you may start the arbitration cycle and design it as you wish. When sending a task for review, the same email is sent as when issuing an initial task.
 
-The error reviewing screen looks much the same as a normal review, but without the ability to add new errors by highlighting text. You can click on an error that's already present, and a screen with data on it. The data can't be changed directly, but at the bottom there are the buttons to **Accept**, **Reject**, **Propose Edit**:
+The error reviewing screen looks differently depending on the role of the user and the stage of the task. For the **Arbiter**  who had been invited to **Arbitration**, it looks the same as for the **Requestor** as described previously.
+
+For a **Reviewer** who has been invited to do a **Translator's review**, it is much the same as a normal review, but without the ability to add new errors by highlighting text. You can click on an error that's already present to access its review screen.
+
+The data can't be changed directly, but at the bottom there are the buttons to **Accept**, **Reject**, **Propose Edit**:
 
 ![perf3](perfnew14.png)
 
@@ -142,9 +146,9 @@ The error reviewing screen looks much the same as a normal review, but without t
 
 ![perf3](perfnew15.png)
 
-The buttons may differ depending on the error status. For example, if the **Translator** selects **Reject**, then at the next stage of the review there will be a button to **Accept Rejection**, which will remove the error.
+A **Reviewer** on a **Repeated Review** task will have a different version of this window:
 
-Arbiters have different buttons; they can simply change any fields and close the error.
+![perf3](perfnew20.png)
 
 Also on this screen there is the **View history** button for viewing the history of changes to the error:
 
