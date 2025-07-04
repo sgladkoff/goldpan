@@ -96,7 +96,29 @@ From the **Status** tab, by clicking the **Review mistakes** button, you will be
 
 ![perf3](perfnew19.png)
 
-When you consider the task to be complete, click on the **Complete Task** button on the bottom right.
+Below the **Status** tab are the workflow buttons: the **Complete Task** button completes the task, and the **Assign** button enables either sending the task for a **Translator review**, a **Repeated review**, or **Arbitration**. When sending a task for review, the same email is sent as when issuing an initial task.
+
+The error reviewing screen will have differences depending on the stage of the task. When the task is in the **Arbitration** stage, this screen functions the same as for the **Requestor** as described previously, and the **Arbitrator** can add or remove errors freely.
+
+For a **Reviewer** who has been invited to do a **Translator's review** the work area screen will not have the ability to add new errors by highlighting text. The error review screen remains accessible by clicking an error. There, the data can't be changed directly, but at the bottom there are the buttons to **Accept**, **Reject** or **Propose Edit**:
+
+![perf3](perfnew14.png)
+
+**Accept** marks the error as closed.
+
+**Reject** requires a comment and marks the error as rejected.
+
+**Propose Edit** enables you to edit the Category, Severity, Screenshot and Fixed Target fields. Adding a comment will be required:
+
+![perf3](perfnew15.png)
+
+A **Reviewer** on a **Repeated Review** task will have a different version of this window with the **Delete error** button:
+
+![perf3](perfnew20.png)
+
+Also on this screen there is the **View history** button for viewing the history of changes to the error:
+
+![perf_arb_4](perf_arb_4_1.png)
 
 ### Creating Testing Projects
 
@@ -119,40 +141,6 @@ If you've set the task to be a **Translation**, then the **Your Input** field in
 After the attendee had pressed the **Finish Task** button, the finished task is treated as if it is an LQA project. Clicking on the name of a finished task takes you to a **Work Area**, where you can assign it to a **Reviewer**, as described previously, to find out how the attendee handled their task.
 
 ![perf14](perfN14.png)
-
-### Arbitrating
-
-The **Requestor** sees a window with the **Status** and **Results** tabs upon opening a task:
-
-![perf3](perfnew13.png)
-
-The **Status** tab shows basic information about the task, with a button for switching to reviewing errors.
-
-Below are the workflow buttons: the **Complete Task** button completes the task, and the **Assign** button enables either sending the task for review to a translator, and/or sending it for second review to a reviewer, or sending it to an arbiter. With the third option, you may start the arbitration cycle and design it as you wish. When sending a task for review, the same email is sent as when issuing an initial task.
-
-The error reviewing screen looks differently depending on the role of the user and the stage of the task. For a user who had been invited for **Arbitration**, it looks the same as for the **Requestor** as described previously.
-
-For a **Reviewer** who has been invited to do a **Translator's review**, it is much the same as a normal review, but without the ability to add new errors by highlighting text. You can click on an error that's already present to access its review screen.
-
-The data can't be changed directly, but at the bottom there are the buttons to **Accept**, **Reject**, **Propose Edit**:
-
-![perf3](perfnew14.png)
-
-**Accept** marks the error as closed.
-
-**Reject** requires a comment and marks the error as rejected.
-
-**Propose Edit** enables you to edit the Category, Severity, Screenshot and Fixed Target fields. Adding a comment will be required:
-
-![perf3](perfnew15.png)
-
-A **Reviewer** on a **Repeated Review** task will have a different version of this window with the **Delete error** button:
-
-![perf3](perfnew20.png)
-
-Also on this screen there is the **View history** button for viewing the history of changes to the error:
-
-![perf_arb_4](perf_arb_4_1.png)
 
 ### Analytics
 
