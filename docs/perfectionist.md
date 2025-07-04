@@ -172,7 +172,7 @@ If there isn't a **Cloud** account connected with the assigned email address, it
 
 As a **Reviewer**, you operate the **Reviewer Room** page at https://lqa.logrusglobal.com/reviewer-room. There, you can see the list of tasks that have been assigned to you by **Requestors**.
 
-![perf18](perfN18.png)
+![perf_arb_4](perfnew16.png)
 
 The **Work Area** of a task can be opened by clicking its name in the **Reviewer Room**'s list. This page represents the task's file using the following columns: **Source**, **Target**, **Errors**, **Fixed Target** and **Reviewed**. The **Reviewed** checkbox is set automatically each time any translation error is logged in a given translation unit, or manually by the **Reviewer** after the unit has been fully reviewed. 
 
