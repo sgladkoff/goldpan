@@ -82,6 +82,8 @@ If there isn't a **Cloud** account for a submitted email, it is created with **R
 
 You will need to choose a metric to use in the review. Currently, we have implemented the **LOGIPEM**, **MQM** and **Holistic** metrics. Any user-defined metrics can be implemented by request.
 
+### Arbitration
+
 If a task has already been assigned to a **Reviewer**, upon clicking it in the list, you will see an area with two tabs: **Status** and **Results**.
 
 ![perf7](perfnew13.png)
