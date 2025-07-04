@@ -84,7 +84,7 @@ You will need to choose a metric to use in the review. Currently, we have implem
 
 If a task has already been assigned to a **Reviewer**, upon clicking it in the list, you will see an area with two tabs: **Status** and **Results**.
 
-![perf7](perfN7.png)
+![perf7](perfnew13.png)
 
 In the **Results** tab, you will be able to review the body of the task file, with all the errors the **Reviewer** had found marked in the text and summarized on top of the list using by-segment and by-wordcount diagrams.
 
