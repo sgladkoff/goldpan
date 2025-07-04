@@ -132,15 +132,15 @@ Below are the workflow buttons: the **Complete Task** button completes the task,
 
 The error reviewing screen looks much the same as a normal review, but without the ability to add new errors by highlighting text. You can click on an error that's already present, and a screen with data on it. The data can't be changed directly, but at the bottom there are the buttons to **Accept**, **Reject**, **Propose Edit**:
 
-![perf_arb_2](perf_arb_2.png)
+![perf3](perfnew14.png)
 
 **Accept** marks the error as closed.
 
 **Reject** requires a comment and marks the error as rejected.
 
-**Propose Edit** enables you to edit the Category, Severity and Fixed Target fields. You will need to add a comment:
+**Propose Edit** enables you to edit the Category, Severity, Screenshot and Fixed Target fields. Adding a comment will be required:
 
-![perf_arb_3](perf_arb_3.png)
+![perf3](perfnew15.png)
 
 The buttons may differ depending on the error status. For example, if the **Translator** selects **Reject**, then at the next stage of the review there will be a button to **Accept Rejection**, which will remove the error.
 
