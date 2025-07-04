@@ -146,7 +146,7 @@ The data can't be changed directly, but at the bottom there are the buttons to *
 
 ![perf3](perfnew15.png)
 
-A **Reviewer** on a **Repeated Review** task will have a different version of this window:
+A **Reviewer** on a **Repeated Review** task will have a different version of this window with the **Delete error** button:
 
 ![perf3](perfnew20.png)
 
